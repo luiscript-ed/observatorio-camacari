@@ -1,0 +1,130 @@
+{
+  "projetos-sociais": [
+    {
+      "id": "cidade-do-saber",
+      "nome": "Cidade do Saber",
+      "descricao": "Complexo público de educação, cultura, esporte e inclusão social que oferece formação artística, profissional e cidadã para a população de Camaçari.",
+      "categoria": [
+        "educação",
+        "cultura",
+        "inclusão social",
+        "juventude"
+      ],
+      "eixos": [
+        "práticas educativas",
+        "formação cidadã",
+        "desenvolvimento comunitário"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ_gLs2-hvVMq6ABsQCMyas56qdRyKzph25GTCfKSn3mxBxpNjULM3PaU&s=10"
+    },
+    {
+      "id": "fundacao-caeba",
+      "nome": "Fundação Ca&Ba",
+      "descricao": "Organização da sociedade civil voltada à arte-educação, cultura, esporte, cidadania e protagonismo juvenil em comunidades vulneráveis.",
+      "categoria": [
+        "arte-educação",
+        "cultura",
+        "juventude",
+        "assistência social"
+      ],
+      "eixos": [
+        "educação comunitária",
+        "transformação social",
+        "protagonismo juvenil"
+      ],
+      "imagens": "https://caeba.org.br/wp-content/uploads/2023/11/caeba2023-300x300.jpg"
+    },
+    {
+      "id": "upamc",
+      "nome": "UPAMC - União Cultural dos Sacerdotes Afro do Município de Camaçari",
+      "descricao": "Entidade representativa das religiões de matriz africana dedicada à valorização da cultura afro-brasileira, preservação das tradições e combate ao racismo religioso.",
+      "categoria": [
+        "cultura afro-brasileira",
+        "religião",
+        "direitos humanos"
+      ],
+      "eixos": [
+        "saberes afro-diaspóricos",
+        "patrimônio cultural",
+        "identidade negra"
+      ],
+      "imagens": "https://agenciaamapa.com.br/midias/2025/pequenas/20251126224703-GC00033470-F00112999.webp"
+    },
+    {
+      "id": "cras",
+      "nome": "CRAS - Centro de Refência de Atendimento Social",
+      "descricao": "Organização que desenvolve ações voltadas ao fortalecimento comunitário e atendimento de famílias em situação de vulnerabilidade social.",
+      "categoria": [
+        "assistência social",
+        "cidadania",
+        "desenvolvimento comunitário"
+      ],
+      "eixos": [
+        "inclusão social",
+        "fortalecimento comunitário"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10"
+    },
+    {
+      "id": "de-olho-no-bairro",
+      "nome": "Projetos Sociais De Olho no Bairro",
+      "descricao": "Iniciativa comunitária voltada para educação, mobilização popular e fortalecimento das redes sociais dos bairros de Camaçari.",
+      "categoria": [
+        "educação",
+        "participação comunitária",
+        "cidadania"
+      ],
+      "eixos": [
+        "desenvolvimento territorial",
+        "participação popular"
+      ]
+    },
+    {
+      "id": "recanto-das-arvores",
+      "nome": "Centro Comunitário de Desenvolvimento Recanto das Árvores",
+      "descricao": "Espaço comunitário que promove atividades educativas, culturais e de integração social para moradores da região.",
+      "categoria": [
+        "educação comunitária",
+        "cultura",
+        "desenvolvimento local"
+      ],
+      "eixos": [
+        "organização comunitária",
+        "territorialidade"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyFmwpX9uZ3vk8WctyVqqzQDt8IMHGoq_0deXfVoGPA&s"
+    },
+    {
+      "id": "nucleo-cultura-etnico-racial",
+      "nome": "Núcleo de Cultura Étnico-Racial",
+      "descricao": "Iniciativa municipal voltada à valorização das culturas afro-brasileiras, indígenas e tradicionais por meio de ações culturais e formativas.",
+      "categoria": [
+        "política pública",
+        "cultura",
+        "educação"
+      ],
+      "eixos": [
+        "saberes afro-diaspóricos",
+        "saberes originários",
+        "memória social"
+      ],
+      "imagens": "https://gestalt.com.br/src/uploads/2022/08/whatsapp-image-2022-08-29-at-12-24-51.jpeg"
+    },
+    {
+      "id": "articulacao-heranca-afro",
+      "nome": "Articulação para Preservação da Herança Afro-Brasileira",
+      "descricao": "Parceria entre o município e a Fundação Cultural Palmares para valorização da herança afro-brasileira e apoio às comunidades quilombolas.",
+      "categoria": [
+        "patrimônio cultural",
+        "quilombolas",
+        "política pública"
+      ],
+      "eixos": [
+        "memória",
+        "identidade",
+        "territórios tradicionais"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndB7JmSPHOmpJCUgLGjbNwvu7eMzsiP0C2kh3AXjFY27zR-95azDH0-E&s=10"
+    }
+  ]
+}

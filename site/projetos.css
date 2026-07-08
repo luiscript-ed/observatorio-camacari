@@ -1,0 +1,393 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* CONFIGURAÇÃO GERAL */
+
+body{
+
+    font-family:'Poppins', Arial, sans-serif;
+
+    background:#f5f7fa;
+
+    color:#2b2b2b;
+
+}
+
+
+/* ==========================
+   CABEÇALHO / MENU
+========================== */
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:80px;
+
+    background:linear-gradient(
+        90deg,
+        #ff3636,
+        #f4c430,
+        #a646ff
+    );
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 8%;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+    z-index:1000;
+
+}
+
+
+.logo{
+
+    color:white;
+
+    font-size:26px;
+
+    font-weight:700;
+
+}
+
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+nav a:hover{
+
+    opacity:.75;
+
+}
+
+
+/* ==========================
+   TÍTULO PRINCIPAL
+========================== */
+
+
+.cabecalho{
+
+    text-align:center;
+
+    margin-top:120px;
+
+    margin-bottom:50px;
+
+}
+
+
+.cabecalho h1{
+
+    font-size:42px;
+
+    color:#34c76c;
+
+    margin-bottom:15px;
+
+}
+
+
+.cabecalho p{
+
+    color:#666;
+
+    font-size:18px;
+
+}
+
+
+/* ==========================
+   GALERIA DE PROJETOS
+========================== */
+
+
+.galeria{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:0 auto 60px;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+
+
+/* ==========================
+   CARD DO PROJETO
+========================== */
+
+
+.card-img{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.10);
+
+}
+
+
+.card-img:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 15px 40px rgba(166,70,255,.35);
+
+}
+
+
+
+/* ==========================
+   IMAGEM
+========================== */
+
+
+.moldura{
+
+    height:280px;
+
+    overflow:hidden;
+
+}
+
+
+.art-image{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+
+.card-img:hover .art-image{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* ==========================
+   INFORMAÇÕES
+========================== */
+
+
+.informacoes{
+
+    padding:25px;
+
+}
+
+
+.categoria{
+
+    display:inline-block;
+
+    background:#ff3636;
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.art-name{
+
+    font-size:22px;
+
+    color:#a646ff;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.descricao{
+
+    color:#555;
+
+    line-height:1.7;
+
+    text-align:justify;
+
+}
+
+
+
+/* ==========================
+   TAGS DOS EIXOS
+========================== */
+
+
+.eixos{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+    margin-top:20px;
+
+}
+
+
+
+.tag{
+
+    background:#34c76c;
+
+    color:white;
+
+    padding:7px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    transition:.3s;
+
+}
+
+
+
+.tag:hover{
+
+    background:#f4c430;
+
+    color:#222;
+
+}
+
+
+
+/* ==========================
+   HERO (caso use depois)
+========================== */
+
+
+.hero{
+
+    margin-top:80px;
+
+    height:90vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    background:
+
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.35)
+    ),
+
+    url("https://www.maisregiao.com.br/images/noticias/84538/a5342e5cfed9f4a2fc8d68b661a0c530.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    color:white;
+
+}
+
+
+.hero h1{
+
+    font-size:52px;
+
+}
+
+
+/* ==========================
+   RODAPÉ
+========================== */
+
+
+footer{
+
+    background:#a646ff;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
