@@ -1,6 +1,6 @@
 const galeria = document.getElementById("galeria");
 
-fetch("./documentos-projeto/projetos-sociais.json")
+fetch("/documentos-projeto/projetos-sociais.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Não foi possível carregar o arquivo JSON.");
