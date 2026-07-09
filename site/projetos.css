@@ -89,8 +89,29 @@ nav a{
 
 }
 
+nav button {
+    text-decoration: underline;
+    color: rgb(243, 218, 255);
+    font-weight: 700; 
+    transition: .3s;
+    
+    
+    background-color: transparent;
+    border: none; 
+    font-size: 1.2rem; 
+    cursor: pointer;
+    padding: 0; 
+}
+
+
 
 nav a:hover{
+
+    opacity:.75;
+
+}
+
+nav button:hover{
 
     opacity:.75;
 
@@ -180,10 +201,10 @@ nav a:hover{
 
 .card-img:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-20px);
 
     box-shadow:
-    0 15px 40px rgba(166,70,255,.35);
+    0 15px 40px rgba(164, 73, 250, 0.35);
 
 }
 
@@ -332,50 +353,6 @@ nav a:hover{
 
 
 /* ==========================
-   HERO (caso use depois)
-========================== */
-
-
-.hero{
-
-    margin-top:80px;
-
-    height:90vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    text-align:center;
-
-    background:
-
-    linear-gradient(
-        rgba(0,0,0,.35),
-        rgba(0,0,0,.35)
-    ),
-
-    url("https://www.maisregiao.com.br/images/noticias/84538/a5342e5cfed9f4a2fc8d68b661a0c530.webp");
-
-    background-size:cover;
-
-    background-position:center;
-
-    color:white;
-
-}
-
-
-.hero h1{
-
-    font-size:52px;
-
-}
-
-
-/* ==========================
    RODAPÉ
 ========================== */
 
@@ -390,4 +367,117 @@ footer{
 
     padding:25px;
 
+}
+
+.ia-sidebar{
+
+    position:fixed;
+
+    top:0;
+    right:-400px;
+
+    width:400px;
+    height:100vh;
+
+    background:#ffffff;
+
+    transition:.3s;
+
+    border-left:1px solid #ff3c00b2;
+
+    z-index:1500;
+
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.ia-sidebar.active{
+    right:0;
+}
+
+.ia-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px;
+
+    background:linear-gradient(
+        90deg,
+        #ff3636,
+        #f4c430,
+        #a646ff
+    );
+
+    border-radius: 30px 0px 0px 0px;
+}
+
+.ia-header h2{
+
+    color:rgb(255, 255, 255);
+    font-size:20px;
+}
+
+.ia-content{
+    padding:20px;
+}
+
+.mya-result{
+
+    margin-top: 20px;
+
+    background: rgba(168, 255, 110, 0.829);
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    min-height: 120px;
+
+    color:  rgba(168, 255, 110, 0.829);
+
+    line-height: 1.6;
+}
+
+.mya-result h4{
+
+    padding: 15px;
+
+    color:#a646ff;
+
+    line-height: 1.6;
+}
+
+.mya-result strong{
+
+    color:#ff4949;
+
+    line-height: 1.6;
+}
+
+.mya-result p{
+
+    padding: 15px;
+
+    color:#000000;
+
+    line-height: 1.6;
+}
+
+.mya-result h5{
+
+    color:#ffc977;
+    padding: 15px;
+}
+
+
+.mya-welcome h2{
+    color: rgba(110, 255, 146, 0.829);
+    margin-bottom: 10px;
+}
+
+.mya-welcome p{
+    color: rgba(110, 255, 122, 0.829);
+    line-height: 1.5;
 }
