@@ -36,7 +36,7 @@ fetch("../documentos-projeto/projetos-sociais.json")
             const card = document.createElement("article");
             card.classList.add("card-img", "art-card");
 
-            // Removemos o id="abrirBarra" daqui para evitar IDs duplicados
+            
             card.innerHTML = `
                 <div class="moldura">
                     <img
@@ -63,22 +63,22 @@ fetch("../documentos-projeto/projetos-sociais.json")
                 </div>
             `;
 
-            // Quando clicar em QUALQUER lugar do card, abre a barra e atualiza os dados
+            
             card.addEventListener("click", () => {
                 
-                // 1. Atualiza o conteúdo interno da barra lateral com os dados do projeto clicado
+                
                 resultadoMYA.innerHTML = `
                     <h4>${projeto.nome}</h4>
                     <h5> <strong>Categorias:</strong> ${projeto.categoria.join(", ")}</h5>
-                    <p>${projeto.descricao}</p>
+                    <p>${projeto.descricaoDetalhada}</p>
                 `;
 
-                // 2. Abre a barra lateral adicionando a classe CSS
+                
                 painelIA.classList.add("active");
                 painelEsq.classList.remove("active");
             });
 
-            // Adiciona o card na galeria
+           
             galeria.appendChild(card);
         });
     })
