@@ -15,6 +15,9 @@
 
 <div class="logo">
 
+ <button id="buttonFilter">
+             <img src="https://icones.pro/wp-content/uploads/2021/05/icone-de-filtre-violet.png" alt="Filtro">
+        </button>
 🏛 Observatório Digital
 
 </div>
@@ -39,8 +42,6 @@
 
 
 </header>
-
-<div class="overlay"></div>
 
 <section class="cabecalho">
     <h1>Observatório Digital</h1>
@@ -119,7 +120,29 @@
 
     </aside>
    
-   
+   <!-- O painel dos filtros ficará aqui-->
+
+   <aside id="painelFilter" class="ia-sidebar-left">
+
+    <div class="ia-header-filter">
+        <h2>Filtre as categorias</h2>
+        <button id="fecharFilter">✕</button>
+      
+
+    </div>
+
+    <div class="ia-content">
+        <div class="filter-group">
+            <label for="filterCategory">Selecione uma Categoria:</label>
+            <select id="filterCategory" class="filter-select">
+                <option value="todos">Todos os Projetos</option>
+                </select>
+        </div>
+    </div>
+
+</aside>
+
+    <!-- Cards da galeria-->
     <main class="galeria" id="galeria">
         <!-- Os cards serão criados pelo JavaScript -->
     </main>
