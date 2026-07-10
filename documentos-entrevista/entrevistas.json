@@ -1,0 +1,174 @@
+{
+  "entrevistas": [
+    {
+      "id": "valorizacao-identidade-indigena",
+      "nome": "Identidade Indígena e Preservação da Memória em Camaçari",
+      "descricao": "Homenagem aos povos originários de Camaçari, destacando a história do Rio Joanes e o sentimento de pertencimento.",
+      "descricaoDetalhada": "O vídeo resgata a história de Camaçari desde o século XVI, mencionando o Rio Joanes como 'Rio Sagrado dos Canais' (Carauaçu Ipe). Destaca a importância do auto-reconhecimento indígena e a luta para que a cultura Tupinambá permaneça viva para as futuras gerações, reforçando que 'todo dia é dia de índio'.",
+      "categoria": [
+        "saberes originários",
+        "territorialidade ancestral",
+        "preservação de memória"
+      ],
+      "eixos": [
+        "identidade originária",
+        "resistência histórica",
+        "pertencimento territorial"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=D7CcGDpqUps"
+    },
+    {
+      "id": "protagonismo-mulheres-negras",
+      "nome": "Protagonismo e Saberes de Mulheres Negras",
+      "descricao": "Diálogos sobre fortalecimento emocional, estética afro e culinária ancestral em Camaçari.",
+      "descricaoDetalhada": "Apresenta as trajetórias da psicóloga Márcia Vital sobre o fortalecimento da autoestima feminina; de Tamires Santos, artesã capilar que celebra a formalização da profissão de trancista; e de Dona Teresa do Mocotó, que faz de sua cozinha um espaço de acolhimento e preservação de sabores tradicionais.",
+      "categoria": [
+        "empreendedorismo negro",
+        "estética e identidade afro",
+        "culinária ancestral"
+      ],
+      "eixos": [
+        "autonomia feminina",
+        "fortalecimento de identidade",
+        "economia do axé"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=8QA_7h5T7fo"
+    },
+    {
+      "id": "desmistificando-o-candomble",
+      "nome": "Fundamentos e Tradições do Candomblé Angola",
+      "descricao": "Esclarecimentos sobre religiões de matriz africana, combatendo o preconceito e a intolerância religiosa.",
+      "descricaoDetalhada": "O Ogan Bernardo explica a diferença entre as nações Angola (Banto) e Ketu (Iorubá), a importância ritualística do atabaque (ingoma) e a necessidade do Xirê de rua para desmistificar visões deturpadas sobre o Candomblé, promovendo o respeito à ancestralidade africana.",
+      "categoria": [
+        "espiritualidade afro-diaspórica",
+        "tradição banto",
+        "resistência religiosa"
+      ],
+      "eixos": [
+        "combate à intolerância",
+        "pedagogia do axé",
+        "saberes diaspóricos"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=NXtajRDUzJ0"
+    },
+    {
+      "id": "resistencia-afro-indigena-historia",
+      "nome": "Resistência Afro-Brasileira e Indígena na Historiografia",
+      "descricao": "Lançamento do livro 'Do Joanes ao Jacuípe', focado na reparação histórica e resistência de Camaçari.",
+      "descricaoDetalhada": "O escritor Diego Copk apresenta sua pesquisa sobre a gênese de Camaçari, destacando o papel dos aldeamentos indígenas e a resistência negra. A obra utiliza a imagem de Maria Catarina de Jesus, de 106 anos, como símbolo de representatividade e ancestralidade viva.",
+      "categoria": [
+        "literatura negra",
+        "reparação histórica",
+        "ancestralidade"
+      ],
+      "eixos": [
+        "historiografia contra-colonial",
+        "memória afro-indígena",
+        "identidade territorial"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=L54iENdyM8A"
+    },
+    {
+      "id": "mulheres-quilombo-cordoaria",
+      "nome": "Resistência e Tradição no Quilombo de Cordoaria",
+      "descricao": "Vivências de mulheres quilombolas na produção do beiju e no combate ao racismo em Camaçari.",
+      "descricaoDetalhada": "Relata a história de mulheres negras do Quilombo de Cordoaria que mantêm vivo o legado dos antepassados através da produção artesanal do beiju. O depoimento destaca a dor persistente do racismo e o orgulho da identidade negra como ferramenta de independência financeira e social.",
+      "categoria": [
+        "quilombismo",
+        "saberes tradicionais",
+        "consciência negra"
+      ],
+      "eixos": [
+        "resistência comunitária",
+        "trabalho e renda ancestral",
+        "protagonismo feminino"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=iv4KnUCC8P0"
+    },
+    {
+      "id": "nego-bispo-saberes-organicos",
+      "nome": "Filosofia Quilombola e Saberes Orgânicos",
+      "descricao": "A trajetória de Nego Bispo e sua defesa da contra-colonização e da biointeração.",
+      "descricaoDetalhada": "Antônio Bispo dos Santos (Nego Bispo) discute a diferença entre o saber sintético da academia e o saber orgânico das comunidades tradicionais. Ele defende a confluência e a contra-colonização, afirmando que o quilombo não é periferia, mas o centro de sua própria existência.",
+      "categoria": [
+        "filosofia quilombola",
+        "contra-colonização",
+        "oralidade e memória"
+      ],
+      "eixos": [
+        "biointeração",
+        "confluência de saberes",
+        "saberes orgânicos"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=Tqt9BnrolFg"
+    },
+    {
+      "id": "defesa-territorial-tupinamba",
+      "nome": "Luta Territorial e Preservação Tupinambá em Abrantes",
+      "descricao": "A luta da Aldeia Tupinambá contra a especulação imobiliária e pela preservação da Restinga.",
+      "descricaoDetalhada": "Renata Tupinambá relata os ataques sofridos pela aldeia em Vila de Abrantes e a resistência contra grandes empreendimentos. Destaca a importância da preservação ambiental (Restinga) e do fortalecimento da identidade indígena através da educação e da arte.",
+      "categoria": [
+        "justiça territorial",
+        "ecologia ancestral",
+        "saberes originários"
+      ],
+      "eixos": [
+        "defesa do território",
+        "reparação histórica",
+        "educação originária"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=f-c3lPEWwTU"
+    },
+    {
+      "id": "memoria-cultural-folclore",
+      "nome": "Memória Musical e Tradições Populares de Camaçari",
+      "descricao": "Eno Norberto discute o folclore local, o hino municipal e as manifestações de matriz africana.",
+      "descricaoDetalhada": "O compositor do hino de Camaçari explora tradições como o Boi de Parafuso, o Zé de Vale (ópera afro-brasileira) e o Samba de Roda. A conversa conecta a história do município com a preservação das identidades culturais presentes nas comunidades quilombolas e rurais.",
+      "categoria": [
+        "patrimônio imaterial",
+        "música e oralidade",
+        "folclore afro-indígena"
+      ],
+      "eixos": [
+        "identidade cultural",
+        "memória afetiva",
+        "tradições populares"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=_hc8Xa_bktM"
+    },
+    {
+      "id": "ailton-krenak-presente-ancestral",
+      "nome": "Cosmovisão Originária e o Presente Ancestral",
+      "descricao": "Reflexões de Ailton Krenak sobre a crise civilizatória e a importância de mundos plurais.",
+      "descricaoDetalhada": "Krenak critica o 'mundo da mercadoria' e propõe o conceito de 'presente ancestral' como forma de resistência. Ele discute a necessidade de adiar o fim do mundo através do respeito à Terra e da valorização de filosofias que não se subordinam ao capitalismo.",
+      "categoria": [
+        "filosofia originária",
+        "ecologia política",
+        "crítica ao colonialismo"
+      ],
+      "eixos": [
+        "presente ancestral",
+        "humanidade plural",
+        "resistência ética"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=BtpbCuPKTq4"
+    },
+    {
+      "id": "gestao-cultura-bispo",
+      "nome": "Panorama das Políticas Culturais e Valorização Artística",
+      "descricao": "História da militância cultural em Camaçari e a luta por editais de fomento e respeito ao artista.",
+      "descricaoDetalhada": "Antônio Bispo ('Bispo da Cultura') narra a evolução da política cultural do município, desde a Fundação Ca&Ba até a criação da Secretaria da Cultura. Defende que a cultura deve ser vista como trabalho e geração de riqueza, exigindo valorização digna para os fazedores de arte.",
+      "categoria": [
+        "política cultural",
+        "produção artística",
+        "cidadania"
+      ],
+      "eixos": [
+        "direito à cultura",
+        "fomento e autonomia",
+        "valorização profissional"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=Aa-zmA8QG3o"
+    }
+  ]
+}
