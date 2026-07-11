@@ -14,6 +14,7 @@ let cardSelecionado = null; // 1. CORRIGIDO: Declarando a variável de seleção
 const inputPesquisa = document.getElementById("pesquisaProjeto");
 const btnPesquisa = document.getElementById("btnPesquisar");
 const listaProjetos = document.getElementById("listaProjetos");
+const contadorResultados = document.getElementById("contadorResultados");
 
 // Função de pesquisa
     function pesquisarProjeto(){
@@ -33,7 +34,7 @@ const listaProjetos = document.getElementById("listaProjetos");
 }
 
 function aplicarFiltros() {
-
+    let quantidade = 0;
     // Pega todas as categorias marcadas
     const categoriasSelecionadas = [];
 
@@ -46,10 +47,12 @@ function aplicarFiltros() {
         });
 
     marcadores.forEach(item => {
+        
 
         const categoriaProjeto = item.projeto.categoria;
 
         if (categoriasSelecionadas.includes(categoriaProjeto)) {
+            quantidade++;
             item.marcador.addTo(mapa);
             item.card.style.display = "block";
         } else {
@@ -59,9 +62,10 @@ function aplicarFiltros() {
         }
 
     });
-
+        contadorResultados.textContent = `${quantidade} projeto${quantidade != 1 ? "s" : ""}`;
 }
 
+aplicarFiltros()
 if (btnPesquisa) {
     btnPesquisa.addEventListener('click', pesquisarProjeto);
 }
@@ -81,28 +85,27 @@ fetch("../m/localidades.json")
 
         categorias.forEach(categoria => {
 
-            const div =
-            document.createElement("div");
+    const div = document.createElement("div");
 
-            div.className = "categoria";
+    div.className = "categoria";
 
-            div.innerHTML = `
-                <input
-                    type="checkbox"
-                    value="${categoria}"
-                    checked>
+    div.innerHTML = `
+        <input
+            type="checkbox"
+            value="${categoria}"
+            checked>
 
-                <label>${categoria}</label>
-            `;
+        <label>${categoria}</label>
+    `;
+
+    listaCategorias.appendChild(div);
+
+});
             document
             .querySelectorAll(".categoria input")
             .forEach(check => {
 
             check.addEventListener("change", aplicarFiltros);
-
-});
-
-    listaCategorias.appendChild(div);
 
 });
         document
@@ -135,7 +138,7 @@ fetch("../m/localidades.json")
             const card = document.createElement("div");
             card.className = "cardProjeto";
 
-            // Montando o HTML interno do card (removi a div duplicada)
+            // Montando o HTML interno do card 
             card.innerHTML = `
                 <img src="${projeto.imagem}" alt="${projeto.nome}">
                 <div>
@@ -145,7 +148,7 @@ fetch("../m/localidades.json")
                 <p>📍 ${projeto.bairro}</p>
             `;
 
-            // Adiciona o card na lista lateral
+            // Adicionando o card na lista lateral
             listaProjetos.appendChild(card);
 
             // Evento de clique no card
@@ -176,6 +179,38 @@ fetch("../m/localidades.json")
             card
 
             });
+            aplicarFiltros();
         });
     }) 
     .catch(erro => console.error("Erro ao carregar as localidades:", erro));
+
+document.addEventListener("DOMContentLoaded", function () {
+  const botaoAbrir = document.getElementById("buttonFilter");
+  const painel = document.querySelector(".painelFiltros");
+
+  const painelMapa = document.getElementById("painelEsq");
+  const botaoAbrirPainel = document.getElementById("button");
+  const mapaAba = document.querySelector(".container-mapa")
+
+  if (!botaoAbrir) {
+    console.warn("Botão com id 'buttonFilter' não encontrado.");
+    return;
+  }
+  if (!painel) {
+    console.warn("Elemento com classe 'painelFiltros' não encontrado.");
+    return;
+  }
+
+  botaoAbrir.addEventListener("click", function (e) {
+    e.preventDefault();
+    painel.classList.toggle("active");
+    mapaAba.classList.toggle("active");
+  });
+
+  botaoAbrirPainel.addEventListener("click", function (e) {
+    e.preventDefault();
+    painelMapa.classList.toggle("active");
+    mapaAba.classList.toggle("active");
+  });
+
+});

@@ -35,7 +35,7 @@ header{
 
     height:80px;
 
-    background: #a646ff;
+    background: #f4c430;
     
 
     display:flex;
@@ -64,7 +64,7 @@ header{
 }
 
 .logo button{
-      background-color: #28fe73c7;
+  background-color: #ff7e28;
   color: #ffffff;             
   padding: 12px 24px;        
   font-size: 12px;         
@@ -85,7 +85,7 @@ header{
 
 
 .logo button:hover {
-  background-color: #f4c430; /* Escurece a cor de fundo */
+  background-color: #00ad3dc7; /* Escurece a cor de fundo */
   transform: translateY(-2px); /* Move o botão levemente para cima */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Aumenta a sombra */
 }
@@ -125,7 +125,7 @@ nav a{
 
 nav button {
     text-decoration: underline;
-    color: rgb(243, 218, 255);
+    color: rgb(252, 148, 63);
     font-weight: 700; 
     transition: .3s;
     
@@ -161,11 +161,8 @@ nav button:hover{
 
     text-align:center;
 
-    margin-top:120px;
-
-    margin-bottom:50px;
-    
-
+    margin-top:100px;
+    margin-bottom: -25px;
 }
 
 
@@ -173,7 +170,7 @@ nav button:hover{
 
     font-size:42px;
 
-    color:#8c34c7;
+    color:#f4c430;;
 
     margin-bottom:15px;
 
@@ -185,62 +182,6 @@ nav button:hover{
     color:#666;
 
     font-size:18px;
-
-}
-
-
-/* ==========================
-   GALERIA DE PROJETOS
-========================== */
-
-
-.galeria{
-
-    width:80%;
-
-    max-width:1000px;
-
-    margin:0 auto 60px;
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(320px,1fr));
-
-    gap:35px;
-    cursor: pointer; 
-
-}
-
-
-
-/* ==========================
-   CARD DO PROJETO
-========================== */
-
-
-.card-img{
-
-    background:white;
-
-    border-radius:20px;
-
-    overflow:hidden;
-
-    transition:.35s;
-
-    box-shadow:
-    0 10px 25px rgba(0,0,0,.10);
-
-}
-
-
-.card-img:hover{
-
-    transform:translateY(-20px);
-
-    box-shadow:
-    0 15px 40px rgba(164, 73, 250, 0.35);
 
 }
 
@@ -279,115 +220,6 @@ nav button:hover{
 
 }
 
-
-
-/* ==========================
-   INFORMAÇÕES
-========================== */
-
-
-.informacoes{
-
-    padding:25px;
-
-}
-
-
-.categoria{
-
-    display:inline-block;
-
-    background:#ff3636;
-
-    color:white;
-
-    padding:6px 14px;
-
-    border-radius:20px;
-
-    font-size:12px;
-
-    font-weight:bold;
-
-    text-transform:uppercase;
-
-    margin-bottom:15px;
-
-}
-
-
-
-.art-name{
-
-    font-size:22px;
-
-    color:#a646ff;
-
-    margin-bottom:15px;
-
-}
-
-
-
-.descricao{
-
-    color:#555;
-
-    line-height:1.7;
-
-    text-align:justify;
-
-}
-
-
-
-/* ==========================
-   TAGS DOS EIXOS
-========================== */
-
-
-.eixos{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:8px;
-
-    margin-top:20px;
-
-}
-
-
-
-.tag{
-
-    background:#34c76c;
-
-    color:white;
-
-    padding:7px 12px;
-
-    border-radius:20px;
-
-    font-size:12px;
-
-    transition:.3s;
-
-}
-
-
-
-.tag:hover{
-
-    background:#f4c430;
-
-    color:#222;
-
-}
-
-
-
 /* ==========================
    RODAPÉ
 ========================== */
@@ -395,7 +227,7 @@ nav button:hover{
 
 footer{
 
-    background:#a646ff;
+    background:#ff7e28;
 
     color:white;
 
@@ -410,20 +242,23 @@ footer{
     position:fixed;
 
     top:0;
-    right:-400px;
+    right:-1000px;
 
-    width:400px;
-    height:100vh;
+    width:500px;
+    height:650px;
+    margin-left: 30px;
 
     background:#ffffff;
 
     transition:.3s;
 
-    border-left:2px solid #3de61c88;
+    border-left:3px solid #f0922688;
+    border-right:3px solid #f0922688;
+    border-bottom: 1px solid #f0922688;;
 
     z-index:1500;
 
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 30px 30px 30px 30px;
 
     overflow: auto;
 
@@ -433,20 +268,31 @@ footer{
 
 .ia-sidebar.active{
     right:0;
+    position: relative;
+}
+
+.ia-sidebar p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .ia-header{
-
-    display:flex;
+    position: relative;
+    top:0px;
+    width: 497px;
     justify-content:space-between;
     align-items:center;
-
     padding:20px;
 
-    background: #a646ff;
+    background: #f4c430;
     
+    border-radius: 30px 30px 0px 0px;
+}
 
-    border-radius: 30px 0px 0px 0px;
+.ia-header.active{
+width: 497px;
+position: relative;
 }
 
 .ia-header h2{
@@ -479,118 +325,6 @@ footer{
     padding:20px;
 }
 
-.mya-result{
-
-    margin-top: 20px;
-
-    background: #a646ff9d;
-
-    padding: 15px;
-
-    border-radius: 12px;
-
-    min-height: 120px;
-
-    color:  #34c76c;
-
-    line-height: 1.6;
-}
-
-.mya-result h3{
-
-    display:inline-block;
-
-    justify-content: center;
-     display: flex;
-
-    background:#34c76cd1;
-
-    color:#a646ff;
-
-    padding:6px 14px;
-
-    border-radius:20px;
-
-    font-size:12px;
-
-    font-weight:bold;
-
-    text-transform:uppercase;
-
-    margin-bottom:15px;
-}
-
-.mya-result h3:hover{
-     display:inline-block;
-
-    justify-content: center;
-     display: flex;
-
-    background:#f4c430;
-
-    color:#a646ff;
-
-    padding:6px 14px;
-
-    border-radius:20px;
-
-    font-size:12px;
-
-    font-weight:bold;
-
-    text-transform:uppercase;
-
-    margin-bottom:15px;
-}
-
-.mya-result strong{
-
-     justify-content: center;
-     display: flex;
-    color:#a646ff;
-
-    line-height: 1.6;
-
-    display:inline-block;
-
-    background:#34c76cd1;
-
-    padding:6px 14px;
-
-    border-radius:20px;
-
-    font-weight:bold;
-
-    text-transform:uppercase;
-}
-
-.mya-result p{
-
-    padding: 15px;
-
-    color:#000000;
-
-    line-height: 1.6;
-    white-space: pre-line;
-}
-
-.mya-result h5{
-
-    color:#000000ec;
-    padding: 15px;
-}
-
-
-.mya-welcome h2{
-    color: #a646ff9d;
-    margin-bottom: 10px;
-}
-
-.mya-welcome p{
-    color: #34c76c;
-    line-height: 1.5;
-}
-
 .ia-sidebar-left{
 
     position:fixed;
@@ -604,7 +338,7 @@ footer{
 
     transition:.3s;
 
-    border-right:2px solid #3de61c88;
+    border-right:2px solid #e67e1c88;
 
     margin-top: 60px;
 
@@ -614,37 +348,13 @@ footer{
 
 
 
-.ia-sidebar-left.active{
-    left:0;
-}
-
-.ia-sidebar-left {
-    position: fixed;
-    margin-top: 80px;
-    top: 0;
-    left: -440px; 
-    width: 400px;
-    height: 90vh;
-    background: #ffffff;
-    transition: .3s ease-in-out;
-    border-right: 2px solid #3bd77244;
-    z-index: 1500;
-    border-radius: 0px 30px 30px 0px; 
-    box-shadow: 4px 0 15px rgba(0,0,0,.1);
-    overflow-y: auto;
-}
-
-
-.ia-sidebar-left.active {
-    left: 0;
-}
 
 .ia-header-filter {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #a646ff;
+    background: #f4c430;;
     border-radius: 0px 30px 0px 0px; 
 }
 
@@ -679,7 +389,7 @@ footer{
 
 .filter-group label {
     font-weight: 600;
-    color: #8c34c7;
+    color: #f4c430;;
     font-size: 15px;
 }
 
@@ -697,7 +407,7 @@ footer{
 }
 
 .filter-select:focus {
-    border-color: #a646ff;
+    border-color: #f4c430;
     background-color: #ffffff;
 }
 
@@ -810,6 +520,7 @@ footer{
     height:85vh;
 
     gap:20px;
+    transition: all .3s ease;
 
 }
 
@@ -919,21 +630,53 @@ footer{
 
 }
 
+
 .painelFiltros{
+   position: fixed;
+    top: 0px;          /* ajuste conforme seu layout */  
+    width: 250px;
+    right: -400px;
+    background: #f4c430;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: right .35s ease;
+    z-index: 1600;
+}
 
-    width:250px;
+.painelFiltros.active{
+    position: relative;
+    right: -20px;
+    height: 650px;         /* estado aberto */
+}
 
-    background:#6D4CC2;
 
-    color:white;
+.painelFiltros h2{
 
-    padding:20px;
-
-    border-radius:15px;
+    margin-bottom:20px;
 
 }
 
-.painelFiltros h2{
+.painelFiltros1{
+   position: fixed;
+    top: 0px;          /* ajuste conforme seu layout */  
+    width: 250px;
+    right: -400px;
+    background: #f4c430;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: right .35s ease;
+    z-index: 1600;
+}
+
+.painelFiltros1.active{
+    position: relative;
+    right: -20px;         /* estado aberto */
+}
+
+
+.painelFiltros1 h2{
 
     margin-bottom:20px;
 
@@ -950,7 +693,8 @@ footer{
     margin-bottom:15px;
 
     cursor:pointer;
-
+    background-color: #ff7e28;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .categoria input{
@@ -958,5 +702,43 @@ footer{
     width:18px;
 
     height:18px;
+
+}
+
+.categoria label{
+    
+}
+
+.contadorProjetos{
+
+    margin:20px 0;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    background:#f5f5f5;
+
+}
+
+.contadorProjetos h3{
+
+    margin:0;
+
+    font-size:17px;
+
+}
+
+.contadorProjetos span{
+
+    display:block;
+
+    margin-top:6px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#6D4CC2;
 
 }
