@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nome": "Projeto Abrace",
+        "categoria": "Educação",
+        "bairro": "Centro",
+        "descricao": "Projeto voltado ao reforço escolar e inclusão social.",
+        "imagem": "img/projetos/abrace.jpg",
+        "latitude": -12.699,
+        "longitude": -38.326
+    },
+    {
+        "id": 2,
+        "nome": "Projeto Nova Vida",
+        "categoria": "Saúde",
+        "bairro": "Gleba A",
+        "descricao": "Projeto de atendimento comunitário.",
+        "imagem": "img/projetos/novavida.jpg",
+        "latitude": -12.709,
+        "longitude": -38.314
+    }
+]

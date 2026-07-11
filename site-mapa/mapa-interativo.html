@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observatório Digital</title>
+
+    <link rel="stylesheet" href="mapa.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+ <button id="buttonFilter">
+             <img src="https://icones.pro/wp-content/uploads/2021/05/icone-de-filtre-violet.png" alt="Filtro">
+        </button>
+🏛 Observatório Digital
+
+</div>
+
+<nav>
+
+<button id="abaEsquerda">Oque são projetos sociais?</button>
+
+<a href="#">Inicio</a>
+
+<a href="#">Politicas Pulblicas</a>
+
+<a href="#">Entrevistas</a>
+
+<a href="#">Mapa</a>
+
+<a href="#">Infográficos</a>
+
+<a href="#">Sobre</a>
+
+</nav>
+
+
+</header>
+
+<section class="cabecalho">
+    <h1>Observatório Digital</h1>
+    <p>Projetos Sociais da cidade de camaçari</p>
+</section>
+
+<!-- O painel que fala sobre o mapa a seguir -->
+    <aside id="painelEsq" class="ia-sidebar">
+
+        <div class="ia-header">
+
+            <h2>❔Saiba Mais❔</h2>
+
+            <button id="fecharEsq">
+                ✕
+            </button>
+
+        </div>
+
+      <div class="ia-content">
+
+    <div class="mya-welcome">
+
+        <h2>Oque significa e para que serve o mapa interativo?</h2>
+
+    </div>
+
+    <div id="myaResultado" class="mya-result">
+        <p> Os projetos sociais desempenham um papel fundamental na promoção da cidadania, da inclusão e da melhoria da qualidade de vida da população. Em municípios como Camaçari, onde diferentes realidades sociais convivem diariamente, essas iniciativas surgem como importantes ferramentas para reduzir desigualdades, ampliar oportunidades e fortalecer os vínculos entre a comunidade e o poder público.</p>
+
+            <p>Muito além da assistência imediata, os projetos sociais representam espaços de desenvolvimento humano. Por meio de ações voltadas à educação, cultura, esporte, saúde, meio ambiente, capacitação profissional e inclusão social, eles oferecem oportunidades para que crianças, jovens, adultos e idosos possam desenvolver suas habilidades, construir novos conhecimentos e exercer plenamente sua cidadania.</p>
+
+            <p>Essas iniciativas também desempenham um papel essencial na prevenção de problemas sociais. Ao oferecer atividades educativas, culturais e esportivas, os projetos criam ambientes seguros de convivência, incentivam a participação comunitária e contribuem para o fortalecimento dos laços sociais. Dessa forma, ajudam a diminuir situações de vulnerabilidade, promovendo o respeito, a diversidade e a valorização da cultura local.</p>
+
+          <p>Outro aspecto importante é a capacidade dos projetos sociais de aproximar diferentes setores da sociedade. Organizações não governamentais, associações comunitárias, instituições de ensino, empresas privadas e órgãos públicos frequentemente atuam em parceria para desenvolver ações que beneficiam a população. Essa cooperação fortalece a construção de soluções coletivas para os desafios enfrentados pelas comunidades, estimulando uma cultura de solidariedade e responsabilidade social.</p>
+
+            <p>No contexto deste Observatório Digital de Práticas Transformadoras de Camaçari, os projetos sociais representam exemplos concretos de iniciativas que geram impactos positivos no município. Registrar, organizar e divulgar essas ações permite que a população conheça melhor os trabalhos desenvolvidos, incentive novas parcerias e valorize pessoas e instituições comprometidas com o desenvolvimento social.</p>
+
+            <p>Além disso, o observatório contribui para preservar a memória dessas iniciativas, reunindo informações confiáveis sobre seus objetivos, áreas de atuação, público atendido e resultados alcançados. Essa organização facilita o acesso ao conhecimento, fortalece a transparência e amplia a visibilidade de projetos que muitas vezes realizam um trabalho de grande importância, mas que ainda são pouco conhecidos pela sociedade.</p>
+
+            <p>Ao reunir essas informações em uma plataforma digital acessível, o projeto também incentiva o protagonismo da comunidade, aproximando cidadãos das iniciativas existentes e estimulando novas formas de participação social. Dessa maneira, o observatório deixa de ser apenas um repositório de informações e passa a atuar como um instrumento de valorização das práticas transformadoras presentes em Camaçari.</p>
+
+            <p>Assim, compreender a importância dos projetos sociais significa reconhecer que pequenas ações locais podem gerar grandes transformações coletivas. Cada iniciativa registrada neste observatório representa um exemplo de compromisso com a construção de uma cidade mais justa, inclusiva, participativa e sustentável, demonstrando que a transformação social acontece quando diferentes pessoas e instituições trabalham juntas em benefício da comunidade. </p>
+    </div>
+
+</div>
+
+    </aside>
+   
+   <!-- O painel dos filtros ficará aqui-->
+
+   <aside id="painelFilter" class="ia-sidebar-left">
+
+    <div class="ia-header-filter">
+        <h2>Filtre as categorias</h2>
+        <button id="fecharFilter">✕</button>
+      
+
+    </div>
+
+    <div class="ia-content">
+        <div class="filter-group">
+            <label for="filterCategory">Selecione uma Categoria:</label>
+            <select id="filterCategory" class="filter-select">
+                <option value="todos">Todos os Projetos</option>
+                </select>
+        </div>
+    </div>
+
+</aside>
+
+ <!-- Aqui está o mapa Interativo-->
+ <!-- Primeiramente a parte de Busca-->
+ <section class="container-mapa">
+
+    <section class="container-mapa">
+
+    <aside class="sidebar">
+
+        <div class="pesquisa">
+
+            <input
+                type="text"
+                id="pesquisaProjeto"
+                placeholder="Pesquisar projeto...">
+
+            <button id="btnPesquisar">
+                🔍
+            </button>
+
+        </div>
+
+        <div id="listaProjetos"></div>
+
+    </aside>
+
+    <div id="map"></div>
+    
+    <aside class="painelFiltros">
+
+    <h2>Filtros</h2>
+
+    <div id="listaCategorias"></div>
+
+</aside>
+
+</section>
+
+</section>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="maps.js"></script>
+    
+    
+    <footer>
+
+© 2026 • Observatório Digital de Camaçari
+
+</footer>
+
+</body>
+
+</html>
