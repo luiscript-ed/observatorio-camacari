@@ -30,7 +30,7 @@ const contadorResultados = document.getElementById("contadorResultados");
     }
 
     encontrado.marcador.openPopup();
-    mapa.setView(encontrado.marcador.getLatLng(), 15); // CORRIGIDO: 'encontrado' (estava encontrador) e zoom 15
+    mapa.setView(encontrado.marcador.getLatLng(), 15); 
 }
 
 function aplicarFiltros() {
@@ -72,7 +72,84 @@ if (btnPesquisa) {
 
 const listaCategorias =
 document.getElementById("listaCategorias");
+//Função para criar os icones de cada categoira
+function obterIcone(categoria){
 
+    let icone = "fa-location-dot";
+    let cor = "#7E57C2";
+
+    switch(categoria){
+
+        case "Educação":
+            icone = "fa-graduation-cap";
+            cor = "#3F51B5";
+            break;
+
+        case "Educação e Cultura":
+            icone = "fa-book-open";
+            cor = "#5E35B1";
+            break;
+
+        case "Arte-Educação":
+            icone = "fa-palette";
+            cor = "#8E24AA";
+            break;
+
+        case "Cultura Afro-Brasileira":
+            icone = "fa-drum";
+            cor = "#6D4C41";
+            break;
+
+        case "Assistência Social":
+            icone = "fa-hand-holding-heart";
+            cor = "#26A69A";
+            break;
+
+        case "Saúde":
+            icone = "fa-heart-pulse";
+            cor = "#E53935";
+            break;
+
+        case "Cidadania":
+            icone = "fa-people-group";
+            cor = "#039BE5";
+            break;
+
+        case "Desenvolvimento Local":
+            icone = "fa-seedling";
+            cor = "#43A047";
+            break;
+
+        case "Política Pública":
+            icone = "fa-landmark";
+            cor = "#546E7A";
+            break;
+
+        case "Patrimônio Cultural":
+            icone = "fa-monument";
+            cor = "#FF9800";
+            break;
+
+    }
+
+    return L.divIcon({
+
+        className: "iconeMapa",
+
+        html: `
+            <div class="iconeMarcador"
+                 style="background:${cor}">
+                <i class="fa-solid ${icone}"></i>
+            </div>
+        `,
+
+        iconSize:[42,42],
+        iconAnchor:[21,42],
+        popupAnchor:[0,-35]
+
+    });
+
+}
 // Busca os dados do JSON
 fetch("../m/localidades.json")
     .then(resposta => resposta.json())
@@ -118,10 +195,15 @@ fetch("../m/localidades.json")
 
         projetos.forEach(projeto => {
             // Criando o marcador no mapa
-            const marcador = L.marker([
+        const marcador = L.marker(
+                [
                 projeto.latitude,
                 projeto.longitude
-            ])
+                ],
+            {
+                icon: obterIcone(projeto.categoria)
+            }
+)
             .addTo(mapa)
             .bindPopup(`
                 <div class="popup">

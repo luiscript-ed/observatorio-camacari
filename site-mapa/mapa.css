@@ -582,6 +582,14 @@ position: relative;
 
 }
 
+.cardProjeto img{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10;
+}
+
 .cardProjeto.ativo{
 
     border:2px solid #0F4C81;
@@ -633,7 +641,7 @@ position: relative;
 
 .painelFiltros{
    position: fixed;
-    top: 0px;          /* ajuste conforme seu layout */  
+    top: 0px;        
     width: 250px;
     right: -400px;
     background: #f4c430;
@@ -647,7 +655,7 @@ position: relative;
 .painelFiltros.active{
     position: relative;
     right: -20px;
-    height: 650px;         /* estado aberto */
+    height: 650px;      
 }
 
 
@@ -659,7 +667,7 @@ position: relative;
 
 .painelFiltros1{
    position: fixed;
-    top: 0px;          /* ajuste conforme seu layout */  
+    top: 0px;        
     width: 250px;
     right: -400px;
     background: #f4c430;
@@ -672,7 +680,7 @@ position: relative;
 
 .painelFiltros1.active{
     position: relative;
-    right: -20px;         /* estado aberto */
+    right: -20px;       
 }
 
 
@@ -736,5 +744,43 @@ position: relative;
     font-weight:600;
 
     color:#6D4CC2;
+
+}
+
+.iconeMapa{
+
+    background:transparent;
+    border:none;
+
+}
+
+.iconeMarcador{
+
+    width:42px;
+    height:42px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:18px;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.25);
+
+    border:3px solid white;
+
+    transition:.25s;
+
+}
+
+.iconeMarcador:hover{
+
+    transform:scale(1.15);
 
 }
