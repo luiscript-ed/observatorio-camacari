@@ -125,7 +125,7 @@
     "categoria": "Patrimônio Cultural",
     "bairro": "Vila de Abrantes",
     "descricao": "Comunidade tradicional remanescente reconhecida pela Fundação Palmares. Polo de turismo de vivência, com trilhas griô, capoeira, samba de roda e produção artesanal de beijus coloridos na histórica Casa de Farinha.",
-    "imagem": "https://tripadvisor.com",
+    "imagem": "https://www.ba.gov.br/sdr/sites/site-sdr/files/migracao_2024/arquivos/files/2020-09/WhatsApp%20Image%202020-09-18%20at%2016.13.42%20%282%29.jpeg",
     "latitude": -12.8222,
     "longitude": -38.2556
   },
@@ -135,7 +135,7 @@
   "categoria": "Assistência Social",
   "bairro": "Centro",
   "descricao": "Edificação que abriga a gestão das políticas de assistência social, segurança alimentar e direitos cidadãos no município. atua historicamente como o núcleo essencial de acolhimento e inclusão social das famílias de Camaçari.",
-  "imagem": "https://camacari.ba.gov.br",
+  "imagem": "https://www.camacari.ba.gov.br/wp-content/uploads/2019/12/sedes-central.jpeg",
   "latitude": -12.6989,
   "longitude": -38.3248
  },
@@ -145,8 +145,49 @@
   "categoria": "Política Pública",
   "bairro": "Centro",
   "descricao": "Edificação responsável pela gestão, descentralização e fomento das políticas públicas culturais do município. Atua na preservação do patrimônio histórico, valorização de artistas locais e garantia do acesso à cultura como direito básico.",
-  "imagem": "https://camacari.ba.gov.br",
+  "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnujz9VM8YxZkSibp8xeB-CKqrdRP3dZZT1PvGdwZdQDsIQmWdnQUpbpo&s=10",
   "latitude": -12.6975,
   "longitude": -38.3242
-}
-    ]
+},
+{
+ "id": 16,
+  "nome": "Terreiro de Sidiramutá",
+  "categoria": "Patrimônio Cultural",
+  "bairro": "Centro",
+  "descricao": "O Terreiro Sidiramutá é um templo de Candomblé da nação Angola (Nzo Muxikongo) fundado em 2010 e liderado pelo Tata Mutakalombo. O espaço é dedicado à preservação da cultura de matriz africana, realizando cultos aos Inkices, festas públicas e obrigações tradicionais.",
+  "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/04/841af8b5-52f6-42e8-937b-3ea27e46ce5f.png",
+  "latitude": -12.731805155072712, 
+  "longitude": -38.32370021843034
+},
+{
+    "id": 17,
+    "nome": "Terreiro Tateto Kavungo",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Monte Gordo",
+    "descricao": "Templo religioso de matriz africana dedicado ao culto do Inkice Kavungo. O espaço atua ativamente na preservação das tradições e da liturgia da nação Angola, promovendo celebrações tradicionais, o respeito à ancestralidade e o fortalecimento cultural da comunidade.",
+    "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/04/3c9d110d-6357-48a6-992f-a041e378332d-493x493.jpeg",
+    "latitude": -12.653918890375772, 
+    "longitude": -38.094496469519996
+  },
+  {
+    "id": 18,
+    "nome": "Terreiro Bamburucema Tombenci",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Monte Gordo",
+    "descricao": "Tradicional terreiro de candomblé da nação Angola, consagrado à divindade Bamburucema. O espaço é um importante polo de resistência e preservação da memória afro-brasileira, realizando festas públicas, rituais litúrgicos e a transmissão de saberes ancestrais.",
+    "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/10/Desde-1-1.png",
+    "latitude": -12.649803571689322, 
+    "longitude": -38.09344376793225
+  },
+  {
+    "id": 19,
+    "nome": "Associação Cultural e Beneficente Ilé Àse Ògún Tobi Jagun Casa do Ferreiro",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Arembepe",
+    "descricao": "Espaço religioso e social de matriz africana (nação Ketu) dedicado ao Orixá Ogum. Além de suas atividades litúrgicas e obrigações tradicionais, atua de forma beneficente na comunidade, promovendo ações de apoio social e a valorização do patrimônio cultural negro.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkcl8I8Qax-N4d3A0wnQ9XZxy_7Qek7NDndIrE3dL4D8_GIUfrKdx-0OQGuVigvyeUr3_P3kd-0b1cSJxzJcVVe5K9fiqdNM27fKR_8tiYngkkwJPmit4WG7drNLF70JZB7VvuF=w408-h271-k-no",
+    "latitude": -12.75479009313242, 
+    "longitude": -38.229120934251675
+  }
+]
+    
