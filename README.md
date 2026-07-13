@@ -95,12 +95,18 @@ Os usuários podem:
 
 ## 👥 Equipe
 
-| Nome | Função |
+| Nome | Contribuição |
 |------|---------|
-| Luiz | Desenvolvimento Front-end |
-| Integrante | Pesquisa |
-| Integrante | Design |
-| Integrante | Documentação |
+| Luiz | Desenvolvimento do produto e introdução da pesquisa|
+| Arthur Miller | Desenvolvimento do produto |
+| Davi Passos | Introdução da pesquisa e armazenamento de dados|
+| Yasmin Gouveia | Desenvolvimento da pesquisa |
+| José Guilherme | Desenvolvimento da pesquisa|
+| Mariah | Desenvolvimento da pesquisa |
+| Isabela de Oliveira | Desenvolvimento da pesquisa |
+| Leandro Nascimento | Conclusão da pesquisa |
+| Daniel Oliveira | Conclusão da pesquisa e armazenamento de dados|
+
 
 ---
 
