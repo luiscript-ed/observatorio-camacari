@@ -239,9 +239,10 @@ nav a:hover{
 
     font-size:38px;
 
-    color:#f4c430 ;
+    color:#1b9239;
 
     margin-bottom:25px;
+    text-align: center;
 
 }
 
@@ -254,6 +255,36 @@ nav a:hover{
     font-size:18px;
 
 }
+
+
+/*  Texto 4*/
+
+.texto4{
+
+    flex:1;
+
+}
+
+.texto4 h2{
+
+    font-size:38px;
+
+    color:#f4c430 ;
+
+    margin-bottom:25px;
+
+}
+
+.texto4 p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
 
 /* Resto */
 
