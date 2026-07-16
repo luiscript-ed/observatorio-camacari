@@ -1,0 +1,126 @@
+{
+  "projetos-sociais": [
+    {
+      "id": "cidade-do-saber",
+      "nome": "Cidade do Saber",
+      "bairro": "Centro",
+      "descricao": "Complexo público de educação, cultura, esporte e inclusão social que oferece formação artística, profissional e cidadã para a população de Camaçari.",
+      "categoria": [
+        "educação",
+        "cultura",
+        "inclusão social",
+        "juventude"
+      ],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ_gLs2-hvVMq6ABsQCMyas56qdRyKzph25GTCfKSn3mxBxpNjULM3PaU&s=10"
+    },
+    {
+      "id": "fundacao-caeba",
+      "nome": "Fundação Ca&Ba",
+      "bairro": "Centro",
+      "descricao": "Organização da sociedade civil voltada à arte-educação, cultura, esporte, cidadania e protagonismo juvenil em comunidades vulneráveis.",
+      "categoria": [
+        "arte-educação",
+        "cultura",
+        "juventude",
+        "assistência social"
+      ],
+      "imagem": "https://caeba.org.br/wp-content/uploads/2023/11/caeba2023-300x300.jpg"
+    },
+    {
+      "id": "upamc",
+      "nome": "UPAMC - União Cultural dos Sacerdotes Afro do Município de Camaçari",
+      "bairro": "Centro",
+      "descricao": "Entidade representativa das religiões de matriz africana dedicada à valorização da cultura afro-brasileira, preservação das tradições e combate ao racismo religioso.",
+      "categoria": [
+        "cultura afro-brasileira",
+        "religião",
+        "direitos humanos"
+      ],
+      "imagem": "https://agenciaamapa.com.br/midias/2025/pequenas/20251126224703-GC00033470-F00112999.webp"
+    },
+    {
+      "id": "cras",
+      "nome": "CRAS - Centro de Referência de Assistência Social",
+      "bairro": "Diversos bairros",
+      "descricao": "Organização que desenvolve ações voltadas ao fortalecimento comunitário e atendimento de famílias em situação de vulnerabilidade social.",
+      "categoria": [
+        "assistência social",
+        "cidadania",
+        "desenvolvimento comunitário"
+      ],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10"
+    }
+  ],
+  "localidades": [
+    {
+      "id": "terreiro-sidiramuta",
+      "nome": "Terreiro de Sidiramutá",
+      "bairro": "Centro",
+      "descricao": "O Terreiro Sidiramutá é um templo de Candomblé da nação Angola (Nzo Muxikongo), dedicado à preservação da cultura afro-brasileira e dos saberes ancestrais.",
+      "categoria": [
+        "patrimônio cultural",
+        "religião de matriz africana"
+      ],
+      "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/04/841af8b5-52f6-42e8-937b-3ea27e46ce5f.png"
+    },
+    {
+      "id": "terreiro-tateto-kavungo",
+      "nome": "Terreiro Tateto Kavungo",
+      "bairro": "Monte Gordo",
+      "descricao": "Templo religioso de matriz africana dedicado ao culto do Inkice Kavungo e à preservação das tradições da nação Angola.",
+      "categoria": [
+        "patrimônio cultural",
+        "religião de matriz africana"
+      ],
+      "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/04/3c9d110d-6357-48a6-992f-a041e378332d-493x493.jpeg"
+    },
+    {
+      "id": "terreiro-bamburucema-tombenci",
+      "nome": "Terreiro Bamburucema Tombenci",
+      "bairro": "Monte Gordo",
+      "descricao": "Tradicional terreiro de Candomblé da nação Angola, importante espaço de resistência e preservação da memória afro-brasileira.",
+      "categoria": [
+        "patrimônio cultural",
+        "religião de matriz africana"
+      ],
+      "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/10/Desde-1-1.png"
+    }
+  ],
+  "entrevistas": [
+    {
+      "id": "nego-bispo-saberes-organicos",
+      "nome": "Filosofia Quilombola e Saberes Orgânicos",
+      "descricao": "A trajetória de Nego Bispo e sua defesa da contra-colonização e da biointeração.",
+      "descricaoDetalhada": "Antônio Bispo dos Santos (Nego Bispo) discute a diferença entre o saber sintético da academia e o saber orgânico das comunidades tradicionais. Ele defende a confluência e a contra-colonização, afirmando que o quilombo não é periferia, mas o centro de sua própria existência.",
+      "categoria": [
+        "filosofia quilombola",
+        "contra-colonização",
+        "oralidade e memória"
+      ],
+      "eixos": [
+        "biointeração",
+        "confluência de saberes",
+        "saberes orgânicos"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=Tqt9BnrolFg"
+    },
+     {
+      "id": "ailton-krenak-presente-ancestral",
+      "nome": "Cosmovisão Originária e o Presente Ancestral",
+      "descricao": "Reflexões de Ailton Krenak sobre a crise civilizatória e a importância de mundos plurais.",
+      "descricaoDetalhada": "Krenak critica o 'mundo da mercadoria' e propõe o conceito de 'presente ancestral' como forma de resistência. Ele discute a necessidade de adiar o fim do mundo através do respeito à Terra e da valorização de filosofias que não se subordinam ao capitalismo.",
+      "categoria": [
+        "filosofia originária",
+        "ecologia política",
+        "crítica ao colonialismo"
+      ],
+      "eixos": [
+        "presente ancestral",
+        "humanidade plural",
+        "resistência ética"
+      ],
+      "imagens": "https://www.youtube.com/watch?v=BtpbCuPKTq4"
+    }
+  ]
+
+}
