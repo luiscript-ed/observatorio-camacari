@@ -84,6 +84,18 @@
         "religião de matriz africana"
       ],
       "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/10/Desde-1-1.png"
+    },
+    {
+    "id": "cordoaria",
+    "nome": "Quilombo da Cordoaria",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Vila de Abrantes",
+    "descricao": "Comunidade tradicional remanescente reconhecida pela Fundação Palmares. Polo de turismo de vivência, com trilhas griô, capoeira, samba de roda e produção artesanal de beijus coloridos na histórica Casa de Farinha.",
+    "categoria": [
+      "patrimônio cultural",
+        "religião de matriz africana"
+    ],
+    "imagem": "https://www.ba.gov.br/sdr/sites/site-sdr/files/migracao_2024/arquivos/files/2020-09/WhatsApp%20Image%202020-09-18%20at%2016.13.42%20%282%29.jpeg"
     }
   ],
   "entrevistas": [
@@ -97,12 +109,7 @@
         "contra-colonização",
         "oralidade e memória"
       ],
-      "eixos": [
-        "biointeração",
-        "confluência de saberes",
-        "saberes orgânicos"
-      ],
-      "imagens": "https://www.youtube.com/watch?v=Tqt9BnrolFg"
+      "imagem": "https://teiadospovos.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-17-at-12.56.15-2-1024x1024.jpeg"
     },
      {
       "id": "ailton-krenak-presente-ancestral",
@@ -114,12 +121,7 @@
         "ecologia política",
         "crítica ao colonialismo"
       ],
-      "eixos": [
-        "presente ancestral",
-        "humanidade plural",
-        "resistência ética"
-      ],
-      "imagens": "https://www.youtube.com/watch?v=BtpbCuPKTq4"
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_vuBP3Q5IG-Zuw1gldwVzDAoUu17u-xuVAx_QNu-2gQ&s=10"
     }
   ]
 

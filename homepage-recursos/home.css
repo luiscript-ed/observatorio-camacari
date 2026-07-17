@@ -635,3 +635,173 @@ footer{
     color:#222;
 
 }
+
+.secaoGaleria{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding:80px 10%;
+
+}
+
+.pilhaFotos{
+
+    position:relative;
+
+    width:520px;
+
+    height:340px;
+
+    cursor:pointer;
+
+    transition:.6s;
+
+}
+.textoGaleria h2{
+ font-size:38px;
+
+    color:#f4c430 ;
+
+    margin-bottom:25px;
+}
+
+.pilhaFotos img{
+
+    position:absolute;
+
+    width:220px;
+
+    height:150px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+    transition:.8s;
+
+}
+
+.pilhaFotos img:nth-child(1){
+
+    transform:rotate(-10deg);
+
+}
+
+.pilhaFotos img:nth-child(2){
+
+    transform:translate(12px,-8px) rotate(-6deg);
+
+}
+
+.pilhaFotos img:nth-child(3){
+
+    transform:translate(24px,-15px) rotate(-2deg);
+
+}
+
+.pilhaFotos img:nth-child(4){
+
+    transform:translate(36px,-22px) rotate(3deg);
+
+}
+
+.pilhaFotos img:nth-child(5){
+
+    transform:translate(48px,-28px) rotate(6deg);
+
+}
+
+.pilhaFotos img:nth-child(6){
+
+    transform:translate(60px,-34px) rotate(-4deg);
+
+}
+
+.pilhaFotos img:nth-child(7){
+
+    transform:translate(72px,-40px) rotate(4deg);
+
+}
+
+.pilhaFotos img:nth-child(8){
+
+    transform:translate(84px,-46px) rotate(-3deg);
+
+}
+
+.pilhaFotos img:nth-child(9){
+
+    transform:translate(96px,-52px);
+
+}
+
+.pilhaFotos.aberto{
+
+    width:700px;
+
+    height:520px;
+
+}
+
+
+.pilhaFotos.aberto img:nth-child(1){
+
+    transform:translate(0,0);
+
+}
+
+.pilhaFotos.aberto img:nth-child(2){
+
+    transform:translate(230px,0);
+
+}
+
+.pilhaFotos.aberto img:nth-child(3){
+
+    transform:translate(460px,0);
+
+}
+
+.pilhaFotos.aberto img:nth-child(4){
+
+    transform:translate(0,170px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(5){
+
+    transform:translate(230px,170px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(6){
+
+    transform:translate(460px,170px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(7){
+
+    transform:translate(0,340px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(8){
+
+    transform:translate(230px,340px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(9){
+
+    transform:translate(460px,340px);
+
+}

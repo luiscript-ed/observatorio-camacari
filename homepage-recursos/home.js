@@ -1,3 +1,14 @@
+const pilha =
+document.getElementById("pilhaFotos");
+
+pilha.addEventListener("click",()=>{
+
+    pilha.classList.toggle("aberto");
+
+});
+
+
+
 fetch("homepage-recursos/pj.json")
     .then(response => {
         if (!response.ok) {
