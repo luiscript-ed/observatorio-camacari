@@ -362,7 +362,13 @@ nav a:hover{
     border-radius:20px;
 
     box-shadow:0 10px 30px rgba(0,0,0,.15);
+    transition:.8s;
 
+}
+
+.imagem img:hover{
+
+transform: scale(1.05);
 }
 
 footer{
@@ -493,6 +499,7 @@ footer{
 
     box-shadow:
     0 15px 40px rgba(164, 73, 250, 0.35);
+    transform: scale(1.05);
 
 }
 
@@ -663,6 +670,7 @@ footer{
     cursor:pointer;
 
     transition:.6s;
+    margin-top: 100px;
 
 }
 .textoGaleria h2{
@@ -750,7 +758,7 @@ footer{
     width:700px;
 
     height:520px;
-
+    margin-top: 60px;
 }
 
 
@@ -806,4 +814,49 @@ footer{
 
     transform:translate(460px,340px);
 
+}
+
+.pilhaFotos.aberto img:nth-child(1):hover {
+    transform: translate(0,0) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(2):hover {
+    transform: translate(230px,0) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(3):hover {
+    transform: translate(460px,0) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(4):hover {
+    transform: translate(0,170px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(5):hover {
+    transform: translate(230px,170px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(6):hover {
+    transform: translate(460px,170px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(7):hover {
+    transform: translate(0,340px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(8):hover {
+    transform: translate(230px,340px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(9):hover {
+    transform: translate(460px,340px) scale(1.5);
+    z-index: 10;
 }
