@@ -1,57 +1,48 @@
 {
   "projetos-sociais": [
     {
-      "id": "cidade-do-saber",
-      "nome": "Cidade do Saber",
-      "descricao": "Complexo público de educação, cultura, esporte e inclusão social que oferece formação artística, profissional e cidadã para a população de Camaçari.",
-      "descricaoDetalhada": "A Cidade do Saber é um dos maiores equipamentos públicos de educação, cultura e esporte do município de Camaçari e representa um importante instrumento de inclusão social. Administrada pela Prefeitura, reúne em um único espaço teatro, biblioteca, salas de aula, ginásio poliesportivo, piscina, espaços culturais e ambientes destinados à formação profissional e artística.\n\n Ao longo dos anos, tornou-se referência na oferta de cursos gratuitos, oficinas, apresentações culturais e atividades esportivas voltadas para crianças, jovens, adultos e idosos. Além de ampliar o acesso à educação e à cultura, o complexo fortalece a cidadania, promove a convivência comunitária e incentiva o desenvolvimento de talentos locais. \n\nSua atuação contribui para reduzir desigualdades sociais, democratizar oportunidades e valorizar a produção cultural de Camaçari, consolidando-se como um dos principais centros de formação e transformação social do município.",
+      "id": "sistema-nacional-de-promoção-da-igualdade-racial",
+      "nome": "Sistema Nacional de Promoção da Igualdade Racial",
+      "descricao": "Sistema Nacional de Promoção da Igualdade Racial (SINAPIR) foi criado pelo Estatuto da Igualdade Racial (Lei nº 12.288/2010) com o objetivo de integrar União, estados e municípios na formulação e execução de ações destinadas ao enfrentamento do racismo, à redução das desigualdades raciais e à garantia dos direitos da população negra.",
+      "descricaoDetalhada": "A adesão do município de Camaçari ao Sistema Nacional de Promoção da Igualdade Racial (SINAPIR), em 2021, representa um importante avanço na institucionalização das políticas públicas voltadas para a promoção da igualdade racial. O SINAPIR permite que o município tenha acesso ao apoio técnico do Governo Federal, participe de programas específicos, concorra a recursos destinados à promoção da igualdade racial e fortaleça sua estrutura institucional. Além disso, o município passa a desenvolver suas ações de forma articulada com as diretrizes nacionais, criando condições para implementar políticas públicas mais eficientes nas áreas da educação, saúde, cultura, assistência social, trabalho e direitos humanos.\n\nNa área da educação, a adesão ao sistema contribui para a implementação de políticas que valorizam a história e a cultura afro-brasileira, conforme determina a Lei nº 10.639/2003. Isso inclui a formação continuada de professores, o incentivo à produção de materiais didáticos que contemplem a diversidade étnico-racial e a realização de ações pedagógicas voltadas ao combate ao racismo e à discriminação no ambiente escolar. Essas iniciativas promovem uma educação mais inclusiva e contribuem para o reconhecimento da identidade e da contribuição histórica da população negra para a formação da sociedade brasileira.\n\nNo campo da cultura e dos direitos humanos, a adesão fortalece iniciativas voltadas à preservação do patrimônio cultural afro-brasileiro, ao incentivo às manifestações culturais de matriz africana e ao combate à intolerância religiosa. Também estimula o apoio às comunidades tradicionais de terreiro, ao afroempreendedorismo e às políticas de geração de emprego e renda, contribuindo para a inclusão econômica e social da população negra.",
       "categoria": [
-        "educação",
-        "cultura",
-        "inclusão social",
-        "juventude"
+        "Lei nº 12.288/2010",
+        "Políticas Raciais",
+        "Inclusão social",
+        "Assistência social"
       ],
-      "eixos": [
-        "práticas educativas",
-        "formação cidadã",
-        "desenvolvimento comunitário"
-      ],
-      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ_gLs2-hvVMq6ABsQCMyas56qdRyKzph25GTCfKSn3mxBxpNjULM3PaU&s=10"
+      
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzr286FQrvMMExqsaenalOz383onnnBHXr7GFgcFxP7w2da1nkx3d0vww&s=10"
+      
     },
     {
-      "id": "fundacao-caeba",
-      "nome": "Fundação Ca&Ba",
-      "descricao": "Organização da sociedade civil voltada à arte-educação, cultura, esporte, cidadania e protagonismo juvenil em comunidades vulneráveis.",
-      "descricaoDetalhada": "A Fundação Ca&Ba é uma organização da sociedade civil que atua no desenvolvimento social de comunidades por meio da arte-educação, da cultura, do esporte e da formação cidadã. Seu trabalho prioriza crianças, adolescentes e jovens em situação de vulnerabilidade social, oferecendo atividades capazes de estimular o aprendizado, a criatividade, a autoestima e o protagonismo juvenil. \n\nA instituição acredita que o acesso à cultura e à educação é uma ferramenta essencial para transformar realidades e ampliar oportunidades. Além das ações educativas, promove oficinas, projetos comunitários, eventos culturais e iniciativas que fortalecem a convivência social e o senso de pertencimento. \n\nAo incentivar a participação ativa dos jovens em suas comunidades, a Fundação Ca&Ba contribui para a construção de uma sociedade mais inclusiva, democrática e comprometida com a valorização das pessoas e de seus territórios.",
+      "id": "política-nacional-para-povos-e-comunidades-tradicionais-de-terreiro-e-de-matriz-africana",
+      "nome": "Política Nacional para Povos e Comunidades Tradicionais de Terreiro e de Matriz Africana",
+      "descricao": "Foi criada para garantir o reconhecimento, a proteção e a promoção dos direitos dos povos e comunidades tradicionais de terreiro em todo o Brasil. Essa política reconhece que esses povos possuem formas próprias de organização social, práticas religiosas, conhecimentos ancestrais e modos de vida que fazem parte do patrimônio histórico e cultural brasileiro.",
+      "descricaoDetalhada": "Ao aderir a essa política, Camaçari assume o compromisso de implementar ações que assegurem a liberdade religiosa, a preservação dos territórios tradicionais e a valorização das religiões de matriz africana, como o Candomblé e a Umbanda. Isso significa desenvolver iniciativas que protejam os terreiros contra atos de violência e intolerância religiosa, promovam o respeito à diversidade religiosa e garantam que essas comunidades tenham acesso às políticas públicas nas áreas de saúde, educação, assistência social, cultura e segurança alimentar.\n\nOutro aspecto importante da política é o reconhecimento dos terreiros como espaços de preservação da memória, da cultura e dos saberes ancestrais afro-brasileiros. Nesses espaços são transmitidos conhecimentos sobre medicina tradicional, práticas de cuidado com a natureza, alimentação, música, dança, línguas de origem africana e valores comunitários. Dessa forma, a política busca proteger não apenas os espaços físicos dos terreiros, mas também o patrimônio material e imaterial construído ao longo de gerações, reconhecendo sua contribuição para a formação da identidade cultural brasileira.\n\nNo contexto de Camaçari, essa política possui grande relevância devido à forte presença da população afrodescendente e das comunidades tradicionais de matriz africana no município. A implementação dessas ações contribui para a valorização da ancestralidade africana, para o fortalecimento das identidades culturais locais e para a construção de uma sociedade mais inclusiva, democrática e comprometida com o respeito à diversidade religiosa e aos direitos humanos. Além disso, reforça o papel do poder público na promoção da igualdade racial e na proteção das tradições afro-brasileiras como parte integrante da história e da cultura do município.",
+
       "categoria": [
-        "arte-educação",
-        "cultura",
-        "juventude",
-        "assistência social"
-      ],
-      "eixos": [
-        "educação comunitária",
-        "transformação social",
-        "protagonismo juvenil"
-      ],
-      "imagens": "https://caeba.org.br/wp-content/uploads/2023/11/caeba2023-300x300.jpg"
-    },
-    {
-      "id": "upamc",
-      "nome": "UPAMC - União Cultural dos Sacerdotes Afro do Município de Camaçari",
-      "descricao": "Entidade representativa das religiões de matriz africana dedicada à valorização da cultura afro-brasileira, preservação das tradições e combate ao racismo religioso.",
-      "descricaoDetalhada": "A União Cultural dos Sacerdotes Afro do Município de Camaçari (UPAMC) é uma entidade que representa terreiros, lideranças religiosas e comunidades tradicionais de matriz africana. Sua atuação busca fortalecer o respeito à liberdade religiosa, preservar os conhecimentos ancestrais e combater o racismo religioso por meio de ações educativas, culturais e institucionais.\n\n A organização participa de eventos, debates, projetos de valorização da cultura afro-brasileira e iniciativas voltadas ao reconhecimento dos terreiros como patrimônios culturais e espaços fundamentais para a preservação da identidade negra.\n\n Também contribui para o diálogo entre o poder público e as comunidades tradicionais, defendendo políticas que promovam igualdade racial, respeito à diversidade e valorização das manifestações culturais de origem africana presentes em Camaçari.",
-      "categoria": [
-        "cultura afro-brasileira",
-        "religião",
-        "direitos humanos"
-      ],
-      "eixos": [
-        "saberes afro-diaspóricos",
+        "Decreto nº 12.278",
         "patrimônio cultural",
-        "identidade negra"
+        "Juventude",
+        "Assistência social"
+     
       ],
-      "imagens": "https://agenciaamapa.com.br/midias/2025/pequenas/20251126224703-GC00033470-F00112999.webp"
+      "imagens": "https://www.portalabrantes.com.br/images/noticias/3192/DSC_7906.jpg"
+    },
+    {
+      "id": "plano-juventude-negra-viva",
+      "nome": "Plano Juventude Negra Viva",
+      "descricao": "Política pública do Governo Federal lançada em 2024 com o objetivo de enfrentar as desigualdades que afetam a juventude negra no Brasil. O plano foi elaborado de forma interministerial e reúne ações de diversos órgãos federais para reduzir a violência, ampliar o acesso a direitos e promover oportunidades para jovens negros de 15 a 29 anos.",
+      "descricaoDetalhada": "A participação de Camaçari no Juventude Negra Viva busca enfrentar problemas que afetam de forma desproporcional a juventude negra, como a violência letal, a evasão escolar, o desemprego, a exclusão social e o racismo estrutural. O plano parte do reconhecimento de que essas desigualdades não são resultado apenas de condições individuais, mas de fatores históricos, sociais e econômicos que exigem políticas públicas específicas para garantir igualdade de oportunidades.\n\n Na área da educação, o plano incentiva ações voltadas à permanência dos jovens na escola, ao fortalecimento da educação antirracista e à ampliação do acesso ao ensino técnico e superior. Também promove iniciativas de valorização da história e da cultura afro-brasileira, em conformidade com a Lei nº 10.639/2003, contribuindo para a construção de ambientes escolares mais inclusivos e livres de discriminação.\n\n Para Camaçari, a adesão ao Plano Juventude Negra Viva possui grande importância, considerando que o município possui uma população majoritariamente negra e enfrenta desafios relacionados às desigualdades sociais e raciais. A implementação das ações do plano fortalece a atuação integrada entre educação, saúde, assistência social, cultura, trabalho e segurança pública, promovendo políticas públicas capazes de ampliar oportunidades, reduzir vulnerabilidades e garantir melhores condições de desenvolvimento para a juventude negra. Dessa forma, o município reafirma seu compromisso com a promoção da igualdade racial, da inclusão social e da construção de uma sociedade mais justa e democrática.",
+      "categoria": [
+        "Decreto nº 11.956",
+        "Políticas Estudantis",
+        "Educação Comunitária",
+        "Assistência social"
+     
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfxsEZtmtIpSL8NjngevlzL5y5smUBULvTgxr42nJbGY_NB41k63xS10bv&s=10"
     },
     {
       "id": "cras",
@@ -62,10 +53,7 @@
         "assistência social",
         "cidadania",
         "desenvolvimento comunitário"
-      ],
-      "eixos": [
-        "inclusão social",
-        "fortalecimento comunitário"
+     
       ],
       "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10"
     },
