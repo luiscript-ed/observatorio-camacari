@@ -73,7 +73,7 @@
     "id": 8,
     "nome": "Centro Comunitário Recanto das Árvores",
     "categoria": "Desenvolvimento Local",
-    "bairro": "PHOC III",
+    "bairro": "Phoc III",
     "descricao": "Espaço que promove atividades educativas e de integração para famílias da região.",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyFmwpX9uZ3vk8WctyVqqzQDt8IMHGoq_0deXfVoGPA&s",
     "latitude": -12.718467363385487, 
@@ -261,6 +261,146 @@
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkU1dxfFnqm3-tzu_JtZbMuQJ-Oz9NdXeyf2OTb98q7oRxHNogq5z72i7Zn_PnxTiRr7zUM47Imre9y3YdScPXLomlrYl1C1-6SAPAItI4nYUGNobDof22AG-lKqr0HVrfpF0VgdlEA3A=w408-h544-k-no",
     "latitude": -12.743919608194327,
     "longitude": -38.330197959537855 
+  },
+  {
+    "id": 27,
+    "nome": "Terreiro Nzilê Oniopá Junçara",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Parque das Mangabas",
+    "descricao": "Também conhecido como Unzó N'zile Oniopá Junçara, este terreiro é um espaço tradicional de Candomblé de tradição Angola. Em virtude de ser uma comunidade de terreiro de matriz africana, preserva práticas, ritos, festejos e o culto aos Inquices que caracterizam essa linhagem religiosa no estado da Bahia.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkStgGA1PrB0R6PZXeRpPwjHIugLYPMXj_IzzD2WEJb9VPsPu9INWIa5WhG8HFvVpt0cdZHozNC94l1yFAG1nqaTvYwbBUjQC2a-VUKGa68DKlHAUzASssLAay9oRf9jtkLu-5QFWPvWWY=w408-h544-k-no",
+    "latitude": -12.732004934936397, 
+    "longitude": -38.286679452504664
+  },
+  {
+    "id": 28,
+    "nome": "Terreiro Ilê Asé Oba Okurin Oyo",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Parque das Mangabas",
+    "descricao": "Sob a liderança espiritual do Babalorixá Obanizô (Fred Santos), o espaço preserva os ritos tradicionais da religião, realizando obrigações e festejos públicos voltados ao culto dos Orixás.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk50QNK8fg1hiWRu474z0vtqeuyPNXD84tINcHO_BPcC-h5MvEyRObfGXq4xDDCyVV406Z6D2k7Xzt6bkmV579SdStgGrSeoUNw2D15Nu7j-0jByRlyr-Q3IJ93D78gPWg-rE11iWDXFtlI=w408-h725-k-no",
+    "latitude": -12.734573538356907, 
+    "longitude": -38.28846081979663
+  },
+  {
+    "id": 29,
+    "nome": "Terreiro Raízes do Tempo- Manso Muki Mbuké Kua Tatetu Lemba Furaman",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Jacuípe",
+    "descricao": "O espaço preserva a ancestralidade Bantu por meio de rituais e cantigas em línguas de origem Congo-Angola, dedicando seu culto às forças da natureza, os Nkisi, com destaque para Lemba, a energia da paz e da criação, e Kitembo, a divindade do Tempo",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnfSfGX7SqQZYNKVuWSL63BqnZanDe9o_9q99HgTPrPCbrv4G8hO1qotvivnEgLw6FU9dfHQyrPg0Lu5stK1gJu9FT6qVMLYMXfafo8E6aHMRyz3amaYymM005PNQZmsCnZ5uyhAg=w408-h728-k-no",
+    "latitude": -12.68687953300828, 
+    "longitude": -38.11961847509366
+  },
+  {
+    "id": 30,
+    "nome": "Terreiro Ilê Axé Raízes Obá Kossô Omi",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Parafuso",
+    "descricao": " é o segundo terreiro de Candomblé mais antigo de Camaçari, na Bahia. Fundada há mais de 90 anos, a instituição desempenha um papel central como espaço de resistência, preservação da cultura afro-brasileira, educação e acolhimento comunitário. : Oferece formações voltadas ao fortalecimento da identidade negra, incluindo aulas da língua iorubá, corte, costura e culinária ancestral.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhiCss-tqcT4I9d_GnlQLdK3Us2BZcI8NDHAauStYf6A&s",
+    "latitude": -12.770880646821759, 
+    "longitude": -38.325971509789134
+  },
+  {
+    "id": 31,
+    "nome": "CEUS (Centro de Artes e Esportes Unificados)",
+    "categoria": "Arte-Educação",
+    "bairro": "Phoc III",
+    "descricao": "É um equipamento público criado pelo Governo Federal para integrar programas culturais, práticas esportivas, lazer e serviços socioassistenciais em áreas de alta vulnerabilidade social.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlV8pa0cGio5LiodsX0uNyXGJp3xWQEw4Q_M0mnljUPoEomEbcBWRAhs0HFMe8s1RiC4qQQhutny34jxczMoSVRduaxb5dFQtTBWsQOOwc-IZZaUo-Z7ML3utVX2N__EDrLLGyhFw=w203-h152-k-no",
+    "latitude": -12.720932452952887, 
+    "longitude": -38.33705946047368
+  },
+  {
+    "id": 32,
+    "nome": "Teatro Alberto Martins",
+    "categoria": "Arte-Educação",
+    "bairro": "Centro",
+    "descricao": "O Teatro Alberto Martins (TAM) é um dos principais equipamentos culturais de Camaçari, Bahia. Vinculado à Secretaria da Cultura de Camaçari (Secult), o espaço funciona como um polo de difusão artística, recebendo espetáculos teatrais, shows musicais, apresentações de dança, oficinas gratuitas e eventos institucionais.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5ua8awCpqOY50YpKsqH6DBMVtljSFKjKlxSAb6B_7g&s=10",
+    "latitude": -12.70070492700085,
+    "longitude": -38.322368112350574 
+  },
+  {
+    "id": 33,
+    "nome": "REDCAM - Rede Social Colaborativa",
+    "categoria": "Arte-Educação",
+    "bairro": "Gleba C",
+    "descricao": "É uma organização comunitária sem fins lucrativos que funciona como um polo de desenvolvimento social, cultura e cidadania no bairro Gleba C.O projeto tem como foco principal a inclusão social e a melhoria da qualidade de vida dos moradores da região através de atividades integradas.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAq3ow0K__kk1qVXF4bUmZ9kTZ539g5g1LJHMeVtn5VCxYCvr_PbNf8RmNlkZln4Xr7E8k8HopHhAytysCqjrOVOuRVKyrD6X1va1Gybb1kmyZZnsp6vhDRPtc0TJkry9dR22qrw=s516-k-no",
+    "latitude": -12.720932452952887, 
+    "longitude": -38.33705946047368
+  },
+  {
+    "id": 34,
+    "nome": "Arquivo Histórico de Camaçari",
+    "categoria": "Educação e Cultura",
+    "bairro": "Centro",
+    "descricao": "O Arquivo Histórico de Camaçari é o principal equipamento cultural destinado à preservação, organização e difusão da memória coletiva e do patrimônio documental do município. Após passar por uma ampla modernização e requalificação estrutural, o espaço foi oficialmente reaberto ao público.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzUurtD2gnFR7lq0xq2OPuANRQCrkcZn2Dahx5r65jYZJjivx-dPQWKXFQckzh6w3eKQVncmVTcNL8ofAYn5oNaa_UnavbQih-tsUWbKm_UZg2ydlHpFYBPTONzMRR5Z6NupD5fqn8PfLJ=w533-h240-k-no",
+    "latitude": -12.701505276152611,  
+    "longitude": -38.32398295039124
+  },
+  {
+    "id": 35,
+    "nome": "Museu de Camassary",
+    "categoria": "Educação e Cultura",
+    "bairro": "Centro",
+    "descricao": "O circuito expositivo do museu está dividido em quatro grandes fases cronológicas da região:Povos Originários: Artefatos e reproduções inspiradas nos primeiros habitantes indígenas (como réplicas de urnas funerárias locais).Vila de Abrantes: O papel central da antiga vila jesuíta durante o Brasil Colônia.A Linha Férrea: A transformação econômica e urbana impulsionada pelos trilhos do trem no século XIX.Camaçari Contemporânea: A industrialização moderna, o Polo Petroquímico e a riqueza natural do litoral.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmxSKyxPfG_pN84I0f8o9l9dE8KYInk_q_Dj675QYf4bTG95V6HHUGxSMcbPWWPg4_ZjsjQoeDJqSizhZ9FMShoOXplb6yvLlkaaUaJCD9Ip_LMRB4TKUUQW0AOJz_KIxZGNloi=w203-h114-k-no",
+    "latitude": -12.720932452952887, 
+    "longitude": -38.33705946047368
+  },
+  {
+    "id": 36,
+    "nome": "CT Essência da Capoeira",
+    "categoria": "Educação e Cultura",
+    "bairro": "Phoc II",
+    "descricao": "O CT Essência da Capoeira (ou Grupo Essência da Capoeira) é um projeto dedicado à preservação e ao ensino da capoeira, fundado em 2011 pelo Mestre Jaime. É focado em promover a inclusão social, a cidadania e a cultura afro-brasileira, oferecendo aulas para adultos e crianças.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmNiOu6D9VtKqOX0DHnKfzb1jLmeytJPjqr10FzqGjFYKbqC5FUjJBsbtvHLbvYkInU3UmuThTUKMwDfvCvB2_tTW67upUNdobDdYoP0AMfc-lZiUxEZ46a-TfSvrQBlDG96CqJd_c3qepG=s516-k-no",
+    "latitude": -12.70892478815722, 
+    "longitude": -38.326087516171825 
+  },
+  {
+    "id": 37,
+    "nome": "Associação de Capoeira Engenho",
+    "categoria": "Educação e Cultura",
+    "bairro": "Parque das Mangabas",
+    "descricao": "A Associação de Capoeira Engenho, fundada e liderada pelos mestres Edvaldo Baiano e Grandão, é uma referência cultural na região. A instituição oferece treinos, promove grandes eventos anuais—como o tradicional Camaçari Open de Capoeira—e integra a rede de benefícios do Wellhub.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlhhDGZWkoXAh0EMOUDShMXIywjBMBrcj8zQj4488NheXekKLAnUFTjQtn4eD9ad-7DlhfZJQZ6_fvNg_BQcSK7lPcKJKZSchFwbtslIkuEgV_L1D_JYvRGvwVjNoey3WVSElDG7g=w408-h370-k-no",
+    "latitude": -12.730731071351213, 
+    "longitude": -38.295247449821865 
+  },
+  {
+    "id": 38,
+    "nome": "Grupo de Capoeira Angola Menino de Arembepe",
+    "categoria": "Educação e Cultura",
+    "bairro": "Arembepe",
+    "descricao": "O Grupo de Capoeira Angola Menino de Arembepe (GCAMA) é uma renomada instituição cultural fundada em 1987 por Mestre Lua de Bobó (Edvaldo Borges da Cruz). Formalizado em 1995, o grupo nasceu com o objetivo de preservar, praticar e expandir a tradição e os ensinamentos da Capoeira Angola herdados do saudoso Mestre Bobó (Milton Santos).",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmuvpv5_MQpzqWJAMHcJ80OLPmRxgZYOw0RUoFSGWwdeLtzHfz1XNTYxME1QZSvGVDxu41vso539PH-69QoAsaraqyBaMASCppOKejHNX3WOPVXfHq5p579nrrpvJ28LBzWmsSorQ=w408-h306-k-no",
+    "latitude": -12.774832710122562, 
+    "longitude": -38.1797277017801 
+  },
+  {
+    "id": 39,
+    "nome": "Biblioteca Jorge Amado",
+    "categoria": "Educação",
+    "bairro": "Centro",
+    "descricao": "É a principal biblioteca pública da cidade de Camaçari. O equipamento cultural foca na pesquisa escolar, empréstimo de livros e inclusão através de projetos literários.",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnPp3rVJFVqciq56vky0JOtndYZOpFKLgtUY5RaEFnmSQWxfPrxYQenQbF17XptwbIqg_H31iXLIQkG_ZbFA9jueOgW-UrLTg6GkhnBnaSmeYMTlTk8Fyzt3THUvRNTYa91yCdJ=w408-h279-k-no",
+    "latitude": -12.699493093694693, 
+    "longitude": -38.326357507528904 
+  },
+  {
+    "id": 40,
+    "nome": "Ganarte - Casa de Artes",
+    "categoria": "Arte-Educação",
+    "bairro": "Vila de Abrantes",
+    "descricao": "é um centro cultural privado e espaço terapêutico focado no desenvolvimento artístico e no bem-estar",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnLxWUx8dpwfu_kMELzuEw6t5yq0nT0-gaZlOxYJ2DYuXHo36oIyhSxx5rCm9AeVI4j7RcQvhRUtSGEOB-bpfICWA_159FFwak5EXuU-0Nmnw_OVPZSmTKdEKXPv_EK4xxaZzV3=w408-h306-k-no",
+    "latitude": -12.81990306009292, 
+    "longitude": -38.27140444684919 
   }
 ]
     
