@@ -37,7 +37,6 @@ header{
 
     background: #f4c430;
     
-
     display:flex;
 
     justify-content:space-between;
@@ -346,9 +345,6 @@ position: relative;
 
 }
 
-
-
-
 .ia-header-filter {
     display: flex;
     justify-content: space-between;
@@ -422,18 +418,20 @@ position: relative;
 }
 
 .pesquisa{
+
     display:flex;
+    align-items:center;
     gap:10px;
-    margin-bottom:20px;
+
 }
 
 .pesquisa input{
 
     flex:1;
 
-    padding:12px;
+    min-width:0;
 
-    border:none;
+    padding:12px;
 
     border-radius:8px;
 
@@ -441,7 +439,35 @@ position: relative;
 
 }
 
+.bt.active{
+    width: 500px;
+
+}
+
 .pesquisa button{
+
+    padding:12px 18px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+}
+
+.lupa{
+     padding:12px 18px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:8px;
+    right: 0;
+}
+
+.botHamburg{
 
     padding:12px 18px;
 
@@ -524,6 +550,12 @@ position: relative;
 
 }
 
+.container-mapa.active{
+
+    width: calc(100% - 320px);
+
+}
+
 .sidebar{
 
     width:320px;
@@ -536,6 +568,18 @@ position: relative;
 
     overflow-y:auto;
 
+    height:70vh;
+
+    border:1px solid #ff7e28;
+
+    box-shadow:0 8px 25px rgba(255,126,40,.18);
+
+    box-sizing:border-box;
+
+}
+
+.sidebar.active{
+    width:640px;
 }
 
 #map{
@@ -583,11 +627,14 @@ position: relative;
 }
 
 .cardProjeto img{
-    width: 90%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    margin-left: 10;
+
+    width:100%;
+    height:170px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
 }
 
 .cardProjeto.ativo{
@@ -599,6 +646,12 @@ position: relative;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 
 }
+
+.cardProjeto.active{
+position: relative;
+
+}
+
 
 .card-header span{
 
@@ -640,30 +693,89 @@ position: relative;
 
 
 .painelFiltros{
-   position: fixed;
-    top: 0px;        
-    width: 250px;
-    right: -400px;
-    background: #f4c430;
-    color: white;
-    padding: 20px;
-    border-radius: 15px;
-    transition: right .35s ease;
-    z-index: 1600;
+
+    position:fixed;
+
+    top:246px;
+
+    right: -340px;;
+
+    width:300px;
+
+    height:70vh;
+
+    background:#F4C430;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    transition:.35s;
+
+    overflow-y:auto;
+
+    z-index:1500;
+
+    border: 1px solid #ff7e28;
+    box-shadow:0 8px 25px rgba(255,126,40,.18);
+    box-sizing:border-box;
+
 }
 
 .painelFiltros.active{
-    position: relative;
-    right: -20px;
-    height: 650px;      
-}
 
+    right:20px;
+    position: absolute;
+
+}
 
 .painelFiltros h2{
 
-    margin-bottom:20px;
+    font-size:28px;
+
+    margin-bottom:25px;
+
+    display:flex;
+
+    align-items:center;
+    color: #ff7e28;
+
+    gap:10px;
 
 }
+
+.grupoFiltro{
+
+    background:#ffffff22;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    margin-bottom:25px;
+    
+
+}
+
+.grupoFiltro h3{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+    font-size:18px;
+
+    border-bottom:2px solid #ffffff44;
+
+    padding-bottom:8px;
+    color:#c26121;
+
+}
+
 
 .painelFiltros1{
    position: fixed;
@@ -676,11 +788,13 @@ position: relative;
     border-radius: 15px;
     transition: right .35s ease;
     z-index: 1600;
+    overflow: auto;
 }
 
 .painelFiltros1.active{
     position: relative;
-    right: -20px;       
+    right: -20px; 
+    overflow: auto;      
 }
 
 
@@ -690,28 +804,75 @@ position: relative;
 
 }
 
-.categoria{
+.categoria,
+.bairro{
 
     display:flex;
 
     align-items:center;
 
-    gap:10px;
+    gap:12px;
 
-    margin-bottom:15px;
+    padding:10px 15px;
+
+    margin-bottom:10px;
+
+    border-radius:12px;
+
+    background:white;
+
+    color:#333;
 
     cursor:pointer;
-    background-color: #ff7e28;
-    border-radius: 30px 30px 30px 30px;
+
+    transition:.25s;
+
 }
 
-.categoria input{
+.categoria:hover,
+.bairro:hover{
+
+    background:#ffefb0;
+
+    transform:translateX(5px);
+
+}
+
+.categoria input,
+.bairro input{
 
     width:18px;
 
     height:18px;
 
+    accent-color:#ff7e28;
+
 }
+
+.categoria label,
+.bairro label{
+
+    cursor:pointer;
+
+    flex:1;
+
+    font-weight:600;
+
+}
+
+.painelFiltros::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.painelFiltros::-webkit-scrollbar-thumb{
+
+    background:#d09b00;
+    border-radius:10px;
+
+}
+
 
 .contadorProjetos{
 
@@ -743,7 +904,7 @@ position: relative;
 
     font-weight:600;
 
-    color:#6D4CC2;
+    color:#ff7e28;
 
 }
 
@@ -782,5 +943,23 @@ position: relative;
 .iconeMarcador:hover{
 
     transform:scale(1.15);
+
+}
+
+.listaProjetos{
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+
+}
+
+.listaProjetos.active{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:15px;
 
 }

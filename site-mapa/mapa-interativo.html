@@ -59,18 +59,21 @@
  <!-- Primeiramente a parte de Busca-->
  <section class="container-mapa">
 
-    <section class="container-mapa">
-
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
 
         <div class="pesquisa">
+
+        <button class="botHamburg" id="btnPesquisar1">
+                ☰ 
+        </button>
 
             <input
                 type="text"
                 id="pesquisaProjeto"
-                placeholder="Pesquisar projeto...">
+                placeholder="Pesquisar projeto..."
+                class="bt">
 
-            <button id="btnPesquisar">
+            <button id="btnPesquisar" class="lupa">
                 🔍
             </button>
 
@@ -84,18 +87,42 @@
 
         </div>
 
-<div id="listaProjetos"></div>
-
-        <div id="listaProjetos"></div>
+        <div id="listaProjetos" class="listaProjetos"></div>
 
     </aside>
 
     <div id="map"></div>
     
     <aside class="painelFiltros">
-        <h2>Filtros</h2>
+
+    <h2>
+        <i class="fa-solid fa-filter"></i>
+        Filtros
+    </h2>
+
+    <div class="grupoFiltro">
+
+        <h3>
+            <i class="fa-solid fa-layer-group"></i>
+            Categorias
+        </h3>
+
         <div id="listaCategorias"></div>
-    </aside>
+
+    </div>
+
+    <div class="grupoFiltro">
+
+        <h3>
+            <i class="fa-solid fa-location-dot"></i>
+            Bairros
+        </h3>
+
+        <div id="listaBairros"></div>
+
+    </div>
+
+</aside>
 
     <aside id="painelEsq" class="ia-sidebar">
 

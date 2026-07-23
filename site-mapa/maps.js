@@ -46,12 +46,28 @@ function aplicarFiltros() {
 
         });
 
+        const bairrosSelecionados=[];
+
+        document
+        .querySelectorAll(".bairro input:checked")
+        .forEach(check=>{
+
+         bairrosSelecionados.push(check.value);
+
+        });
+
     marcadores.forEach(item => {
         
 
         const categoriaProjeto = item.projeto.categoria;
 
-        if (categoriasSelecionadas.includes(categoriaProjeto)) {
+        const categoriaOk =
+        categoriasSelecionadas.includes(item.projeto.categoria);
+
+        const bairroOk =
+        bairrosSelecionados.includes(item.projeto.bairro);
+
+        if(categoriaOk && bairroOk){
             quantidade++;
             item.marcador.addTo(mapa);
             item.card.style.display = "block";
@@ -66,12 +82,16 @@ function aplicarFiltros() {
 }
 
 aplicarFiltros()
+
 if (btnPesquisa) {
     btnPesquisa.addEventListener('click', pesquisarProjeto);
 }
 
 const listaCategorias =
 document.getElementById("listaCategorias");
+
+const listaBairros =
+document.getElementById("listaBairros");
 //Função para criar os icones de cada categoira
 function obterIcone(categoria){
 
@@ -160,6 +180,12 @@ fetch("../m/localidades.json")
     )
 ];
 
+        const bairros = [
+    ...new Set(
+        projetos.map(p => p.bairro)
+    )
+        ];
+
         categorias.forEach(categoria => {
 
     const div = document.createElement("div");
@@ -177,16 +203,37 @@ fetch("../m/localidades.json")
 
     listaCategorias.appendChild(div);
 
-});
+        });
             document
             .querySelectorAll(".categoria input")
             .forEach(check => {
 
             check.addEventListener("change", aplicarFiltros);
 
-});
-        document
-            .querySelectorAll(".categoria input")
+            });
+        
+
+                bairros.forEach(bairro => {
+
+                const div = document.createElement("div");
+
+                div.className = "bairro";
+
+                div.innerHTML = `
+                     <input
+                        type="checkbox"
+                        value="${bairro}"
+                        checked>
+
+                    <label>${bairro}</label>
+                `;
+
+    listaBairros.appendChild(div);
+
+            });
+
+            document
+            .querySelectorAll(".bairro input")
             .forEach(check => {
 
             check.addEventListener("change", aplicarFiltros);
@@ -216,7 +263,7 @@ fetch("../m/localidades.json")
                 </div>
             `);
 
-            // 2. CORRIGIDO: Criando fisicamente a div do card antes de usar
+           // Criando fisicamente a div do card antes de usar
             const card = document.createElement("div");
             card.className = "cardProjeto";
 
@@ -272,7 +319,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const painelMapa = document.getElementById("painelEsq");
   const botaoAbrirPainel = document.getElementById("button");
-  const mapaAba = document.querySelector(".container-mapa")
+  const mapaAba = document.querySelector(".container-mapa");
+  const buttonAbrirHamburger = document.getElementById("btnPesquisar1");
+  const painelHamburger = document.getElementById("sidebar");
+  const listaProjetos =
+document.getElementById("listaProjetos");
 
   if (!botaoAbrir) {
     console.warn("Botão com id 'buttonFilter' não encontrado.");
@@ -283,16 +334,46 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
+  buttonAbrirHamburger.addEventListener("click", function(){
+
+    painelHamburger.classList.toggle("active");
+    listaProjetos.classList.toggle("active");
+    inputPesquisa.classList.toggle("active")
+    setTimeout(()=>{
+
+        mapa.invalidateSize();
+
+    },300);
+
+});
+
+  document.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    pesquisarProjeto()
+  }
+});
+
+
   botaoAbrir.addEventListener("click", function (e) {
     e.preventDefault();
     painel.classList.toggle("active");
     mapaAba.classList.toggle("active");
+    setTimeout(() => {
+
+        mapa.invalidateSize();
+
+    },350);
   });
 
   botaoAbrirPainel.addEventListener("click", function (e) {
     e.preventDefault();
     painelMapa.classList.toggle("active");
     mapaAba.classList.toggle("active");
+    setTimeout(() => {
+
+        mapa.invalidateSize();
+
+    },350);
   });
 
 });
