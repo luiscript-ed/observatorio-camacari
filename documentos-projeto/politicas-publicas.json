@@ -23,9 +23,9 @@
 
       "categoria": [
         "Decreto nº 12.278",
-        "patrimônio cultural",
-        "Juventude",
-        "Assistência social"
+        "Patrimônio Cultural",
+        "Políticas Afrodiaspóricas",
+        "Assistência Social"
      
       ],
       "imagens": "https://www.portalabrantes.com.br/images/noticias/3192/DSC_7906.jpg"
@@ -39,20 +39,22 @@
         "Decreto nº 11.956",
         "Políticas Estudantis",
         "Educação Comunitária",
-        "Assistência social"
+        "Assistência Social"
      
       ],
       "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfxsEZtmtIpSL8NjngevlzL5y5smUBULvTgxr42nJbGY_NB41k63xS10bv&s=10"
     },
     {
-      "id": "cras",
-      "nome": "CRAS - Centro de Refência de Atendimento Social",
-      "descricao": "Organização que desenvolve ações voltadas ao fortalecimento comunitário e atendimento de famílias em situação de vulnerabilidade social.",
-      "descricaoDetalhada": "O Centro de Referência de Assistência Social (CRAS) é a principal porta de entrada da Proteção Social Básica do Sistema Único de Assistência Social (SUAS). Em Camaçari, suas unidades desenvolvem ações voltadas ao atendimento de famílias em situação de vulnerabilidade social, promovendo acolhimento, orientação, acompanhamento familiar e encaminhamento para programas e benefícios sociais.\n\n Além dos atendimentos individuais, o CRAS realiza oficinas, palestras, grupos de convivência e atividades comunitárias que fortalecem os vínculos familiares e estimulam a participação social. \n\nSeu trabalho busca prevenir situações de risco, ampliar o acesso aos direitos sociais e contribuir para a autonomia das famílias. Dessa forma, o CRAS exerce um papel essencial na construção de uma rede de proteção social, promovendo cidadania, inclusão e desenvolvimento comunitário em diferentes bairros do município.",
+      "id": "política-nacional-de-saúde-integral-da-população-negra",
+      "nome": "Política Nacional de Saúde Integral da População Negra",
+      "descricao": "Política Pública instituída pela Portaria nº 992, de 13 de maio de 2009, do Ministério da Saúde, com o objetivo de promover a equidade no Sistema Único de Saúde (SUS) e reduzir as desigualdades raciais que afetam a população negra.",
+      "descricaoDetalhada": "A política está fundamentada nos princípios do SUS, especialmente na universalidade, integralidade e equidade. Enquanto a universalidade garante o direito de todos ao atendimento, a equidade reconhece que grupos historicamente vulnerabilizados necessitam de ações específicas para que possam usufruir desse direito em condições de igualdade. Nesse sentido, a PNSIPN propõe estratégias para combater o racismo institucional, qualificar os profissionais de saúde para o atendimento da população negra e ampliar a produção de informações sobre as desigualdades raciais na saúde.\n\n Entre as principais ações previstas pela política estão a prevenção, o diagnóstico e o tratamento de doenças que apresentam maior incidência ou impacto na população negra, como a doença falciforme, a hipertensão arterial, o diabetes mellitus e algumas condições relacionadas à saúde materna. A política também prioriza a saúde da mulher negra, buscando reduzir a mortalidade materna e garantir um atendimento pré-natal de qualidade, além de promover ações voltadas à saúde mental, considerando os impactos que o racismo e a exclusão social exercem sobre o bem-estar psicológico da população negra.\n\nNo contexto de Camaçari, a implementação da PNSIPN ocorre por meio da rede municipal de saúde, especialmente nas Unidades Básicas de Saúde (UBS), policlínicas e demais equipamentos do SUS. A Secretaria Municipal da Saúde pode desenvolver ações como campanhas educativas sobre doença falciforme, capacitação de profissionais para o enfrentamento do racismo institucional, registro adequado do quesito raça/cor nos sistemas de informação em saúde e atividades de promoção da saúde direcionadas às comunidades negras e quilombolas presentes no município. Essas iniciativas contribuem para identificar desigualdades e formular estratégias mais eficazes de atenção à saúde. /n/nApesar de sua importância, a efetivação da Política Nacional de Saúde Integral da População Negra ainda enfrenta desafios. Entre eles estão a insuficiência de recursos, a necessidade de formação continuada dos profissionais de saúde, a baixa utilização dos dados sobre raça/cor nos sistemas de informação e a persistência do racismo institucional.",
       "categoria": [
-        "assistência social",
-        "cidadania",
-        "desenvolvimento comunitário"
+        "Portaria GM/MS nº 992",
+        "Assistência Social",
+        "Políticas Raciais",
+        "Desenvolvimento Comunitário",
+      
      
       ],
       "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10"
