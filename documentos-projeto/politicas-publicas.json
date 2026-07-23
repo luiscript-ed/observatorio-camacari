@@ -1,5 +1,5 @@
 {
-  "projetos-sociais": [
+  "politicas": [
     {
       "id": "sistema-nacional-de-promoção-da-igualdade-racial",
       "nome": "Sistema Nacional de Promoção da Igualdade Racial",
@@ -8,8 +8,7 @@
       "categoria": [
         "Lei nº 12.288/2010",
         "Políticas Raciais",
-        "Inclusão social",
-        "Assistência social"
+        "Assistência Social"
       ],
       
       "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzr286FQrvMMExqsaenalOz383onnnBHXr7GFgcFxP7w2da1nkx3d0vww&s=10"
@@ -48,82 +47,101 @@
       "id": "política-nacional-de-saúde-integral-da-população-negra",
       "nome": "Política Nacional de Saúde Integral da População Negra",
       "descricao": "Política Pública instituída pela Portaria nº 992, de 13 de maio de 2009, do Ministério da Saúde, com o objetivo de promover a equidade no Sistema Único de Saúde (SUS) e reduzir as desigualdades raciais que afetam a população negra.",
-      "descricaoDetalhada": "A política está fundamentada nos princípios do SUS, especialmente na universalidade, integralidade e equidade. Enquanto a universalidade garante o direito de todos ao atendimento, a equidade reconhece que grupos historicamente vulnerabilizados necessitam de ações específicas para que possam usufruir desse direito em condições de igualdade. Nesse sentido, a PNSIPN propõe estratégias para combater o racismo institucional, qualificar os profissionais de saúde para o atendimento da população negra e ampliar a produção de informações sobre as desigualdades raciais na saúde.\n\n Entre as principais ações previstas pela política estão a prevenção, o diagnóstico e o tratamento de doenças que apresentam maior incidência ou impacto na população negra, como a doença falciforme, a hipertensão arterial, o diabetes mellitus e algumas condições relacionadas à saúde materna. A política também prioriza a saúde da mulher negra, buscando reduzir a mortalidade materna e garantir um atendimento pré-natal de qualidade, além de promover ações voltadas à saúde mental, considerando os impactos que o racismo e a exclusão social exercem sobre o bem-estar psicológico da população negra.\n\nNo contexto de Camaçari, a implementação da PNSIPN ocorre por meio da rede municipal de saúde, especialmente nas Unidades Básicas de Saúde (UBS), policlínicas e demais equipamentos do SUS. A Secretaria Municipal da Saúde pode desenvolver ações como campanhas educativas sobre doença falciforme, capacitação de profissionais para o enfrentamento do racismo institucional, registro adequado do quesito raça/cor nos sistemas de informação em saúde e atividades de promoção da saúde direcionadas às comunidades negras e quilombolas presentes no município. Essas iniciativas contribuem para identificar desigualdades e formular estratégias mais eficazes de atenção à saúde. /n/nApesar de sua importância, a efetivação da Política Nacional de Saúde Integral da População Negra ainda enfrenta desafios. Entre eles estão a insuficiência de recursos, a necessidade de formação continuada dos profissionais de saúde, a baixa utilização dos dados sobre raça/cor nos sistemas de informação e a persistência do racismo institucional.",
+      "descricaoDetalhada": "A política está fundamentada nos princípios do SUS, especialmente na universalidade, integralidade e equidade. Enquanto a universalidade garante o direito de todos ao atendimento, a equidade reconhece que grupos historicamente vulnerabilizados necessitam de ações específicas para que possam usufruir desse direito em condições de igualdade. Nesse sentido, a PNSIPN propõe estratégias para combater o racismo institucional, qualificar os profissionais de saúde para o atendimento da população negra e ampliar a produção de informações sobre as desigualdades raciais na saúde.\n\n Entre as principais ações previstas pela política estão a prevenção, o diagnóstico e o tratamento de doenças que apresentam maior incidência ou impacto na população negra, como a doença falciforme, a hipertensão arterial, o diabetes mellitus e algumas condições relacionadas à saúde materna. A política também prioriza a saúde da mulher negra, buscando reduzir a mortalidade materna e garantir um atendimento pré-natal de qualidade, além de promover ações voltadas à saúde mental, considerando os impactos que o racismo e a exclusão social exercem sobre o bem-estar psicológico da população negra.\n\nNo contexto de Camaçari, a implementação da PNSIPN ocorre por meio da rede municipal de saúde, especialmente nas Unidades Básicas de Saúde (UBS), policlínicas e demais equipamentos do SUS. A Secretaria Municipal da Saúde pode desenvolver ações como campanhas educativas sobre doença falciforme, capacitação de profissionais para o enfrentamento do racismo institucional, registro adequado do quesito raça/cor nos sistemas de informação em saúde e atividades de promoção da saúde direcionadas às comunidades negras e quilombolas presentes no município. Essas iniciativas contribuem para identificar desigualdades e formular estratégias mais eficazes de atenção à saúde. \n\nApesar de sua importância, a efetivação da Política Nacional de Saúde Integral da População Negra ainda enfrenta desafios. Entre eles estão a insuficiência de recursos, a necessidade de formação continuada dos profissionais de saúde, a baixa utilização dos dados sobre raça/cor nos sistemas de informação e a persistência do racismo institucional.",
       "categoria": [
         "Portaria GM/MS nº 992",
         "Assistência Social",
-        "Políticas Raciais",
-        "Desenvolvimento Comunitário",
+        "Políticas Raciais"
+  
       
      
       ],
-      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10"
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYnBaP4623aA9EMsLdX4LCEfTj3vf1gFf0yRVPFgOuiyJEYKhvtQbkrs&s=10"
     },
     {
-      "id": "de-olho-no-bairro",
-      "nome": "Projetos Sociais De Olho no Bairro",
-      "descricao": "Iniciativa comunitária voltada para educação, mobilização popular e fortalecimento das redes sociais dos bairros de Camaçari.",
-      "descricaoDetalhada": "O Projeto Social De Olho no Bairro é uma iniciativa comunitária que busca aproximar moradores, lideranças locais e instituições na construção de soluções para os desafios enfrentados pelos bairros de Camaçari. A proposta incentiva a participação popular, o exercício da cidadania e o fortalecimento das redes de apoio comunitário por meio de campanhas educativas, ações solidárias, eventos sociais e atividades de conscientização.\n\n O projeto também promove debates sobre melhorias urbanas, direitos da população, preservação dos espaços públicos e desenvolvimento local, estimulando o protagonismo dos moradores na transformação de seus territórios.\n\n Ao fortalecer o diálogo entre comunidade e poder público, contribui para uma cidade mais participativa, inclusiva e comprometida com o bem-estar coletivo.",
+      "id": "política-de-educação-para-as-relações-étnico-raciais",
+      "nome": "Política de Educação para as Relações Étnico-Raciais",
+      "descricao": "Política Pública educacional que busca promover a valorização da história, da cultura e das contribuições dos povos africanos e afro-brasileiros para a formação da sociedade brasileira. Seu principal objetivo é combater o racismo, a discriminação racial e os estereótipos presentes no ambiente escolar, contribuindo para a construção de uma educação mais inclusiva, democrática e comprometida com a igualdade racial.",
+      "descricaoDetalhada": "A principal base legal dessa política é a Lei nº 10.639, de 9 de janeiro de 2003, que alterou a Lei de Diretrizes e Bases da Educação Nacional (Lei nº 9.394/1996) para tornar obrigatório o ensino de História e Cultura Afro-Brasileira e Africana em todas as escolas públicas e privadas de ensino fundamental e médio. Posteriormente, a Lei nº 11.645, de 10 de março de 2008, ampliou essa obrigatoriedade ao incluir também a história e a cultura dos povos indígenas. Além dessas leis, a política é regulamentada pelas Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais, instituídas pela Resolução CNE/CP nº 1, de 17 de junho de 2004, que orientam as instituições de ensino sobre como desenvolver essa temática de forma transversal no currículo escolar.\n\nA Política de Educação para as Relações Étnico-Raciais estabelece que o ensino da história da África, da cultura afro-brasileira e da participação da população negra na formação econômica, política, social e cultural do Brasil não deve se restringir a datas comemorativas, como o Dia da Consciência Negra, mas estar presente de forma contínua nas diferentes disciplinas e práticas pedagógicas. Dessa maneira, conteúdos relacionados às civilizações africanas, às lutas da população negra contra a escravidão, aos movimentos negros, às religiões de matriz africana, às manifestações culturais afro-brasileiras e às contribuições científicas, artísticas e intelectuais de pessoas negras passam a integrar o currículo escolar.\n\nNo município de Camaçari, a implementação da Política de Educação para as Relações Étnico-Raciais ocorre por meio da Secretaria Municipal da Educação, que desenvolve ações voltadas à formação de professores, elaboração de projetos pedagógicos, realização de atividades culturais e promoção de eventos relacionados ao Novembro Negro e à valorização da cultura afro-brasileira. Essas iniciativas buscam fortalecer a identidade da população negra do município, promover o respeito às diferenças e contribuir para a construção de uma educação antirracista. \n\nApesar dos avanços legais, a efetivação da política ainda enfrenta desafios, como a insuficiência de formação específica para os profissionais da educação, a escassez de materiais didáticos adequados, a resistência à abordagem do tema em algumas instituições e a necessidade de ampliar o acompanhamento das ações desenvolvidas pelas redes de ensino. Mesmo diante desses obstáculos, a Política de Educação para as Relações Étnico-Raciais constitui um importante instrumento de promoção da igualdade racial, da valorização da diversidade cultural e da construção de uma sociedade mais justa, democrática e comprometida com os direitos humanos. ",
       "categoria": [
-        "educação",
-        "participação comunitária",
-        "cidadania"
+
+        "Lei nº 10.639/2003",
+        "Políticas Raciais",
+        "Políticas Estudantis",
+        "Assistência Social"
       ],
-      "eixos": [
-        "desenvolvimento territorial",
-        "participação popular"
-      ],
-      "imagens": "https://aggressive-emerald-4r2dbvko.edgeone.dev/Captura%20de%20tela%202026-07-08%20174612.png"
+
+      "imagens": "https://undimebahia.com.br/wp-content/uploads/2024/05/fvrvrr.png"
     },
     {
-      "id": "recanto-das-arvores",
-      "nome": "Centro Comunitário de Desenvolvimento Recanto das Árvores",
-      "descricao": "Espaço comunitário que promove atividades educativas, culturais e de integração social para moradores da região.",
-      "descricaoDetalhada": "O Centro Comunitário de Desenvolvimento Recanto das Árvores é uma associação comunitária sem fins lucrativos localizada em Camaçari que atua na promoção da educação, cultura e desenvolvimento social. A instituição desenvolve atividades voltadas para crianças, adolescentes e famílias, oferecendo ações educativas, culturais e de fortalecimento dos vínculos comunitários.\n\n Entre suas finalidades estão a promoção da cidadania, a defesa dos direitos sociais, o incentivo à formação profissional e a realização de projetos voltados ao desenvolvimento local. O centro também atua como espaço de convivência para a comunidade, incentivando a participação coletiva, a inclusão social e a valorização do território onde está inserido.\n\n Sua atuação contribui para ampliar oportunidades e fortalecer a organização comunitária como instrumento de transformação social.",
+      "id": "programa-bahia-quilombola",
+      "nome": "Programa Bahia Quilombola",
+      "descricao": "Política pública do Governo do Estado da Bahia voltada à promoção dos direitos das comunidades quilombolas, por meio de ações integradas nas áreas de regularização fundiária, infraestrutura, educação, saúde, segurança alimentar, inclusão produtiva e valorização da identidade cultural.",
+      "descricaoDetalhada": "Coordenado pela Secretaria de Promoção da Igualdade Racial e dos Povos e Comunidades Tradicionais (SEPROMI), o programa busca garantir melhores condições de vida às comunidades quilombolas, respeitando suas especificidades culturais, territoriais e históricas. A iniciativa está alinhada às diretrizes do Programa Brasil Quilombola e da Agenda Social Quilombola do Governo Federal.\n\nO programa reconhece que as comunidades quilombolas enfrentam desigualdades históricas decorrentes do processo de escravização e da exclusão social, refletidas no acesso limitado à terra, aos serviços públicos e às oportunidades de desenvolvimento. Dessa forma, suas ações priorizam a promoção da igualdade racial e da justiça social, fortalecendo a autonomia das comunidades e assegurando seus direitos constitucionais. Entre os principais objetivos estão a regularização dos territórios quilombolas, a melhoria da infraestrutura das comunidades, o incentivo à produção agrícola familiar, o acesso à água potável, à habitação, à educação e aos serviços de saúde.\n\nNa área da regularização fundiária, o programa atua em parceria com órgãos como o Instituto Nacional de Colonização e Reforma Agrária (Incra) para garantir o reconhecimento e a titulação dos territórios quilombolas. A posse legal da terra é considerada um dos principais instrumentos para preservar a identidade cultural, assegurar a permanência das famílias em seus territórios e possibilitar o acesso a outras políticas públicas. Além da titulação, o programa apoia a elaboração de planos de desenvolvimento territorial e incentiva práticas de gestão sustentável dos recursos naturais.\n\nNo município de Camaçari, o programa beneficia comunidades quilombolas por meio da articulação entre o Governo do Estado, a Prefeitura Municipal e o Governo Federal. As ações incluem apoio à regularização territorial, fortalecimento da agricultura familiar, promoção da educação escolar quilombola, valorização das manifestações culturais e ampliação do acesso às políticas de saúde e assistência social. Essas iniciativas são fundamentais para garantir que as comunidades quilombolas do município tenham seus direitos reconhecidos e participem de forma mais efetiva das políticas de desenvolvimento local.",
       "categoria": [
-        "educação comunitária",
-        "cultura",
-        "desenvolvimento local"
+        "Decreto Federal nº 11.447/2023",
+        "Políticas Afrodiaspóricas",
+        "Assistência Social"
       ],
-      "eixos": [
-        "organização comunitária",
-        "territorialidade"
-      ],
-      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyFmwpX9uZ3vk8WctyVqqzQDt8IMHGoq_0deXfVoGPA&s"
+    
+      "imagens": "https://i0.wp.com/1.bp.blogspot.com/-aa7Cu_pWXg4/UYFGd1YcZAI/AAAAAAAABFU/W3ztDkS1MvQ/s1600/PBQ.jpeg"
     },
     {
-      "id": "nucleo-cultura-etnico-racial",
-      "nome": "Núcleo de Cultura Étnico-Racial",
-      "descricao": "Iniciativa municipal voltada à valorização das culturas afro-brasileiras, indígenas e tradicionais por meio de ações culturais e formativas.",
-      "descricaoDetalhada": "O Núcleo de Cultura Étnico-Racial foi criado pela Secretaria da Cultura de Camaçari com o objetivo de fortalecer políticas públicas voltadas à valorização das culturas afro-brasileiras, indígenas e das comunidades tradicionais do município. Entre suas atribuições estão promover ações afirmativas, incentivar eventos culturais, apoiar pesquisas, desenvolver oficinas, exposições e atividades educativas, além de fortalecer o diálogo com povos de matriz africana e comunidades indígenas. \n\nO núcleo também atua na preservação da memória coletiva, no incentivo à produção cultural e na articulação entre diferentes órgãos públicos para ampliar políticas de igualdade étnico-racial. Sua criação representa um importante avanço institucional para reconhecer e preservar a diversidade cultural de Camaçari, valorizando saberes ancestrais e promovendo o combate às desigualdades históricas. ",
+      "id": "política-de-promoção-da-igualdade-racial-da-bahia",
+      "nome": "Política de Promoção da Igualdade Racial da Bahia",
+      "descricao": "Conjunto de ações, programas e estratégias desenvolvidos pelo Governo do Estado para combater o racismo, reduzir as desigualdades raciais e garantir os direitos da população negra, dos povos indígenas e dos povos e comunidades tradicionais.",
+      "descricaoDetalhada": "A política tem como principal objetivo promover a igualdade de oportunidades entre os diferentes grupos étnico-raciais, enfrentando as consequências do racismo estrutural e institucional presentes na sociedade baiana. Para isso, a SEPROMI atua de forma transversal, articulando ações com outras secretarias estaduais, como Educação, Saúde, Segurança Pública, Cultura, Trabalho e Desenvolvimento Social. Essa integração permite que a promoção da igualdade racial esteja presente em diversas áreas das políticas públicas, ampliando seu alcance e sua efetividade.\n\nA política tem como principal objetivo promover a igualdade de oportunidades entre os diferentes grupos étnico-raciais, enfrentando as consequências do racismo estrutural e institucional presentes na sociedade baiana. Para isso, a SEPROMI atua de forma transversal, articulando ações com outras secretarias estaduais, como Educação, Saúde, Segurança Pública, Cultura, Trabalho e Desenvolvimento Social. Essa integração permite que a promoção da igualdade racial esteja presente em diversas áreas das políticas públicas, ampliando seu alcance e sua efetividade.\n\nOutro eixo importante da política é a interiorização das ações de promoção da igualdade racial. Por meio do Fórum Estadual de Gestores Municipais de Promoção da Igualdade Racial, a SEPROMI oferece apoio técnico às prefeituras para implementar políticas locais de combate ao racismo e valorização da diversidade étnico-racial. O fórum estimula a criação de coordenadorias e conselhos municipais, promove a troca de experiências entre os gestores e fortalece a articulação entre os governos estadual, federal e municipal.\n\nNo município de Camaçari, essa política se materializa por meio da parceria entre a Prefeitura e a SEPROMI em ações de capacitação de gestores, adesão ao Sistema Estadual de Promoção da Igualdade Racial, realização de conferências, fortalecimento das comunidades quilombolas, combate à intolerância religiosa e desenvolvimento de projetos voltados à valorização da cultura afro-brasileira. Essas iniciativas contribuem para ampliar o acesso da população negra às políticas públicas e fortalecer a participação social na construção de uma sociedade mais justa e igualitária.",
       "categoria": [
-        "política pública",
-        "cultura",
-        "educação"
+        "Lei Estadual nº 14.521/2022",
+        "Políticas Raciais",
+        "Assistência Social"
       ],
-      "eixos": [
-        "saberes afro-diaspóricos",
-        "saberes originários",
-        "memória social"
-      ],
-      "imagens": "https://gestalt.com.br/src/uploads/2022/08/whatsapp-image-2022-08-29-at-12-24-51.jpeg"
+    
+      "imagens": "https://neamp.pucsp.br/images/logos/secretaria-de-politicas-de-promocao-da-igualdade-racial-da-presidencia-da-republica.png"
     },
     {
-      "id": "articulacao-heranca-afro",
-      "nome": "Articulação para Preservação da Herança Afro-Brasileira",
-      "descricao": "Parceria entre o município e a Fundação Cultural Palmares para valorização da herança afro-brasileira e apoio às comunidades quilombolas.",
-      "descricaoDetalhada": "A Articulação para Preservação da Herança Afro-Brasileira reúne esforços da Prefeitura de Camaçari, da Fundação Cultural Palmares e de outras instituições públicas para fortalecer políticas voltadas às comunidades quilombolas e aos povos tradicionais do município. \n\nA iniciativa busca preservar a memória, os costumes e as manifestações culturais afro-brasileiras por meio de ações de valorização do patrimônio histórico, incentivo à cultura, apoio institucional e ampliação do acesso a políticas públicas. \n\nEntre seus objetivos estão fortalecer a identidade cultural das comunidades, ampliar sua representatividade e garantir que seus conhecimentos ancestrais sejam reconhecidos como parte fundamental da história de Camaçari. A articulação também incentiva parcerias voltadas ao desenvolvimento cultural, à inclusão social e ao fortalecimento da igualdade racial, contribuindo para a preservação do patrimônio imaterial e para a valorização das tradições afro-brasileiras no município. ",
+      "id": "política-nacional-de-gestão-territorial-e-ambiental-quilombola",
+      "nome": "Política Nacional de Gestão Territorial e Ambiental Quilombola",
+      "descricao": "Política pública federal instituída pelo Decreto nº 11.786, de 20 de novembro de 2023, com o objetivo de fortalecer a gestão territorial e ambiental das comunidades quilombolas em todo o Brasil. A política reconhece que os territórios quilombolas possuem importância histórica, cultural, social e ambiental, sendo fundamentais para a preservação da identidade, dos conhecimentos tradicionais e da biodiversidade.",
+      "descricaoDetalhada": "A política tem como um de seus principais objetivos apoiar as práticas tradicionais de gestão territorial desenvolvidas pelas comunidades quilombolas, conciliando a preservação ambiental com o desenvolvimento econômico e social. Entre suas diretrizes estão a proteção dos recursos naturais, a valorização dos conhecimentos tradicionais, a promoção da segurança alimentar, o fortalecimento da agricultura familiar, o incentivo às atividades produtivas sustentáveis e a preservação do patrimônio cultural das comunidades. Além disso, a PNGTAQ incentiva a participação direta das comunidades quilombolas na elaboração, implementação e monitoramento das políticas que afetam seus territórios.\n\nOutro aspecto importante da política é a integração entre diferentes órgãos do Governo Federal, estados e municípios. A PNGTAQ prevê ações articuladas nas áreas de regularização fundiária, meio ambiente, educação, saúde, assistência técnica, desenvolvimento rural e combate às mudanças climáticas. Para garantir essa articulação, o decreto criou um Comitê Gestor com participação paritária entre representantes do governo e das comunidades quilombolas, fortalecendo a participação social na tomada de decisões e no acompanhamento da política pública.\n\nNo município de Camaçari, onde existem comunidades quilombolas reconhecidas, a PNGTAQ representa uma importante oportunidade para ampliar o acesso a políticas públicas voltadas ao desenvolvimento sustentável dos territórios. A adesão do município à política possibilita a elaboração de planos de gestão territorial, o fortalecimento da agricultura familiar, a proteção dos recursos naturais, a valorização das práticas culturais tradicionais e a ampliação do acesso a programas de infraestrutura, educação e assistência técnica. Dessa forma, a política contribui para promover a inclusão social e o fortalecimento da autonomia das comunidades quilombolas locais.",
       "categoria": [
-        "patrimônio cultural",
-        "quilombolas",
-        "política pública"
+        "Decreto nº 11.786/2023",
+        "Políticas Afrodiaspóricas",
+        "Assistência Social",
+        "Patrimônio Cultural"
       ],
-      "eixos": [
-        "memória",
-        "identidade",
-        "territórios tradicionais"
+      
+      "imagens": "https://www.awure.com.br/wp-content/uploads/2023/11/politica-nacional-quilombolas.png"
+    },
+
+    {
+      "id": "estatuto-da-igualdade-racial-e-de-combate-a-intolerancia-religiosa-do-estado-da-bahia",
+      "nome": "Estatuto da Igualdade Racial e de Combate à Intolerância Religiosa do Estado da Bahia",
+      "descricao": "Instituído pela Lei Estadual nº 13.182, de 6 de junho de 2014, com a finalidade de garantir à população negra a igualdade de oportunidades, a defesa de direitos individuais e coletivos e o enfrentamento das desigualdades provocadas pelo racismo e pela discriminação racial e religiosa. O Estatuto é considerado um marco jurídico importante, pois estabelece diretrizes para que o Estado da Bahia desenvolva políticas públicas específicas voltadas à população negra e aos povos e comunidades tradicionais.",
+      "descricaoDetalhada": "A criação do Estatuto está relacionada ao reconhecimento de que a população negra baiana, apesar de sua grande contribuição histórica, cultural e econômica para a formação do estado, ainda enfrenta desigualdades sociais decorrentes do racismo estrutural. Dessa forma, a política busca promover ações afirmativas e garantir maior acesso da população negra a direitos fundamentais, como educação, saúde, trabalho, cultura, segurança, moradia, desenvolvimento econômico e participação nos espaços de decisão política.\n\nUm dos principais objetivos do Estatuto é estabelecer o princípio da igualdade racial como uma responsabilidade do poder público, determinando que os órgãos estaduais devem incorporar a perspectiva racial na formulação e execução de suas políticas. Isso significa que programas governamentais devem considerar as desigualdades históricas existentes entre grupos raciais e desenvolver estratégias específicas para reduzir essas diferenças. A política também fortalece a ideia de que combater o racismo não é apenas uma ação social, mas uma obrigação institucional do Estado.\n\nO Estatuto possui um capítulo específico voltado ao combate à intolerância religiosa, especialmente contra as religiões de matriz africana, como o candomblé e a umbanda. A legislação reconhece que essas tradições religiosas foram historicamente alvo de perseguição, preconceito e criminalização, e estabelece medidas para garantir o direito à liberdade de crença, proteger os espaços religiosos e combater práticas discriminatórias. Essa dimensão é especialmente importante na Bahia, onde as religiões afro-brasileiras possuem grande relevância cultural e histórica.\n\nNo município de Camaçari, o Estatuto da Igualdade Racial serve como uma referência para a implementação de políticas locais voltadas à população negra. A partir dele, podem ser desenvolvidas ações como programas de valorização da cultura afro-brasileira, apoio às comunidades quilombolas, combate à intolerância religiosa, formação de servidores públicos sobre relações raciais, promoção da educação antirracista e incentivo à participação da população negra nos espaços de decisão.",
+      "categoria": [
+        "Lei Estadual nº 13.182/2014",
+        "Políticas Raciais",
+        "Assistência Social",
+        "Patrimônio Cultural"
       ],
-      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndB7JmSPHOmpJCUgLGjbNwvu7eMzsiP0C2kh3AXjFY27zR-95azDH0-E&s=10"
+      
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZUy-8Pf9ks3Xu_d93B1reUhQJEtmH0OQteyksh2O8w-M-bfkE2Fb3E4&s=10"
+    },
+
+    {
+      "id": "nucleo-de-cultura-etnico-racial-da-secretaria-municipal-da-cultura-de-camacari-secult",
+      "nome": "Núcleo de Cultura Étnico-Racial da Secretaria Municipal da Cultura de Camaçari (SECULT)",
+      "descricao": "O Núcleo foi criado por meio da Portaria SECULT nº 06, de 25 de março de 2025, publicada no Diário Oficial do Município de Camaçari, e está vinculado à Coordenadoria de Políticas Culturais da Secretaria Municipal da Cultura. Sua criação representa uma iniciativa do município para fortalecer a promoção da igualdade racial por meio da cultura, reconhecendo a importância histórica e social das populações negras e tradicionais na formação de Camaçari.",
+      "descricaoDetalhada": "A criação do Núcleo parte do reconhecimento de que a cultura é um instrumento fundamental de preservação da memória, fortalecimento da identidade e combate ao racismo. A política busca criar um espaço institucional dedicado ao desenvolvimento de ações culturais voltadas às comunidades afrodescendentes, indígenas e tradicionais, garantindo que suas manifestações, conhecimentos e patrimônios sejam valorizados dentro das políticas culturais do município. Dessa forma, o Núcleo atua como uma ferramenta de promoção da diversidade cultural e de enfrentamento às desigualdades raciais no campo da cultura.\n\nEntre os objetivos do Núcleo está o fortalecimento do diálogo com comunidades de matriz africana, povos indígenas e grupos tradicionais, garantindo a participação dessas populações na construção das políticas culturais municipais. A iniciativa também busca incentivar ações afirmativas de preservação e difusão das expressões culturais tradicionais, como manifestações religiosas de matriz africana, festas populares, manifestações artísticas, saberes ancestrais, memória comunitária e outras formas de expressão cultural presentes no território de Camaçari.\n\nNo contexto de Camaçari, essa política possui relevância por reconhecer a forte presença da cultura afro-brasileira no município, marcada por comunidades tradicionais, manifestações culturais populares, grupos artísticos e práticas religiosas de matriz africana. O Núcleo possibilita que essas expressões deixem de ser vistas apenas como manifestações culturais isoladas e passem a ser tratadas como elementos fundamentais da identidade e do patrimônio cultural municipal.",
+      "categoria": [
+        "Portaria SECULT nº 06/2025",
+        "Políticas Raciais",
+        "Assistência Social",
+        "Patrimônio Cultural"
+      ],
+      
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsrN1PR4iRUyzH2S5-cR2kJ1ENzr6373TxhVEpAf-4JmT7dIcgXJ4YN9Y&s=10"
     }
   ]
 }
