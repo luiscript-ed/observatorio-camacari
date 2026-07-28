@@ -41,7 +41,7 @@ fecharAba.addEventListener("click", () => {
 });
 
 
-fetch("../documentos-projeto/projetos-sociais.json")
+fetch("../documentos-projeto/politicas-publicas.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Não foi possível carregar o arquivo JSON.");
@@ -49,7 +49,7 @@ fetch("../documentos-projeto/projetos-sociais.json")
         return response.json();
     })
     .then(data => {
-        const projetos = data["projetos-sociais"];
+        const projetos = data["politicas"];
 
         const listaCategorias = new Set();
         projetos.forEach(projeto => {
@@ -90,11 +90,6 @@ fetch("../documentos-projeto/projetos-sociais.json")
                     <p class="descricao">
                         ${projeto.descricao}
                     </p>
-                    <div class="eixos">
-                        ${projeto.eixos.map(eixo =>
-                            `<span class="tag">${eixo}</span>`
-                        ).join("")}
-                    </div>
                 </div>
             `;
 
