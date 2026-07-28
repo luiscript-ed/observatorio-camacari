@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observatório Digital</title>
+
+
+    <link rel="stylesheet" href="dd.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <i class="fa-solid fa-chart-column"></i>
+        <span>Observatório Digital de Camaçari</span>
+    </div>
+
+    <nav>
+
+        <a href="#">Início</a>
+        <a href="#">Indicadores</a>
+        <a href="#">Economia</a>
+        <a href="#">Segurança</a>
+        <a href="#">Habitação</a>
+        <a href="#">Povos de Terreiro</a>
+
+    </nav>
+
+</header>
+
+
+<!-- ====================================================== -->
+<!-- HERO -->
+<!-- ====================================================== -->
+
+<section class="hero">
+
+    <div class="heroTexto">
+
+        <span class="tagObservatorio">
+
+            OBSERVATÓRIO DIGITAL
+
+        </span>
+
+        <h1>
+
+            Dados e Indicadores
+            de Camaçari
+
+        </h1>
+
+        <p>
+
+            O Observatório Digital reúne indicadores sociais,
+            econômicos e culturais do município de Camaçari,
+            organizando informações oficiais em uma plataforma
+            interativa que facilita a compreensão da realidade
+            local e apoia pesquisas, projetos e políticas públicas.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- INDICADORES GERAIS -->
+<!-- ====================================================== -->
+
+<section class="indicadoresTopo">
+
+    <div class="cardNumero destaque">
+
+        <span class="tituloNumero">
+
+            PIB PER CAPITA
+
+        </span>
+
+        <h2>
+
+            R$ 91.283
+
+        </h2>
+
+        <small>Atualizado em 2023</small>
+
+    </div>
+
+    <div class="cardNumero">
+
+        <span class="tituloNumero">
+
+            RENDA MÉDIA
+
+        </span>
+
+        <h2>
+
+            R$ 1.108
+
+        </h2>
+
+        <small>Domiciliar per capita</small>
+
+    </div>
+
+    <div class="cardNumero">
+
+        <span class="tituloNumero">
+
+            GINI
+
+        </span>
+
+        <h2>
+
+            0,52
+
+        </h2>
+
+        <small>Desigualdade Social</small>
+
+    </div>
+
+    <div class="cardNumero">
+
+        <span class="tituloNumero">
+
+            BOLSA FAMÍLIA
+
+        </span>
+
+        <h2>
+
+            41.860
+
+        </h2>
+
+        <small>Famílias atendidas</small>
+
+    </div>
+
+    <div class="cardNumero">
+
+        <span class="tituloNumero">
+
+            EXTREMA POBREZA
+
+        </span>
+
+        <h2>
+
+            8,7%
+
+        </h2>
+
+        <small>CadÚnico</small>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- ECONOMIA -->
+<!-- ====================================================== -->
+
+<section class="secaoDashboard">
+
+    <div class="tituloSecao">
+
+        <div>
+
+            <h2>
+
+                Economia
+
+            </h2>
+
+            <p>
+
+                Indicadores econômicos e financeiros do município.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="gridEconomia">
+
+
+        <!-- CARD 1 -->
+
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Produto Interno Bruto
+
+                </h3>
+
+                <span>
+
+                    2023
+
+                </span>
+
+            </div>
+
+            <canvas id="graficoPIB"></canvas>
+
+            <div class="rodapeCard">
+
+                <p>
+
+                    O PIB per capita de Camaçari é um dos maiores
+                    da Bahia, impulsionado principalmente pelo polo
+                    industrial.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 2 -->
+
+
+        <div class="graficoPequeno">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Distribuição da Renda
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoRenda"></canvas>
+
+        </div>
+
+
+
+        <!-- CARD 3 -->
+
+
+        <div class="graficoPequeno">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Mercado de Trabalho
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoEmprego"></canvas>
+
+        </div>
+
+
+
+        <!-- CARD 4 -->
+
+
+        <div class="cardTexto">
+
+            <h3>
+
+                Panorama Econômico
+
+            </h3>
+
+            <ul>
+
+                <li>
+
+                    PIB per capita de
+                    <strong>R$ 91.283</strong>.
+
+                </li>
+
+                <li>
+
+                    Renda domiciliar média
+                    de <strong>R$ 1.108</strong>.
+
+                </li>
+
+                <li>
+
+                    Índice de Gini de
+                    <strong>0,52</strong>.
+
+                </li>
+
+                <li>
+
+                    Cerca de
+                    <strong>89.181 empregos formais.</strong>
+
+                </li>
+
+                <li>
+
+                    Informalidade de
+                    <strong>41,5%</strong>.
+
+                </li>
+
+                <li>
+
+                    Salário médio
+                    de <strong>3,2 salários mínimos.</strong>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- CARD 5 -->
+
+
+        <div class="graficoHorizontal">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Programas Sociais
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoBolsa"></canvas>
+
+        </div>
+
+
+
+        <!-- CARD 6 -->
+
+
+        <div class="graficoHorizontal">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Receitas Públicas
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoReceita"></canvas>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ====================================================== -->
+<!-- SEGURANÇA -->
+<!-- ====================================================== -->
+
+<section class="secaoDashboard">
+
+    <div class="tituloSecao">
+
+        <div>
+
+            <h2>
+
+                Segurança Pública
+
+            </h2>
+
+            <p>
+
+                Indicadores relacionados à violência e proteção social.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cardsResumo">
+
+        <div class="miniCard">
+
+            <h4>
+
+                Homicídios
+
+            </h4>
+
+            <span>
+
+                132
+
+            </span>
+
+            <small>
+
+                41,2 por 100 mil habitantes
+
+            </small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>
+
+                Violência Doméstica
+
+            </h4>
+
+            <span>
+
+                1.284
+
+            </span>
+
+            <small>
+
+                Casos registrados
+
+            </small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>
+
+                Feminicídios
+
+            </h4>
+
+            <span>
+
+                4
+
+            </span>
+
+            <small>
+
+                Consumados em 2023
+
+            </small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>
+
+                Crimes Patrimoniais
+
+            </h4>
+
+            <span>
+
+                3.912
+
+            </span>
+
+            <small>
+
+                Roubos e furtos
+
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <div class="gridSeguranca">
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Evolução dos Crimes
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoCrimes"></canvas>
+
+        </div>
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Distribuição dos Indicadores
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoViolencia"></canvas>
+
+        </div>
+
+                </div>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- HABITAÇÃO -->
+<!-- ====================================================== -->
+
+<section class="secaoDashboard">
+
+    <div class="tituloSecao">
+
+        <div>
+
+            <h2>
+
+                Habitação e Infraestrutura
+
+            </h2>
+
+            <p>
+
+                Indicadores relacionados à qualidade urbana, saneamento e moradia.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="cardsResumo">
+
+        <div class="miniCard">
+
+            <h4>Déficit Habitacional</h4>
+
+            <span>10.487</span>
+
+            <small>Famílias</small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>Coleta de Lixo</h4>
+
+            <span>98,7%</span>
+
+            <small>Dos domicílios</small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>Abastecimento de Água</h4>
+
+            <span>94,1%</span>
+
+            <small>Cobertura</small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>Esgotamento Sanitário</h4>
+
+            <span>67,47%</span>
+
+            <small>Atendimento</small>
+
+        </div>
+
+    </div>
+
+
+    <div class="gridHabitacao">
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Infraestrutura Urbana
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoInfraestrutura"></canvas>
+
+        </div>
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Urbanização
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoUrbanizacao"></canvas>
+
+        </div>
+
+        <div class="cardTexto">
+
+            <h3>
+
+                Panorama Habitacional
+
+            </h3>
+
+            <ul>
+
+                <li>7.842 domicílios em aglomerados subnormais.</li>
+
+                <li>23.901 moradores nessas áreas.</li>
+
+                <li>45,06% das vias são arborizadas.</li>
+
+                <li>22,4% das vias são urbanizadas.</li>
+
+                <li>Área urbanizada de 102,43 km².</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- POVOS DE TERREIRO -->
+<!-- ====================================================== -->
+
+<section class="secaoDashboard">
+
+    <div class="tituloSecao">
+
+        <div>
+
+            <h2>
+
+                Povos de Terreiro
+
+            </h2>
+
+            <p>
+
+                Indicadores referentes às comunidades tradicionais de matriz africana.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cardsResumo">
+
+        <div class="miniCard">
+
+            <h4>Pessoas Declaradas</h4>
+
+            <span>3.218</span>
+
+            <small>Censo 2022</small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>Terreiros Ativos</h4>
+
+            <span>46</span>
+
+            <small>Mapeados</small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>Patrimônios</h4>
+
+            <span>3</span>
+
+            <small>Reconhecidos</small>
+
+        </div>
+
+        <div class="miniCard">
+
+            <h4>Intolerância Religiosa</h4>
+
+            <span>17</span>
+
+            <small>Registros em 2023</small>
+
+        </div>
+
+    </div>
+
+
+    <div class="gridTerreiro">
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Distribuição dos Indicadores
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoTerreiros"></canvas>
+
+        </div>
+
+        <div class="graficoGrande">
+
+            <div class="cabecalhoCard">
+
+                <h3>
+
+                    Lideranças Religiosas
+
+                </h3>
+
+            </div>
+
+            <canvas id="graficoLiderancas"></canvas>
+
+        </div>
+
+        <div class="cardTexto">
+
+            <h3>
+
+                Patrimônio Cultural
+
+            </h3>
+
+            <p>
+
+                Os povos de terreiro constituem parte essencial da memória,
+                da identidade cultural e das tradições afro-brasileiras
+                presentes em Camaçari. Além de espaços religiosos,
+                representam centros de preservação histórica,
+                resistência cultural e transmissão de saberes.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- PAINEL FINAL -->
+<!-- ====================================================== -->
+
+<section class="painelInformacoes">
+
+    <div class="fonteDados">
+
+        <h2>
+
+            Fontes dos Dados
+
+        </h2>
+
+        <ul>
+
+            <li>IBGE</li>
+
+            <li>Censo Demográfico 2022</li>
+
+            <li>CadÚnico</li>
+
+            <li>Portal da Transparência</li>
+
+            <li>DATASUS</li>
+
+            <li>Ministério do Desenvolvimento Social</li>
+
+            <li>Secretaria de Segurança Pública</li>
+
+            <li>Mapeamento Cultural de Camaçari</li>
+
+        </ul>
+
+    </div>
+
+    <div class="observacoes">
+
+        <h2>
+
+            Sobre os Indicadores
+
+        </h2>
+
+        <p>
+
+            Todos os indicadores apresentados foram obtidos em bases
+            públicas oficiais e organizados para facilitar a compreensão
+            da realidade socioeconômica de Camaçari.
+
+        </p>
+
+        <p>
+
+            Os gráficos possuem finalidade educativa e informativa,
+            podendo ser atualizados conforme a publicação de novos
+            levantamentos pelos órgãos responsáveis.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- RODAPÉ -->
+<!-- ====================================================== -->
+
+<footer>
+
+    <div class="footerContainer">
+
+        <div>
+
+            <h3>
+
+                Observatório Digital de Camaçari
+
+            </h3>
+
+            <p>
+
+                Plataforma desenvolvida para reunir dados,
+                pesquisas e indicadores do município.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>
+
+                Navegação
+
+            </h4>
+
+            <a href="#">Início</a>
+            <a href="#">Economia</a>
+            <a href="#">Segurança</a>
+            <a href="#">Habitação</a>
+            <a href="#">Povos de Terreiro</a>
+
+        </div>
+
+        <div>
+
+            <h4>
+
+                Fontes
+
+            </h4>
+
+            <a href="#">IBGE</a>
+            <a href="#">CadÚnico</a>
+            <a href="#">DATASUS</a>
+            <a href="#">Portal da Transparência</a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 • Observatório Digital de Camaçari
+
+    </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="dados.js"></script>
+
+</body>
+</html>

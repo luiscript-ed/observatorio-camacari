@@ -1,0 +1,1216 @@
+/* ============================
+   RESET
+============================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:"Segoe UI",sans-serif;
+    background:#f4f6fa;
+    color:#2d2d2d;
+}
+
+/* ============================
+   HEADER
+============================ */
+
+header{
+
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 60px;
+
+    background:#ffffff;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    position:sticky;
+    top:0;
+    z-index:999;
+
+}
+
+.logo{
+
+    font-size:27px;
+    font-weight:700;
+
+    color:#f4b400;
+
+}
+
+nav{
+
+    display:flex;
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+    color:#555;
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+nav a:hover{
+
+    color:#ff7e28;
+
+}
+
+/* ============================
+   HERO
+============================ */
+
+.hero{
+
+    padding:70px 10%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#f4b400,#ff7e28);
+
+    color:white;
+
+}
+
+.hero-text{
+
+    max-width:650px;
+
+}
+
+.hero-text h1{
+
+    font-size:55px;
+
+    margin-bottom:25px;
+
+    font-weight:700;
+
+}
+
+.hero-text p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    opacity:.95;
+
+}
+
+.hero-info{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-top:35px;
+
+    flex-wrap:wrap;
+
+}
+
+.info-card{
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:18px;
+
+    padding:22px 30px;
+
+    min-width:170px;
+
+}
+
+.info-card h2{
+
+    font-size:34px;
+
+    margin-bottom:8px;
+
+}
+
+.info-card span{
+
+    font-size:15px;
+
+}
+
+/* ============================
+   DASHBOARD
+============================ */
+
+.dashboard{
+
+    width:92%;
+
+    margin:60px auto;
+
+}
+
+.dashboard h2{
+
+    margin-bottom:30px;
+
+    font-size:34px;
+
+    color:#333;
+
+}
+
+/* ============================
+   GRID PRINCIPAL
+============================ */
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(12,1fr);
+
+    gap:25px;
+
+}
+
+/* ============================
+   CARD PADRÃO
+============================ */
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.30s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.12);
+
+}
+
+.card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:6px;
+
+    background:linear-gradient(
+    90deg,
+    #f4b400,
+    #ff7e28);
+
+}
+
+.card h3{
+
+    margin-bottom:20px;
+
+    font-size:23px;
+
+    color:#333;
+
+}
+
+.card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+/* ============================
+   TAMANHOS
+============================ */
+
+.grande{
+
+    grid-column:span 8;
+
+}
+
+.media{
+
+    grid-column:span 6;
+
+}
+
+.pequena{
+
+    grid-column:span 4;
+
+}
+
+.grafico-card{
+
+    min-height:430px;
+
+}
+
+.info-card-dashboard{
+
+    min-height:240px;
+
+}
+
+/* ============================
+   CANVAS
+============================ */
+
+canvas{
+
+    width:100% !important;
+    height:300px !important;
+
+}
+
+/*==================================================
+    HERO
+==================================================*/
+
+.tagObservatorio{
+
+    display:inline-block;
+
+    background:#ffffff;
+
+    color:#f4b400;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+    letter-spacing:1px;
+
+}
+
+.heroTexto{
+
+    max-width:760px;
+
+}
+
+.heroTexto h1{
+
+    font-size:58px;
+
+    margin-bottom:25px;
+
+    line-height:1.1;
+
+}
+
+.heroTexto p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
+
+/*==================================================
+    KPIs
+==================================================*/
+
+.indicadoresTopo{
+
+    width:92%;
+
+    margin:auto;
+
+    margin-top:-45px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.cardNumero{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.30s;
+
+    border-top:5px solid #f4b400;
+
+}
+
+.cardNumero:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.cardNumero h2{
+
+    font-size:38px;
+
+    color:#ff7e28;
+
+    margin:12px 0;
+
+}
+
+.cardNumero small{
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+.tituloNumero{
+
+    font-size:15px;
+
+    color:#777;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    font-weight:700;
+
+}
+
+.destaque{
+
+    border-top:6px solid #ff7e28;
+
+}
+
+
+/*==================================================
+    DASHBOARD
+==================================================*/
+
+.secaoDashboard{
+
+    width:92%;
+
+    margin:70px auto;
+
+}
+
+.tituloSecao{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+.tituloSecao h2{
+
+    font-size:38px;
+
+    color:#333;
+
+}
+
+.tituloSecao p{
+
+    color:#777;
+
+    margin-top:8px;
+
+}
+
+
+/*==================================================
+    GRID
+==================================================*/
+
+.gridEconomia,
+
+.gridSeguranca,
+
+.gridHabitacao,
+
+.gridTerreiro{
+
+    display:grid;
+
+    grid-template-columns:repeat(12,1fr);
+
+    gap:25px;
+
+}
+
+
+/*==================================================
+    GRÁFICOS
+==================================================*/
+
+.graficoGrande{
+
+    grid-column:span 8;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    min-height:460px;
+
+}
+
+.graficoPequeno{
+
+    grid-column:span 4;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    min-height:460px;
+
+}
+
+.graficoHorizontal{
+
+    grid-column:span 6;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    min-height:350px;
+
+}
+
+.cabecalhoCard{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.cabecalhoCard h3{
+
+    font-size:24px;
+
+    color:#444;
+
+}
+
+.cabecalhoCard span{
+
+    color:#888;
+
+}
+
+
+/*==================================================
+    CARD TEXTO
+==================================================*/
+
+.cardTexto{
+
+    grid-column:span 4;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.cardTexto h3{
+
+    margin-bottom:20px;
+
+    color:#333;
+
+}
+
+.cardTexto p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.cardTexto ul{
+
+    margin-left:22px;
+
+}
+
+.cardTexto li{
+
+    margin-bottom:15px;
+
+    line-height:1.7;
+
+    color:#555;
+
+}
+
+
+/*==================================================
+    MINI CARDS
+==================================================*/
+
+.cardsResumo{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+    gap:20px;
+
+    margin-bottom:35px;
+
+}
+
+.miniCard{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    border-left:6px solid #ff7e28;
+
+    transition:.30s;
+
+}
+
+.miniCard:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.miniCard h4{
+
+    color:#666;
+
+    margin-bottom:12px;
+
+    font-size:16px;
+
+}
+
+.miniCard span{
+
+    display:block;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#ff7e28;
+
+}
+
+.miniCard small{
+
+    color:#888;
+
+}
+
+
+/*==================================================
+    CANVAS
+==================================================*/
+
+canvas{
+
+    margin-top:10px;
+
+    width:100%!important;
+
+    height:300px!important;
+
+}
+
+
+/*==================================================
+    RODAPÉ DOS CARDS
+==================================================*/
+
+.rodapeCard{
+
+    margin-top:20px;
+
+    border-top:1px solid #ececec;
+
+    padding-top:20px;
+
+}
+
+.rodapeCard p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+
+/*==================================================
+    EFEITOS
+==================================================*/
+
+.graficoGrande:hover,
+
+.graficoPequeno:hover,
+
+.graficoHorizontal:hover,
+
+.cardTexto:hover{
+
+    transform:translateY(-8px);
+
+    transition:.30s;
+
+    box-shadow:0 18px 35px rgba(0,0,0,.12);
+
+}
+
+/*==================================================
+    PAINEL FINAL
+==================================================*/
+
+.painelInformacoes{
+
+    width:92%;
+
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:2fr 3fr;
+
+    gap:30px;
+
+}
+
+.fonteDados,
+.observacoes{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.fonteDados h2,
+.observacoes h2{
+
+    margin-bottom:25px;
+
+    color:#333;
+
+}
+
+.fonteDados ul{
+
+    list-style:none;
+
+}
+
+.fonteDados li{
+
+    padding:14px 0;
+
+    border-bottom:1px solid #ececec;
+
+    color:#555;
+
+    transition:.25s;
+
+}
+
+.fonteDados li:hover{
+
+    padding-left:12px;
+
+    color:#ff7e28;
+
+}
+
+.observacoes p{
+
+    margin-bottom:20px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+
+/*==================================================
+    FOOTER
+==================================================*/
+
+footer{
+
+    margin-top:70px;
+
+    background:#1f1f1f;
+
+    color:white;
+
+}
+
+.footerContainer{
+
+    width:92%;
+
+    margin:auto;
+
+    padding:60px 0;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:50px;
+
+}
+
+.footerContainer h3{
+
+    margin-bottom:20px;
+
+    color:#f4b400;
+
+}
+
+.footerContainer h4{
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+
+}
+
+.footerContainer p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.footerContainer a{
+
+    display:block;
+
+    color:#bdbdbd;
+
+    text-decoration:none;
+
+    margin-bottom:12px;
+
+    transition:.25s;
+
+}
+
+.footerContainer a:hover{
+
+    color:#ff7e28;
+
+    padding-left:8px;
+
+}
+
+.copyright{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    padding:20px;
+
+    color:#9e9e9e;
+
+}
+
+
+/*==================================================
+    CORES DAS SEÇÕES
+==================================================*/
+
+.gridEconomia .cabecalhoCard{
+
+    border-left:6px solid #f4b400;
+
+    padding-left:15px;
+
+}
+
+.gridSeguranca .cabecalhoCard{
+
+    border-left:6px solid #e53935;
+
+    padding-left:15px;
+
+}
+
+.gridHabitacao .cabecalhoCard{
+
+    border-left:6px solid #1976d2;
+
+    padding-left:15px;
+
+}
+
+.gridTerreiro .cabecalhoCard{
+
+    border-left:6px solid #8e24aa;
+
+    padding-left:15px;
+
+}
+
+
+/*==================================================
+    ANIMAÇÕES
+==================================================*/
+
+@keyframes subir{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(35px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.hero,
+.cardNumero,
+.graficoGrande,
+.graficoPequeno,
+.graficoHorizontal,
+.cardTexto,
+.miniCard,
+.fonteDados,
+.observacoes{
+
+    animation:subir .7s ease;
+
+}
+
+
+/*==================================================
+    SCROLLBAR
+==================================================*/
+
+::-webkit-scrollbar{
+
+    width:12px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ededed;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#ff7e28;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#f4b400;
+
+}
+
+
+/*==================================================
+    RESPONSIVIDADE
+==================================================*/
+
+@media(max-width:1200px){
+
+.grande,
+.media,
+.pequena,
+.graficoGrande,
+.graficoPequeno,
+.graficoHorizontal,
+.cardTexto{
+
+    grid-column:span 12;
+
+}
+
+.footerContainer{
+
+    grid-template-columns:1fr;
+
+}
+
+.painelInformacoes{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+
+@media(max-width:900px){
+
+header{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:25px;
+
+}
+
+nav{
+
+    margin-top:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero{
+
+    padding:60px 30px;
+
+}
+
+.heroTexto h1{
+
+    font-size:42px;
+
+}
+
+.heroTexto p{
+
+    font-size:18px;
+
+}
+
+.indicadoresTopo{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.cardsResumo{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+
+@media(max-width:700px){
+
+.hero{
+
+    text-align:center;
+
+}
+
+.heroTexto h1{
+
+    font-size:34px;
+
+}
+
+.heroTexto p{
+
+    font-size:16px;
+
+}
+
+.indicadoresTopo{
+
+    grid-template-columns:1fr;
+
+}
+
+.cardsResumo{
+
+    grid-template-columns:1fr;
+
+}
+
+.dashboard-grid{
+
+    display:block;
+
+}
+
+nav{
+
+    gap:15px;
+
+}
+
+nav a{
+
+    font-size:15px;
+
+}
+
+.logo{
+
+    font-size:22px;
+
+}
+
+.cardNumero h2{
+
+    font-size:32px;
+
+}
+
+.miniCard span{
+
+    font-size:34px;
+
+}
+
+.tituloSecao h2{
+
+    font-size:30px;
+
+}
+
+}
+
+
+/*==================================================
+    TRANSIÇÕES
+==================================================*/
+
+*{
+
+    scroll-behavior:smooth;
+
+}
+
+.cardNumero,
+.graficoGrande,
+.graficoPequeno,
+.graficoHorizontal,
+.cardTexto,
+.miniCard,
+.fonteDados,
+.observacoes{
+
+    transition:
+    transform .3s,
+    box-shadow .3s,
+    border .3s;
+
+}
