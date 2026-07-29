@@ -1214,3 +1214,60 @@ nav a{
     border .3s;
 
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Espaço extra apenas para gerar a barra de scroll */
+.scroll-space {
+  height: 300vh;
+  padding: 40px;
+  background: linear-gradient(180deg, #f4f4f9 0%, #e0e0ed 100%);
+  font-family: sans-serif;
+}
+
+/* Container fixado no canto superior direito */
+.animation-container {
+  position: fixed;
+  top: 640px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+}
+
+/* Estilo base dos quadrados */
+.box {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Quadrado estático (fundo) */
+.box-fixed {
+  background-color: #2b2d42;
+  opacity: 0.3;
+}
+
+/* Quadrado que rotaciona (sobreposto) */
+.box-rotating {
+  background-color: #f4b400;;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* Transição suave de transformação */
+  will-change: transform;
+}
+
+/* Faz a imagem ocupar 100% da div e respeitar as bordas */
+.box-rotating img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+  border-radius: 12px; /* Acompanha o arredondamento da div */
+  display: block;
+}

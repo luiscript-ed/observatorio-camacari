@@ -158,7 +158,7 @@ function criarGraficoTrabalho(){
 
                 backgroundColor:[
                     "#FF7E28",
-                    "#0F4C81"
+                    "#FFC107"
                 ]
 
             }]
@@ -188,9 +188,9 @@ function criarGraficoReceita(){
         data:{
 
             labels:[
-                "Previsão",
-                "Arrecadado",
-                "Acumulado"
+                "Previsão",              
+                "Acumulado",
+                "Arrecadado"
             ],
 
             datasets:[{
@@ -199,14 +199,15 @@ function criarGraficoReceita(){
 
                 data:[
                     2343407569,
-                    119213008,
-                    1272498086
+                    1272498086,
+                    119213008
+                    
                 ],
 
                 backgroundColor:[
-                    "#0F4C81",
-                    "#2BB673",
-                    "#FF7E28"
+                    "#0F4C81",                   
+                    "#FF7E28",
+                    "#2BB673"
                 ],
 
                 borderRadius:8
@@ -323,11 +324,11 @@ function criarGraficoIndicadores(){
                 ],
 
                 backgroundColor:[
-                    "#D32F2F",
-                    "#EF5350",
-                    "#FFA726",
-                    "#FFD54F",
-                    "#29B6F6"
+                    "#ff0000ff",
+                    "#ff5100ff",
+                    "#ff7b00e7",
+                    "#eeb600ff",
+                    "#caf629ff"
                 ],
 
                 borderWidth:2,
@@ -553,10 +554,10 @@ function criarGraficoLiderancas(){
                 ],
 
                 backgroundColor:[
-                    "#8E24AA",
-                    "#AB47BC",
-                    "#FFB300",
-                    "#26A69A"
+                    "#d42727ff",
+                    "#0cb659ff",
+                    "#f39923ff",
+                    "#146accff"
                 ],
 
                 borderWidth:2,
@@ -583,3 +584,25 @@ function criarGraficoLiderancas(){
     });
 
 }
+
+const rotatingBox = document.getElementById('rotatingBox');
+
+function handleScroll() {
+  // Altura total rolável da página
+  const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+  
+  // Posição atual do scroll
+  const currentScroll = window.scrollY;
+  
+  // Porcentagem de rolagem (de 0 a 1)
+  const scrollFraction = Math.min(currentScroll / maxScroll, 1);
+  
+  // Calcula o ângulo (de 0 a 105 graus)
+  const rotationAngle = scrollFraction * 5000;
+  
+  // Aplica a rotação no quadrado
+  rotatingBox.style.transform = `rotate(${rotationAngle}deg)`;
+}
+
+// Escuta o evento de scroll da janela
+window.addEventListener('scroll', handleScroll);
