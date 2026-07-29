@@ -35,7 +35,7 @@ header{
 
     height:80px;
 
-    background: #a646ff;
+    background: #ebd4ff;
     
 
     display:flex;
@@ -55,7 +55,7 @@ header{
 
 .logo{
 
-    color:white;
+    color:rgb(151, 24, 255);
 
     font-size:26px;
 
@@ -64,7 +64,7 @@ header{
 }
 
 .logo button{
-      background-color: #28fe73c7;
+      background-color: #4a9965c7;
   color: #ffffff;             
   padding: 12px 24px;        
   font-size: 12px;         
@@ -115,7 +115,7 @@ nav a{
 
     text-decoration:none;
 
-    color:white;
+    color:rgb(27, 27, 27);
 
     font-weight:500;
 
@@ -125,7 +125,7 @@ nav a{
 
 nav button {
     text-decoration: underline;
-    color: rgb(243, 218, 255);
+    color: rgb(102, 50, 126);
     font-weight: 700; 
     transition: .3s;
     
@@ -395,9 +395,9 @@ nav button:hover{
 
 footer{
 
-    background:#a646ff;
+    background:#ebd4ff;
 
-    color:white;
+    color:rgb(153, 0, 255);
 
     text-align:center;
 
