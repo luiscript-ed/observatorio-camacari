@@ -1,10 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    /* Economia */
     criarGraficoPIB();
-    criarGraficoSeguranca();
+    criarGraficoRenda();
+    criarGraficoTrabalho();
+    criarGraficoReceita();
+
+    /* Segurança */
+    criarGraficoCrimes();
+    criarGraficoIndicadores();
+
+    /* Habitação */
     criarGraficoHab();
+    criarGraficoInfra();
+
+    /* Povos Tradicionais */
     criarGraficoTerreiros();
-    criarGraficoEconomia();
+    criarGraficoLiderancas();
 
 });
 
@@ -13,7 +25,7 @@ function criar(canvasID, config){
     const canvas = document.getElementById(canvasID);
 
     if(!canvas){
-        console.warn("Canvas não encontrado:", canvasID);
+        console.warn(`Canvas "${canvasID}" não encontrado.`);
         return;
     }
 
@@ -21,7 +33,9 @@ function criar(canvasID, config){
 
 }
 
-/* ---------------- PIB ---------------- */
+/* ===========================================================
+                        ECONOMIA
+=========================================================== */
 
 function criarGraficoPIB(){
 
@@ -30,34 +44,40 @@ function criarGraficoPIB(){
         type:"bar",
 
         data:{
+
             labels:[
-                "PIB per capita",
-                "Renda Média",
-                "Bolsa Família"
+                "Indústria",
+                "Serviços",
+                "Administração",
+                "Agropecuária"
             ],
 
             datasets:[{
 
-                label:"R$",
+                label:"Participação (%)",
 
                 data:[
-                    91283,
-                    1108,
-                    672
+                    60.5,
+                    34.1,
+                    5.4,
+                    0.1
                 ],
 
                 backgroundColor:[
-                    "#ff7e28",
-                    "#ffc107",
-                    "#2bb673"
+                    "#FF7E28",
+                    "#FFB347",
+                    "#3CB371",
+                    "#00C896"
                 ],
 
                 borderRadius:8
 
             }]
+
         },
 
         options:{
+
             responsive:true,
 
             plugins:{
@@ -65,6 +85,206 @@ function criarGraficoPIB(){
                     display:false
                 }
             }
+
+        }
+
+    });
+
+}
+
+/* ---------------------------- */
+
+function criarGraficoRenda(){
+
+    criar("graficoRenda",{
+
+        type:"pie",
+
+        data:{
+
+            labels:[
+                "Classe D/E",
+                "Classe C",
+                "Classe A/B"
+            ],
+
+            datasets:[{
+
+                data:[
+                    39.2,
+                    42.6,
+                    18.2
+                ],
+
+                backgroundColor:[
+                    "#FF7E28",
+                    "#FFC107",
+                    "#2BB673"
+                ]
+
+            }]
+
+        },
+
+        options:{
+            responsive:true
+        }
+
+    });
+
+}
+
+/* ---------------------------- */
+
+function criarGraficoTrabalho(){
+
+    criar("graficoTrabalho",{
+
+        type:"doughnut",
+
+        data:{
+
+            labels:[
+                "Informal",
+                "Formal"
+            ],
+
+            datasets:[{
+
+                data:[
+                    52.8,
+                    46.2
+                ],
+
+                backgroundColor:[
+                    "#FF7E28",
+                    "#0F4C81"
+                ]
+
+            }]
+
+        },
+
+        options:{
+
+            responsive:true,
+
+            cutout:"60%"
+
+        }
+
+    });
+
+}
+
+/* ---------------------------- */
+
+function criarGraficoReceita(){
+
+    criar("graficoReceita",{
+
+        type:"bar",
+
+        data:{
+
+            labels:[
+                "Previsão",
+                "Arrecadado",
+                "Acumulado"
+            ],
+
+            datasets:[{
+
+                label:"R$",
+
+                data:[
+                    2343407569,
+                    119213008,
+                    1272498086
+                ],
+
+                backgroundColor:[
+                    "#0F4C81",
+                    "#2BB673",
+                    "#FF7E28"
+                ],
+
+                borderRadius:8
+
+            }]
+
+        },
+
+        options:{
+
+            responsive:true,
+
+            plugins:{
+                legend:{
+                    display:false
+                }
+            }
+
+        }
+
+    });
+
+}
+
+/* ===========================================================
+                        SEGURANÇA
+=========================================================== */
+
+function criarGraficoCrimes(){
+
+    criar("graficoCrimes",{
+
+        type:"line",
+
+        data:{
+
+            labels:[
+                "2022",
+                "2024",
+                "2026"
+            ],
+
+            datasets:[{
+
+                label:"Mortes violentas por 100 mil habitantes",
+
+                data:[
+                    82.1,
+                    74.8,
+                    52.2
+                ],
+
+                borderColor:"#E53935",
+
+                backgroundColor:"rgba(229,57,53,.20)",
+
+                fill:true,
+
+                tension:.35,
+
+                pointRadius:5,
+
+                pointBackgroundColor:"#E53935"
+
+            }]
+
+        },
+
+        options:{
+
+            responsive:true,
+
+            plugins:{
+                legend:{
+                    display:true
+                }
+            }
+
         }
 
     });
@@ -72,11 +292,13 @@ function criarGraficoPIB(){
 }
 
 
-/* ---------------- Segurança ---------------- */
+/* ===========================================================
+                        SEGURANÇA
+=========================================================== */
 
-function criarGraficoSeguranca(){
+function criarGraficoIndicadores(){
 
-    criar("graficoSeguranca",{
+    criar("graficoViolencia",{
 
         type:"doughnut",
 
@@ -101,30 +323,45 @@ function criarGraficoSeguranca(){
                 ],
 
                 backgroundColor:[
-                    "#E53935",
+                    "#D32F2F",
                     "#EF5350",
                     "#FFA726",
                     "#FFD54F",
-                    "#4DD0E1"
-                ]
+                    "#29B6F6"
+                ],
+
+                borderWidth:2,
+                borderColor:"#ffffff"
 
             }]
+
         },
 
         options:{
-            responsive:true
+
+            responsive:true,
+
+            cutout:"60%",
+
+            plugins:{
+                legend:{
+                    position:"bottom"
+                }
+            }
+
         }
 
     });
 
 }
 
-
-/* ---------------- Habitação ---------------- */
+/* ===========================================================
+                        HABITAÇÃO
+=========================================================== */
 
 function criarGraficoHab(){
 
-    criar("graficoHabitacao",{
+    criar("graficoInfraestrutura",{
 
         type:"bar",
 
@@ -139,6 +376,8 @@ function criarGraficoHab(){
 
             datasets:[{
 
+                label:"Cobertura (%)",
+
                 data:[
                     94.1,
                     67.47,
@@ -147,21 +386,25 @@ function criarGraficoHab(){
                 ],
 
                 backgroundColor:[
-                    "#42A5F5",
+                    "#2196F3",
                     "#26C6DA",
-                    "#66BB6A",
-                    "#FFA726"
+                    "#43A047",
+                    "#FB8C00"
                 ],
 
                 borderRadius:8
 
             }]
+
         },
 
         options:{
 
+            responsive:true,
+
             scales:{
                 y:{
+                    beginAtZero:true,
                     max:100
                 }
             },
@@ -179,37 +422,46 @@ function criarGraficoHab(){
 }
 
 
-/* ---------------- Terreiros ---------------- */
+function criarGraficoInfra(){
 
-function criarGraficoTerreiros(){
+    criar("graficoUrbanizacao",{
 
-    criar("graficoTerreiros",{
-
-        type:"polarArea",
+        type:"line",
 
         data:{
 
             labels:[
-                "Terreiros",
-                "Patrimônio",
-                "Intolerância"
+                "1991",
+                "2000",
+                "2010",
+                "2022"
             ],
 
             datasets:[{
 
+                label:"Habitantes",
+
                 data:[
-                    46,
-                    3,
-                    17
+                    113690,
+                    161727,
+                    242970,
+                    300372
                 ],
 
-                backgroundColor:[
-                    "#8E24AA",
-                    "#FFB300",
-                    "#EF5350"
-                ]
+                borderColor:"#0F4C81",
+
+                backgroundColor:"rgba(15,76,129,.15)",
+
+                fill:true,
+
+                tension:.35,
+
+                pointRadius:5,
+
+                pointBackgroundColor:"#0F4C81"
 
             }]
+
         },
 
         options:{
@@ -220,46 +472,112 @@ function criarGraficoTerreiros(){
 
 }
 
+/* ===========================================================
+                    POVOS DE TERREIRO
+=========================================================== */
 
-/* ---------------- Economia ---------------- */
+function criarGraficoTerreiros(){
 
-function criarGraficoEconomia(){
+    criar("graficoTerreiros",{
 
-    criar("graficoEconomia",{
-
-        type:"line",
+        type:"bar",
 
         data:{
 
             labels:[
-                "PIB",
-                "Receita",
-                "Despesa"
+                "Povos de Terreiro",
+                "Quilombolas",
+                "Indígenas"
             ],
 
             datasets:[{
 
-                label:"Bilhões",
+                label:"População",
 
                 data:[
-                    9.12,
-                    2.51,
-                    2.40
+                    3371,
+                    1619,
+                    4837
                 ],
 
-                borderColor:"#ff7e28",
+                backgroundColor:[
+                    "#8E24AA",
+                    "#FFB300",
+                    "#26A69A"
+                ],
 
-                backgroundColor:"rgba(255,126,40,.2)",
-
-                fill:true,
-
-                tension:.35
+                borderRadius:8
 
             }]
+
         },
 
         options:{
-            responsive:true
+
+            responsive:true,
+
+            plugins:{
+                legend:{
+                    display:false
+                }
+            }
+
+        }
+
+    });
+
+}
+
+function criarGraficoLiderancas(){
+
+    criar("graficoLiderancas",{
+
+        type:"doughnut",
+
+        data:{
+
+            labels:[
+                "Terreiros",
+                "No mapa",
+                "Templos",
+                "Lideranças"
+            ],
+
+            datasets:[{
+
+                data:[
+                    46,
+                    28,
+                    210,
+                    71
+                ],
+
+                backgroundColor:[
+                    "#8E24AA",
+                    "#AB47BC",
+                    "#FFB300",
+                    "#26A69A"
+                ],
+
+                borderWidth:2,
+                borderColor:"#ffffff"
+
+            }]
+
+        },
+
+        options:{
+
+            responsive:true,
+
+            cutout:"60%",
+
+            plugins:{
+                legend:{
+                    position:"bottom"
+                }
+            }
+
         }
 
     });
