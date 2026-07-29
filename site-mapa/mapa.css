@@ -35,7 +35,7 @@ header{
 
     height:80px;
 
-    background: #f4c430;
+    background: #fff5d6;
     
     display:flex;
 
@@ -54,7 +54,7 @@ header{
 
 .logo{
 
-    color:white;
+    color:rgb(255, 208, 0);
 
     font-size:26px;
 
@@ -114,7 +114,7 @@ nav a{
 
     text-decoration:none;
 
-    color:white;
+    color:rgb(255, 196, 0);
 
     font-weight:500;
 

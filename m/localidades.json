@@ -401,6 +401,87 @@
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnLxWUx8dpwfu_kMELzuEw6t5yq0nT0-gaZlOxYJ2DYuXHo36oIyhSxx5rCm9AeVI4j7RcQvhRUtSGEOB-bpfICWA_159FFwak5EXuU-0Nmnw_OVPZSmTKdEKXPv_EK4xxaZzV3=w408-h306-k-no",
     "latitude": -12.81990306009292, 
     "longitude": -38.27140444684919 
+  },
+  {
+    "id": 41,
+    "nome": "Associação Paulo Tonucci (APITO)",
+    "categoria": "Assistência Social",
+    "bairro": "Alto da Cruz",
+    "descricao": "Organização comunitária que promove proteção social, educação complementar e fortalecimento de vínculos familiares por meio de capacitação profissional, cultura e inclusão social.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvF0jYjNpk0zfpeil5RlG8sOQBCxEt5dWAiizod4nR0A&s",
+    "latitude": -12.70863965132564, 
+    "longitude": -38.32621414679369
+  },
+  {
+    "id": 42,
+    "nome": "Associação Viva a Vida",
+    "categoria": "Cidadania",
+    "bairro": "Vila de Abrantes",
+    "descricao": "Organização que promove o protagonismo juvenil, os direitos humanos, a igualdade de gênero e o combate ao racismo por meio de ações educativas e culturais.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgrBELHQyBtdCbUoFHPEqwh9VDdmIwaal4LI8G_3q0sA&s",
+    "latitude": -12.813011301025215, 
+    "longitude": -38.313822888340326
+  },
+  {
+    "id": 43,
+    "nome": "Associação de Capoeira Engenho (Projeto Ginga)",
+    "categoria": "Cultura Afro-Brasileira",
+    "bairro": "Sede e Orla",
+    "descricao": "Grupo cultural que utiliza a capoeira e as manifestações afro-brasileiras como instrumentos de inclusão social, cidadania e valorização da identidade negra.",
+    "imagem": "https://capoeiraengenho.wordpress.com/wp-content/uploads/2011/12/logo1.png",
+    "latitude": -12.831577042358212, 
+    "longitude": -38.263152994131936
+  },
+  {
+    "id": 44,
+    "nome": "CEZA (Centro Educacional Zilda Aranha)",
+    "categoria": "Educação",
+    "bairro": "Vila de Abrantes",
+    "descricao": "Instituição comunitária que promove educação, assistência social e sustentabilidade para crianças e famílias em situação de vulnerabilidade.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZoztmmMYmgzDf4fRBbBKovqWwILclo-OTFFcsBxhtTMAqB0kAPzr2Ca0&s=10",
+    "latitude": -12.704978940854232, 
+    "longitude": -38.3317285661731
+  },
+  {
+    "id": 45,
+    "nome": "Instituto Comvida",
+    "categoria": "Desenvolvimento Local",
+    "bairro": "Catu de Abrantes",
+    "descricao": "Organização social que fortalece o protagonismo juvenil por meio de projetos de cidadania, igualdade racial, educação ambiental e direitos humanos.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZXo6-oCtS8IuZY_Xxg3Eueld_n4ZGu3GWsvkPZMS2yf7Zxeg_uRYbrSE&s=10",
+    "latitude": -12.8549455736932, 
+    "longitude": -38.281744352479606
+  },
+  {
+    "id": 46,
+    "nome": "Instituto Central de Cidadania",
+    "categoria": "Cidadania",
+    "bairro": "Camaçari",
+    "descricao": "Organização que promove inclusão social por meio da educação, qualificação profissional e fortalecimento da cidadania.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-auIGp_oCwDWHtWFsV3gj9vWL2C6BGoFzf-zlotCYNnQebqVcFoFULsY&s=10",
+    "latitude": -12.966731160323386,
+    "longitude": -38.46128819999563
+  },
+  {
+    "id": 47,
+    "nome": "Fundação Vida",
+    "categoria": "Assistência Social",
+    "bairro": "Lama Preta",
+    "descricao": "Instituição social que promove assistência, acolhimento e fortalecimento comunitário para pessoas em situação de vulnerabilidade.",
+    "imagem": "https://fundacaovida.org.br/logo-horizontal.png",
+    "latitude": -12.697180275514155, 
+    "longitude": -38.333200034385946
+  },
+  {
+    "id": 48,
+    "nome": "Associação Cultural e Beneficente do Caboclo Sultão das Matas",
+    "categoria": "Patrimônio Cultural",
+    "bairro": "Coqueiro de Arembepe",
+    "descricao": "Associação comunitária que preserva manifestações culturais e religiosas tradicionais, fortalecendo a identidade e a participação social.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qCkJTRLlyfRr1zBxr0MLBKK6qr0HGFseyF2wJ2Gz9RzX6IelRIy6Yrk&s=10",
+    "latitude": null,
+    "longitude": null
   }
 ]
+
     
