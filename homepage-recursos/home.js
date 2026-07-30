@@ -6,6 +6,10 @@ pilha.addEventListener("click",()=>{
     pilha.classList.toggle("aberto");
 
 });
+const buttonMapa = document.getElementById("mapa");
+buttonMapa.addEventListener("click", function click(){
+    window.location.href = "https://luiscript-ed.github.io/observatorio-camacari/site-mapa/mapa-interativo.html";
+});
 
 
 

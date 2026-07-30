@@ -17,7 +17,7 @@ header{
     width:100%;
     height:80px;
 
-    background:linear-gradient(90deg,#ff3636,#f4c430 , #a646ff );
+    background:#f4c430;
 
     display:flex;
     justify-content:space-between;
@@ -199,6 +199,28 @@ nav a:hover{
 
 }
 
+.texto a{
+
+    display:block;
+
+    color:#4b3d3d;
+
+    text-decoration:none;
+
+    margin-bottom:12px;
+
+    transition:.25s;
+    font-size:28px;
+}
+
+.texto a:hover{
+
+    color:#ff7e28;
+
+    padding-left:8px;
+
+}
+
 /* Texto 2 */
 
 .texto2{
@@ -373,15 +395,88 @@ transform: scale(1.05);
 
 footer{
 
-    background:#a646ff ;
+    margin-top:70px;
+
+    background:#1f1f1f;
 
     color:white;
 
-    text-align:center;
+}
 
-    padding:25px;
+.footerContainer{
+
+    width:92%;
+
+    margin:auto;
+
+    padding:60px 0;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:50px;
 
 }
+
+.footerContainer h3{
+
+    margin-bottom:20px;
+
+    color:#f4b400;
+
+}
+
+.footerContainer h4{
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+
+}
+
+.footerContainer p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.footerContainer a{
+
+    display:block;
+
+    color:#bdbdbd;
+
+    text-decoration:none;
+
+    margin-bottom:12px;
+
+    transition:.25s;
+
+}
+
+.footerContainer a:hover{
+
+    color:#ff7e28;
+
+    padding-left:8px;
+
+}
+
+.copyright{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    padding:20px;
+
+    color:#9e9e9e;
+
+}
+
 
 /* AQui vai ficar somente a parte da tabela de dados */
 
