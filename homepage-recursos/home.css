@@ -1,0 +1,957 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fa;
+    color:#2b2b2b;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:80px;
+
+    background:#f4c430;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 8%;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+    z-index:1000;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+}
+
+.logo h2 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0; 
+}
+
+
+.logoSesi, .logoPrefs {
+    height: 50px; 
+    width: auto;  
+    object-fit: contain;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    opacity:.75;
+
+}
+
+.hero{
+
+    margin-top:80px;
+
+    height:90vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px;
+
+    background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url("https://www.maisregiao.com.br/images/noticias/84538/a5342e5cfed9f4a2fc8d68b661a0c530.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    color:white;
+
+}
+
+.hero-content{
+
+    max-width:700px;
+
+}
+
+.hero h1{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    background:#f4c430;
+
+    color:#2b2b2b;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.sobre{
+
+    width:85%;
+
+    max-width:1100px;
+
+    margin:100px auto;
+
+    display:flex;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+/* Texto 1, só pra mudar a corzinha */
+
+.texto{
+
+    flex:1;
+
+}
+
+.texto h2{
+
+    font-size:38px;
+
+    color:#a646ff ;
+
+    margin-bottom:25px;
+
+}
+
+.texto p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+.texto a{
+
+    display:block;
+
+    color:#4b3d3d;
+
+    text-decoration:none;
+
+    margin-bottom:12px;
+
+    transition:.25s;
+    font-size:28px;
+}
+
+.texto a:hover{
+
+    color:#ff7e28;
+
+    padding-left:8px;
+
+}
+
+/* Texto 2 */
+
+.texto2{
+
+    flex:1;
+
+}
+
+.texto2 h2{
+
+    font-size:38px;
+
+    color:#ff3636 ;
+
+    margin-bottom:25px;
+
+}
+
+.texto2 p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+/*  Texto 3*/
+
+.texto3{
+
+    flex:1;
+
+}
+
+.texto3 h2{
+
+    font-size:38px;
+
+    color:#1b9239;
+
+    margin-bottom:25px;
+    text-align: center;
+
+}
+
+.texto3 p{
+
+    line-height:1.9;
+
+    color:#555;
+     text-align: center;
+    font-size:18px;
+
+}
+
+
+/*  Texto 4*/
+
+.texto4{
+
+    flex:1;
+
+}
+
+.texto4 h2{
+
+    font-size:38px;
+
+    color:#f4c430 ;
+
+    margin-bottom:25px;
+
+}
+
+.texto4 p{
+
+    line-height:1.9;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+/* Texto 5, só pra mudar a corzinha */
+
+.texto5{
+
+    flex:1;
+
+}
+
+.texto5 h2{
+
+    font-size:38px;
+
+    color:#a646ff;
+
+    margin-bottom:25px;
+    text-align: center;
+
+}
+
+.texto5 p{
+
+    line-height:1.9;
+
+    color:#555;
+    text-align: center;
+    font-size:18px;
+     margin-top: 30px;
+
+}
+
+
+/* Texto 6, só pra mudar a corzinha */
+
+.texto6{
+
+    flex:1;
+
+}
+
+.texto6 h2{
+
+    font-size:38px;
+
+    color:#ff3636;
+
+    margin-bottom:25px;
+    text-align: center;
+
+}
+
+.texto6 p{
+
+    line-height:1.9;
+
+    color:#555;
+    text-align: center;
+    font-size:18px;
+    margin-top: 30px;
+
+}
+
+/* Resto */
+
+.imagem{
+
+    flex:1;
+
+}
+
+.imagem img{
+
+    width:100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    transition:.8s;
+
+}
+
+.imagem img:hover{
+
+transform: scale(1.05);
+}
+
+footer{
+
+    margin-top:70px;
+
+    background:#1f1f1f;
+
+    color:white;
+
+}
+
+.footerContainer{
+
+    width:92%;
+
+    margin:auto;
+
+    padding:60px 0;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:50px;
+
+}
+
+.footerContainer h3{
+
+    margin-bottom:20px;
+
+    color:#f4b400;
+
+}
+
+.footerContainer h4{
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+
+}
+
+.footerContainer p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.footerContainer a{
+
+    display:block;
+
+    color:#bdbdbd;
+
+    text-decoration:none;
+
+    margin-bottom:12px;
+
+    transition:.25s;
+
+}
+
+.footerContainer a:hover{
+
+    color:#ff7e28;
+
+    padding-left:8px;
+
+}
+
+.copyright{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    padding:20px;
+
+    color:#9e9e9e;
+
+}
+
+
+/* AQui vai ficar somente a parte da tabela de dados */
+
+
+
+.tabela-dados {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+
+.tabela-dados thead tr {
+    background-color: #1b9239; 
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+}
+
+.tabela-dados th, 
+.tabela-dados td {
+    padding: 15px 20px;
+}
+
+
+.tabela-dados tbody tr {
+    border-bottom: 1px solid #d6ffe9;
+    transition: background-color 0.2s ease;
+}
+
+
+.tabela-dados tbody tr:hover {
+    background-color: #d2f8e5;
+}
+
+
+.tabela-dados td.destaque-linha {
+    font-weight: bold;
+    color: #2c3e50;
+    background-color: #eafae8;
+}
+
+
+@media (max-width: 768px) {
+    .tabela-dados {
+        display: block;
+        overflow-x: auto; 
+    }
+}
+
+.galeria{
+
+    width:80%;
+
+    max-width:1000px;
+
+    margin:0 auto 60px;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+    cursor: pointer; 
+
+}
+
+.galeria1{
+
+    width:80%;
+
+    max-width:1000px;
+
+    margin:0 auto 60px;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+    cursor: pointer; 
+
+}
+
+/* ==========================
+   CARD DO PROJETO
+========================== */
+
+
+.card-img{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.10);
+
+}
+
+
+.card-img:hover{
+
+    transform:translateY(-20px);
+
+    box-shadow:
+    0 15px 40px rgba(164, 73, 250, 0.35);
+    transform: scale(1.05);
+
+}
+
+
+
+/* ==========================
+   IMAGEM
+========================== */
+
+
+.moldura{
+
+    height:280px;
+
+    overflow:hidden;
+
+}
+
+
+.art-image{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+
+.card-img:hover .art-image{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* ==========================
+   INFORMAÇÕES
+========================== */
+
+
+.informacoes{
+
+    padding:25px;
+
+}
+
+
+.categoria{
+
+    display:inline-block;
+
+    background:linear-gradient(90deg,#ff3636, #a646ff );
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.art-name{
+
+    font-size:22px;
+
+    color:#a646ff;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.descricao{
+
+    color:#555;
+
+    line-height:1.7;
+
+    text-align:justify;
+
+}
+
+
+
+/* ==========================
+   TAGS DOS EIXOS
+========================== */
+
+
+.eixos{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+    margin-top:20px;
+
+}
+
+
+
+.tag{
+
+    background:#34c76c;
+
+    color:white;
+
+    padding:7px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    transition:.3s;
+
+}
+
+
+
+.tag:hover{
+
+    background:#f4c430;
+
+    color:#222;
+
+}
+
+.secaoGaleria{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding:80px 10%;
+
+}
+
+.pilhaFotos{
+
+    position:relative;
+
+    width:520px;
+
+    height:340px;
+
+    cursor:pointer;
+
+    transition:.6s;
+    margin-top: 100px;
+
+}
+.textoGaleria h2{
+ font-size:38px;
+
+    color:#f4c430 ;
+
+    margin-bottom:25px;
+}
+
+.pilhaFotos img{
+
+    position:absolute;
+
+    width:220px;
+
+    height:150px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+    transition:.8s;
+
+}
+
+.pilhaFotos img:nth-child(1){
+
+    transform:rotate(-10deg);
+
+}
+
+.pilhaFotos img:nth-child(2){
+
+    transform:translate(12px,-8px) rotate(-6deg);
+
+}
+
+.pilhaFotos img:nth-child(3){
+
+    transform:translate(24px,-15px) rotate(-2deg);
+
+}
+
+.pilhaFotos img:nth-child(4){
+
+    transform:translate(36px,-22px) rotate(3deg);
+
+}
+
+.pilhaFotos img:nth-child(5){
+
+    transform:translate(48px,-28px) rotate(6deg);
+
+}
+
+.pilhaFotos img:nth-child(6){
+
+    transform:translate(60px,-34px) rotate(-4deg);
+
+}
+
+.pilhaFotos img:nth-child(7){
+
+    transform:translate(72px,-40px) rotate(4deg);
+
+}
+
+.pilhaFotos img:nth-child(8){
+
+    transform:translate(84px,-46px) rotate(-3deg);
+
+}
+
+.pilhaFotos img:nth-child(9){
+
+    transform:translate(96px,-52px);
+
+}
+
+.pilhaFotos.aberto{
+
+    width:700px;
+
+    height:520px;
+    margin-top: 60px;
+}
+
+
+.pilhaFotos.aberto img:nth-child(1){
+
+    transform:translate(0,0);
+
+}
+
+.pilhaFotos.aberto img:nth-child(2){
+
+    transform:translate(230px,0);
+
+}
+
+.pilhaFotos.aberto img:nth-child(3){
+
+    transform:translate(460px,0);
+
+}
+
+.pilhaFotos.aberto img:nth-child(4){
+
+    transform:translate(0,170px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(5){
+
+    transform:translate(230px,170px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(6){
+
+    transform:translate(460px,170px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(7){
+
+    transform:translate(0,340px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(8){
+
+    transform:translate(230px,340px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(9){
+
+    transform:translate(460px,340px);
+
+}
+
+.pilhaFotos.aberto img:nth-child(1):hover {
+    transform: translate(0,0) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(2):hover {
+    transform: translate(230px,0) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(3):hover {
+    transform: translate(460px,0) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(4):hover {
+    transform: translate(0,170px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(5):hover {
+    transform: translate(230px,170px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(6):hover {
+    transform: translate(460px,170px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(7):hover {
+    transform: translate(0,340px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(8):hover {
+    transform: translate(230px,340px) scale(1.5);
+    z-index: 10;
+}
+
+.pilhaFotos.aberto img:nth-child(9):hover {
+    transform: translate(460px,340px) scale(1.5);
+    z-index: 10;
+}

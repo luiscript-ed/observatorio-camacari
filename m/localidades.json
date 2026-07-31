@@ -53,7 +53,7 @@
     "id": 6,
     "nome": "CRAS",
     "categoria": "Assistência Social",
-    "bairro": "Diversos Bairros",
+    "bairro": "Centro",
     "descricao": "Centro que desenvolve ações de fortalecimento comunitário e proteção social básica.",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10",
     "latitude": -12.704073507297908, 
@@ -113,7 +113,7 @@
     "id": 12,
     "nome": "CRAS",
     "categoria": "Assistência Social",
-    "bairro": "Diversos Bairros",
+    "bairro": "Buri Satuba",
     "descricao": "Centro que desenvolve ações de fortalecimento comunitário e proteção social básica.",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10",
     "latitude": -12.71317920701846, 
@@ -126,8 +126,8 @@
     "bairro": "Vila de Abrantes",
     "descricao": "Comunidade tradicional remanescente reconhecida pela Fundação Palmares. Polo de turismo de vivência, com trilhas griô, capoeira, samba de roda e produção artesanal de beijus coloridos na histórica Casa de Farinha.",
     "imagem": "https://www.ba.gov.br/sdr/sites/site-sdr/files/migracao_2024/arquivos/files/2020-09/WhatsApp%20Image%202020-09-18%20at%2016.13.42%20%282%29.jpeg",
-    "latitude": -12.8222,
-    "longitude": -38.2556
+    "latitude": -12.812771265674971, 
+    "longitude": -38.3146100627443
   },
   {
   "id": 14,
@@ -153,7 +153,7 @@
  "id": 16,
   "nome": "Terreiro de Sidiramutá",
   "categoria": "Patrimônio Cultural",
-  "bairro": "Centro",
+  "bairro": "Parque Verde II",
   "descricao": "O Terreiro Sidiramutá é um templo de Candomblé da nação Angola (Nzo Muxikongo) fundado em 2010 e liderado pelo Tata Mutakalombo. O espaço é dedicado à preservação da cultura de matriz africana, realizando cultos aos Inkices, festas públicas e obrigações tradicionais.",
   "imagem": "https://www.terreirosdobrasil.com.br/wp-content/uploads/classified-listing/2025/04/841af8b5-52f6-42e8-937b-3ea27e46ce5f.png",
   "latitude": -12.731805155072712, 
@@ -235,7 +235,7 @@
     "id": 24,
     "nome": "Ilê Axé Odé Tobi Lailá",
     "categoria": "Patrimônio Cultural",
-    "bairro": "Lama preta",
+    "bairro": "Lama Preta",
     "descricao": "Orientações Espirituais: Realização de consultas tradicionais através do Jogo de Búzios e Tarot.Trabalhos Religiosos: Desenvolvimento de cabalas e rituais voltados ao bem-estar e direcionamento dos frequentadores.",
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8itf7q2Ky6PR4QsOvRAkTpqgsGxa5EoiLVo9lUum-b2AP5xQLCVknp4sgawcGAOAmQtSeoUq5aHe94B32pz_woy4D9XBxHFTMg_KN2M7T0lJQq3OP019UFccHRo7XI3aopMh8lA=w408-h725-k-no",
     "latitude": -12.69806396091628, 
@@ -246,7 +246,7 @@
     "id": 25,
     "nome": "Terreiro Do caçador",
     "categoria": "Patrimônio Cultural",
-    "bairro": "Parque Verde II",
+    "bairro": "Gleba E",
     "descricao": "O espaço realiza consultas por meio do jogo de búzios, ebós, limpezas espirituais e trabalhos para abertura de caminhos e amorosos.",
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4EDZsf2Gai4--U2Kafwjk4tsZ7WIBSwrG3fSCZYqWFMITLdvWbUp1-B1djW0n_b84ipS1YV9ymDBV9AyXTX6E_ZA5KGDjHOPpBCoQbWSf_9hvrSFipv1mGd8vtZnTOllgBUcc=w408-h544-k-no",
     "latitude": -12.733602670651496, 
@@ -329,8 +329,8 @@
     "bairro": "Gleba C",
     "descricao": "É uma organização comunitária sem fins lucrativos que funciona como um polo de desenvolvimento social, cultura e cidadania no bairro Gleba C.O projeto tem como foco principal a inclusão social e a melhoria da qualidade de vida dos moradores da região através de atividades integradas.",
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAq3ow0K__kk1qVXF4bUmZ9kTZ539g5g1LJHMeVtn5VCxYCvr_PbNf8RmNlkZln4Xr7E8k8HopHhAytysCqjrOVOuRVKyrD6X1va1Gybb1kmyZZnsp6vhDRPtc0TJkry9dR22qrw=s516-k-no",
-    "latitude": -12.720932452952887, 
-    "longitude": -38.33705946047368
+    "latitude": -12.712845254169997, 
+    "longitude": -38.32815617638933 
   },
   {
     "id": 34,
@@ -349,14 +349,14 @@
     "bairro": "Centro",
     "descricao": "O circuito expositivo do museu está dividido em quatro grandes fases cronológicas da região:Povos Originários: Artefatos e reproduções inspiradas nos primeiros habitantes indígenas (como réplicas de urnas funerárias locais).Vila de Abrantes: O papel central da antiga vila jesuíta durante o Brasil Colônia.A Linha Férrea: A transformação econômica e urbana impulsionada pelos trilhos do trem no século XIX.Camaçari Contemporânea: A industrialização moderna, o Polo Petroquímico e a riqueza natural do litoral.",
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmxSKyxPfG_pN84I0f8o9l9dE8KYInk_q_Dj675QYf4bTG95V6HHUGxSMcbPWWPg4_ZjsjQoeDJqSizhZ9FMShoOXplb6yvLlkaaUaJCD9Ip_LMRB4TKUUQW0AOJz_KIxZGNloi=w203-h114-k-no",
-    "latitude": -12.720932452952887, 
-    "longitude": -38.33705946047368
+    "latitude": -12.701281454957892,
+    "longitude": -38.32415585805174 
   },
   {
     "id": 36,
     "nome": "CT Essência da Capoeira",
     "categoria": "Educação e Cultura",
-    "bairro": "Phoc II",
+    "bairro": "Bairro dos 46",
     "descricao": "O CT Essência da Capoeira (ou Grupo Essência da Capoeira) é um projeto dedicado à preservação e ao ensino da capoeira, fundado em 2011 pelo Mestre Jaime. É focado em promover a inclusão social, a cidadania e a cultura afro-brasileira, oferecendo aulas para adultos e crianças.",
     "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmNiOu6D9VtKqOX0DHnKfzb1jLmeytJPjqr10FzqGjFYKbqC5FUjJBsbtvHLbvYkInU3UmuThTUKMwDfvCvB2_tTW67upUNdobDdYoP0AMfc-lZiUxEZ46a-TfSvrQBlDG96CqJd_c3qepG=s516-k-no",
     "latitude": -12.70892478815722, 
@@ -406,7 +406,7 @@
     "id": 41,
     "nome": "Associação Paulo Tonucci (APITO)",
     "categoria": "Assistência Social",
-    "bairro": "Alto da Cruz",
+    "bairro": "Bairro dos 46",
     "descricao": "Organização comunitária que promove proteção social, educação complementar e fortalecimento de vínculos familiares por meio de capacitação profissional, cultura e inclusão social.",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvF0jYjNpk0zfpeil5RlG8sOQBCxEt5dWAiizod4nR0A&s",
     "latitude": -12.70863965132564, 
@@ -426,7 +426,7 @@
     "id": 43,
     "nome": "Associação de Capoeira Engenho (Projeto Ginga)",
     "categoria": "Cultura Afro-Brasileira",
-    "bairro": "Sede e Orla",
+    "bairro": "Abrantes",
     "descricao": "Grupo cultural que utiliza a capoeira e as manifestações afro-brasileiras como instrumentos de inclusão social, cidadania e valorização da identidade negra.",
     "imagem": "https://capoeiraengenho.wordpress.com/wp-content/uploads/2011/12/logo1.png",
     "latitude": -12.831577042358212, 
@@ -454,33 +454,13 @@
   },
   {
     "id": 46,
-    "nome": "Instituto Central de Cidadania",
-    "categoria": "Cidadania",
-    "bairro": "Camaçari",
-    "descricao": "Organização que promove inclusão social por meio da educação, qualificação profissional e fortalecimento da cidadania.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-auIGp_oCwDWHtWFsV3gj9vWL2C6BGoFzf-zlotCYNnQebqVcFoFULsY&s=10",
-    "latitude": -12.966731160323386,
-    "longitude": -38.46128819999563
-  },
-  {
-    "id": 47,
     "nome": "Fundação Vida",
     "categoria": "Assistência Social",
-    "bairro": "Lama Preta",
+    "bairro": "Camaçari de dentro",
     "descricao": "Instituição social que promove assistência, acolhimento e fortalecimento comunitário para pessoas em situação de vulnerabilidade.",
     "imagem": "https://fundacaovida.org.br/logo-horizontal.png",
     "latitude": -12.697180275514155, 
     "longitude": -38.333200034385946
-  },
-  {
-    "id": 48,
-    "nome": "Associação Cultural e Beneficente do Caboclo Sultão das Matas",
-    "categoria": "Patrimônio Cultural",
-    "bairro": "Coqueiro de Arembepe",
-    "descricao": "Associação comunitária que preserva manifestações culturais e religiosas tradicionais, fortalecendo a identidade e a participação social.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qCkJTRLlyfRr1zBxr0MLBKK6qr0HGFseyF2wJ2Gz9RzX6IelRIy6Yrk&s=10",
-    "latitude": null,
-    "longitude": null
   }
 ]
 
