@@ -598,7 +598,7 @@ function handleScroll() {
   const scrollFraction = Math.min(currentScroll / maxScroll, 1);
   
   // Calcula o ângulo (de 0 a 105 graus)
-  const rotationAngle = scrollFraction * 5000;
+  const rotationAngle = scrollFraction * 3500;
   
   // Aplica a rotação no quadrado
   rotatingBox.style.transform = `rotate(${rotationAngle}deg)`;
