@@ -10,17 +10,12 @@ const fecharAba = document.getElementById("fecharEsq");
 const painelEsq = document.getElementById("painelEsq");
 
 const painelFilter = document.getElementById("painelFilter");
-const fecharFilter = document.getElementById("fecharFilter");
 const buttonFilter = document.getElementById("buttonFilter");
-const filterCategory = document.getElementById("filterCategory");
+const listaCategorias = document.getElementById("listaCategorias");
 
-// Evento pra fechar/abrir a barra de filtro
-fecharFilter.addEventListener("click", () => {
-    painelFilter.classList.remove("active");
-});
 
 buttonFilter.addEventListener("click", () => {
-    painelFilter.classList.add("active");
+    painelFilter.classList.toggle("active");
     painelEsq.classList.remove("active");
     painelIA.classList.remove("active");
 });
@@ -31,7 +26,7 @@ fecharIA.addEventListener("click", () => {
 });
 
 buttonAba.addEventListener("click", () => {
-    painelEsq.classList.add("active");
+    painelEsq.classList.toggle("active");
     painelIA.classList.remove("active");
     painelFilter.classList.remove("active");
 });
@@ -40,8 +35,51 @@ fecharAba.addEventListener("click", () => {
     painelEsq.classList.remove("active");
 });
 
+function aplicarFiltros() {
 
-fetch("../documentos-projeto/projetos-sociais.json")
+    const categoriasSelecionadas = [];
+
+    document
+        .querySelectorAll(".categoria input:checked")
+        .forEach(check => {
+            categoriasSelecionadas.push(check.value);
+        });
+
+    document.querySelectorAll(".art-card").forEach(card => {
+
+        const categoria = card.dataset.categoria;
+
+        const categoriaOk = categoriasSelecionadas.includes(categoria);
+        const bairroOk = true
+
+        if (categoriaOk && bairroOk) {
+            card.classList.remove("hidden");
+        } else {
+            card.classList.add("hidden");
+        }
+
+    });
+
+}
+
+function obterCapaYoutube(url) {
+    if (!url) return "";
+
+    const regExp = /(?:youtube\.com\/(?:.*[?&]v=|embed\/|v\/)|youtu\.be\/)([^"&?\/\s]{11})/;
+    const match = url.match(regExp);
+
+    if (match && match[1]) {
+        const idVideo = match[1];
+        console.log(url);
+        console.log(match);
+        console.log(idVideo);
+        return `https://img.youtube.com/vi/${idVideo}/hqdefault.jpg`;
+    }
+
+    return "";
+}
+
+fetch("../documentos-entrevista/entrevistas.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Não foi possível carregar o arquivo JSON.");
@@ -49,35 +87,63 @@ fetch("../documentos-projeto/projetos-sociais.json")
         return response.json();
     })
     .then(data => {
-        const projetos = data["projetos-sociais"];
+        const projetos = data["entrevistas"];
 
-        const listaCategorias = new Set();
-        projetos.forEach(projeto => {
-            projeto.categoria.forEach(cat => listaCategorias.add(cat));
-        });
+        
+const categorias = [
+    ...new Set(
+        projetos.flatMap(p => p.categoria)
+    )
+];
 
-        listaCategorias.forEach(cat => {
-            const option = document.createElement("option");
-            option.value = cat.toLowerCase();
-            option.textContent = cat;
-            filterCategory.appendChild(option);
-        });
+    categorias.forEach(categoria => {
 
-    
+    const div = document.createElement("div");
+
+    div.className = "categoria";
+
+    div.innerHTML = `
+        <input
+            type="checkbox"
+            value="${categoria}"
+            checked>
+
+        <label>${categoria}</label>
+    `;
+
+    listaCategorias.appendChild(div);
+
+});
+
+document
+.querySelectorAll(".categoria input")
+.forEach(check=>{
+
+    check.addEventListener("change", aplicarFiltros);
+
+});
+
+document
+.querySelectorAll(".bairro input")
+.forEach(check=>{
+
+    check.addEventListener("change", aplicarFiltros);
+
+});
+
+
         projetos.forEach(projeto => {
             const card = document.createElement("article");
             card.classList.add("card-img", "art-card");
-
+            card.dataset.categoria = projeto.categoria[0];
+            const urlCapa = obterCapaYoutube(projeto.imagens);
             
             const categoriasStr = projeto.categoria.map(c => c.toLowerCase()).join(" ");
             card.setAttribute("data-categorias", categoriasStr);
 
             card.innerHTML = `
                 <div class="moldura">
-                    <img
-                        src="${projeto.imagens || "https://via.placeholder.com/500x350?text=Sem+Imagem"}"
-                        alt="${projeto.nome}"
-                        class="art-image">
+                    <img src="${urlCapa}" alt="${projeto.nome}" class="art-image">
                 </div>
 
                 <div class="informacoes">
@@ -90,11 +156,6 @@ fetch("../documentos-projeto/projetos-sociais.json")
                     <p class="descricao">
                         ${projeto.descricao}
                     </p>
-                    <div class="eixos">
-                        ${projeto.eixos.map(eixo =>
-                            `<span class="tag">${eixo}</span>`
-                        ).join("")}
-                    </div>
                 </div>
             `;
 
@@ -108,26 +169,13 @@ fetch("../documentos-projeto/projetos-sociais.json")
                 painelIA.classList.add("active");
                 painelEsq.classList.remove("active");
                 painelFilter.classList.remove("active");
+                
             });
 
             galeria.appendChild(card);
         });
 
-        filterCategory.addEventListener("change", () => {
-            const filtroSelecionado = filterCategory.value;
-            const cards = document.querySelectorAll(".art-card");
-
-            cards.forEach(card => {
-                const categoriasDoCard = card.getAttribute("data-categorias");
-
-                
-                if (filtroSelecionado === "todos" || categoriasDoCard.includes(filtroSelecionado)) {
-                    card.classList.remove("hidden"); 
-                } else {
-                    card.classList.add("hidden");
-                }
-            });
-        });
+        aplicarFiltros();
 
     })
     .catch(error => {

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observatório Digital</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="mapa.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+ <button id="buttonFilter">
+             <img src="https://icones.pro/wp-content/uploads/2021/05/icone-de-filtre-jaune.png" alt="Filtro">
+        </button>
+</div>
+
+    <nav>
+        <button id="button">Qual a importância do mapa interativo?</button>
+
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-politicas/politicas.html">Politicas Publicas</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site/projetos.html">Projetos</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-mapa/mapa-interativo.html">Mapa</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-entrevista/page_entrevistas.html">Entrevistas</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/">Inicio</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-dados/dados.html">Infográficos</a>
+
+    </nav>
+
+
+</header>
+
+<section class="hero">
+
+    <div class="heroTexto">
+
+        <span class="tagObservatorio">
+
+            OBSERVATÓRIO DIGITAL
+
+        </span>
+
+        <h1>
+
+            Mapa interativo dos projetos e localidades de camaçari
+
+        </h1>
+
+        <p>
+
+            O mapa interativo é uma das principais ferramentas do Observatório Digital de Práticas 
+            Transformadoras de Camaçari, pois permite visualizar, de forma simples e acessível,
+             a localização de projetos sociais, espaços culturais, comunidades tradicionais
+              e outros pontos importantes do município. Mais do que indicar locais geográficos,
+               o mapa organiza informações que ajudam a compreender como diferentes iniciativas
+                contribuem para o desenvolvimento social, cultural e comunitário de Camaçari.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- O painel que fala sobre o mapa a seguir -->
+
+
+ <!-- Aqui está o mapa Interativo-->
+ <!-- Primeiramente a parte de Busca-->
+ <section class="container-mapa">
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="pesquisa">
+
+        <button class="botHamburg" id="btnPesquisar1">
+                ☰ 
+        </button>
+
+            <input
+                type="text"
+                id="pesquisaProjeto"
+                placeholder="Pesquisar projeto..."
+                class="bt">
+
+            <button id="btnPesquisar" class="lupa">
+                🔍
+            </button>
+
+        </div>
+
+        <div class="contadorProjetos">
+
+            <h3>Projetos encontrados</h3>
+
+            <span id="contadorResultados">0 resultados</span>
+
+        </div>
+
+        <div id="listaProjetos" class="listaProjetos"></div>
+
+        </aside>
+
+    <div id="map">       
+        </div>
+    
+    <aside class="painelFiltros">
+
+    <h2>
+        <i class="fa-solid fa-filter"></i>
+        Filtros
+    </h2>
+
+    <div class="grupoFiltro">
+
+        <h3>
+            <i class="fa-solid fa-layer-group"></i>
+            Categorias
+        </h3>
+
+        <div id="listaCategorias"></div>
+
+    </div>
+
+        </aside>
+
+    <aside id="painelEsq" class="ia-sidebar">
+
+        <div class="ia-header">
+
+            <h2>❔Saiba Mais❔</h2>
+        </div>
+            
+        <p><strong>A importância do mapa interativo para o Observatório Digital</strong></p>
+
+<p>O mapa interativo é uma das principais ferramentas do Observatório Digital de Práticas Transformadoras de Camaçari, pois permite visualizar, de forma simples e acessível, a localização de projetos sociais, espaços culturais, comunidades tradicionais e outros pontos importantes do município. Mais do que indicar locais geográficos, o mapa organiza informações que ajudam a compreender como diferentes iniciativas contribuem para o desenvolvimento social, cultural e comunitário de Camaçari.</p>
+
+<p>Uma das características mais importantes da plataforma é seu caráter colaborativo. Além dos locais pesquisados pela equipe do projeto, os próprios moradores poderão sugerir novos pontos e iniciativas que promovam impactos positivos em seus bairros. Essa participação fortalece o protagonismo da comunidade, amplia a diversidade de informações disponíveis e transforma o observatório em um espaço construído coletivamente.</p>
+
+<p>Essa proposta dialoga diretamente com o conceito de <em>bem viver</em>, apresentado por Ailton Krenak. Para o autor, uma sociedade mais justa depende da valorização das pessoas, dos territórios, dos saberes tradicionais e das relações de cuidado entre comunidade e natureza. Ao dar visibilidade a projetos sociais, espaços culturais e iniciativas comunitárias, o mapa incentiva a cooperação, fortalece a identidade local e promove uma compreensão mais humana e inclusiva do território.</p>
+
+<p>Além disso, o mapa contribui para a promoção da igualdade social ao democratizar o acesso à informação. Muitas iniciativas desenvolvem um trabalho essencial para a população, mas permanecem pouco conhecidas. Ao reuni-las em uma plataforma aberta e interativa, o observatório amplia sua visibilidade, facilita o acesso da população a esses espaços e fortalece redes de colaboração entre cidadãos, instituições e comunidades.</p>
+
+<p>Dessa forma, o mapa interativo deixa de ser apenas um recurso tecnológico e passa a atuar como uma ferramenta de educação, participação social e valorização da diversidade cultural de Camaçari. Inspirado pelos princípios do bem viver, ele contribui para a construção de uma cidade mais inclusiva, participativa e comprometida com a preservação de sua memória, de seus territórios e de suas práticas transformadoras.</p>
+
+        </aside>
+
+</section>
+
+
+<footer>
+
+    <div class="footerContainer">
+
+        <div>
+
+            <h3>
+
+                Observatório Digital de Camaçari
+
+            </h3>
+
+            <p>
+
+                Um portal web desenvolvido como Produto Final da disciplina de Informática para Internet, 
+                com o objetivo de reunir, organizar e divulgar projetos sociais, patrimônios culturais e 
+                locais de interesse do município de Camaçari por meio de um mapa interativo e uma plataforma digital acessível.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>
+
+                Navegação
+
+            </h4>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/">Inicio</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-politicas/politicas.html">Politicas Publicas</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site/projetos.html">Projetos</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-pesquisa/pesquisa.html">Pesquisa</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-entrevista/page_entrevistas.html">Entrevistas</a>
+        
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-dados/dados.html">Infográficos</a>
+
+        </div>
+
+        <div>
+
+            <h4>
+
+                Fontes
+
+            </h4>
+
+            <a href="https://cidades.ibge.gov.br/brasil/ba/camacari/panorama">IBGE</a>
+            <a href="https://www.google.com/maps">MAPS</a>
+
+            <h4>
+
+                Contribua
+
+            </h4>
+
+            <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=rELrEVYQtECrMIiZSF_-7fHlW5wTHNNEoUs04H5nAWZUNkQwSU1OVDBGOThTNUdRQlZKWTQ0VFlPMS4u">FORMS</a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 • Observatório Digital de Camaçari
+
+    </div>
+
+</footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="maps.js"></script>
+    
+    
+
+
+</body>
+
+</html>
