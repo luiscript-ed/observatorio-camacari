@@ -10,17 +10,12 @@ const fecharAba = document.getElementById("fecharEsq");
 const painelEsq = document.getElementById("painelEsq");
 
 const painelFilter = document.getElementById("painelFilter");
-const fecharFilter = document.getElementById("fecharFilter");
 const buttonFilter = document.getElementById("buttonFilter");
-const filterCategory = document.getElementById("filterCategory");
+const listaCategorias = document.getElementById("listaCategorias");
 
-// Evento pra fechar/abrir a barra de filtro
-fecharFilter.addEventListener("click", () => {
-    painelFilter.classList.remove("active");
-});
 
 buttonFilter.addEventListener("click", () => {
-    painelFilter.classList.add("active");
+    painelFilter.classList.toggle("active");
     painelEsq.classList.remove("active");
     painelIA.classList.remove("active");
 });
@@ -31,7 +26,7 @@ fecharIA.addEventListener("click", () => {
 });
 
 buttonAba.addEventListener("click", () => {
-    painelEsq.classList.add("active");
+    painelEsq.classList.toggle("active");
     painelIA.classList.remove("active");
     painelFilter.classList.remove("active");
 });
@@ -40,6 +35,32 @@ fecharAba.addEventListener("click", () => {
     painelEsq.classList.remove("active");
 });
 
+function aplicarFiltros() {
+
+    const categoriasSelecionadas = [];
+
+    document
+        .querySelectorAll(".categoria input:checked")
+        .forEach(check => {
+            categoriasSelecionadas.push(check.value);
+        });
+
+    document.querySelectorAll(".art-card").forEach(card => {
+
+        const categoria = card.dataset.categoria;
+
+        const categoriaOk = categoriasSelecionadas.includes(categoria);
+        const bairroOk = true
+
+        if (categoriaOk && bairroOk) {
+            card.classList.remove("hidden");
+        } else {
+            card.classList.add("hidden");
+        }
+
+    });
+
+}
 
 fetch("../documentos-projeto/politicas-publicas.json")
     .then(response => {
@@ -51,22 +72,53 @@ fetch("../documentos-projeto/politicas-publicas.json")
     .then(data => {
         const projetos = data["politicas"];
 
-        const listaCategorias = new Set();
-        projetos.forEach(projeto => {
-            projeto.categoria.forEach(cat => listaCategorias.add(cat));
-        });
+        
+const categorias = [
+    ...new Set(
+        projetos.flatMap(p => p.categoria)
+    )
+];
 
-        listaCategorias.forEach(cat => {
-            const option = document.createElement("option");
-            option.value = cat.toLowerCase();
-            option.textContent = cat;
-            filterCategory.appendChild(option);
-        });
+    categorias.forEach(categoria => {
 
-    
+    const div = document.createElement("div");
+
+    div.className = "categoria";
+
+    div.innerHTML = `
+        <input
+            type="checkbox"
+            value="${categoria}"
+            checked>
+
+        <label>${categoria}</label>
+    `;
+
+    listaCategorias.appendChild(div);
+
+});
+
+document
+.querySelectorAll(".categoria input")
+.forEach(check=>{
+
+    check.addEventListener("change", aplicarFiltros);
+
+});
+
+document
+.querySelectorAll(".bairro input")
+.forEach(check=>{
+
+    check.addEventListener("change", aplicarFiltros);
+
+});
+
+
         projetos.forEach(projeto => {
             const card = document.createElement("article");
             card.classList.add("card-img", "art-card");
+            card.dataset.categoria = projeto.categoria[0];
 
             
             const categoriasStr = projeto.categoria.map(c => c.toLowerCase()).join(" ");
@@ -103,26 +155,13 @@ fetch("../documentos-projeto/politicas-publicas.json")
                 painelIA.classList.add("active");
                 painelEsq.classList.remove("active");
                 painelFilter.classList.remove("active");
+                
             });
 
             galeria.appendChild(card);
         });
 
-        filterCategory.addEventListener("change", () => {
-            const filtroSelecionado = filterCategory.value;
-            const cards = document.querySelectorAll(".art-card");
-
-            cards.forEach(card => {
-                const categoriasDoCard = card.getAttribute("data-categorias");
-
-                
-                if (filtroSelecionado === "todos" || categoriasDoCard.includes(filtroSelecionado)) {
-                    card.classList.remove("hidden"); 
-                } else {
-                    card.classList.add("hidden");
-                }
-            });
-        });
+        aplicarFiltros();
 
     })
     .catch(error => {

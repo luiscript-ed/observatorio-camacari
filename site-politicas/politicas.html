@@ -26,27 +26,52 @@
 
 <button id="abaEsquerda">O que são Políticas Públicas?</button>
 
-<a href="#">Inicio</a>
-
-<a href="#">Politicas Pulblicas</a>
-
-<a href="#">Entrevistas</a>
-
-<a href="#">Mapa</a>
-
-<a href="#">Infográficos</a>
-
-<a href="#">Sobre</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/">Inicio</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-mapa/mapa-interativohtml">Mapa Interativo</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site/projetos.html">Projetos</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-pesquisa/pesquisa.html">Pesquisa</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-entrevista/page_entrevistas.html">Entrevistas</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-dados/dados.html">Infográficos</a>
 
 </nav>
 
 
 </header>
 
-<section class="cabecalho">
-    <h1>Observatório Digital</h1>
-    <p>Políticas Públicas da Cidade de Camaçari</p>
+```html
+<section class="hero">
+
+    <div class="heroTexto">
+
+        <span class="tagObservatorio">
+
+            OBSERVATÓRIO DIGITAL
+
+        </span>
+
+        <h1>
+
+            Políticas Públicas de Camaçari
+
+        </h1>
+
+        <p>
+
+            As políticas públicas representam um conjunto de ações, programas e iniciativas
+            desenvolvidas pelo poder público para garantir direitos, promover a inclusão social
+            e melhorar a qualidade de vida da população. Neste Observatório Digital, reunimos
+            políticas voltadas à educação, cultura, saúde, assistência social, igualdade racial,
+            juventude, meio ambiente e outras áreas fundamentais, permitindo compreender como
+            essas ações contribuem para o desenvolvimento sustentável, a valorização da diversidade
+            e a construção de uma sociedade mais justa e participativa em Camaçari.
+
+        </p>
+
+    </div>
+
 </section>
+```
+
 
 <aside id="painelIA" class="ia-sidebar">
 
@@ -72,7 +97,7 @@
 
     </div>
 
-</div>
+        </div>
  
 <!-- O painel que fala sobre Políticas Públicas a seguir -->
 
@@ -122,39 +147,113 @@
    
    <!-- O painel dos filtros ficará aqui-->
 
-   <aside id="painelFilter" class="ia-sidebar-left">
+    <aside class="painelFiltros" id="painelFilter">
 
-    <div class="ia-header-filter">
-        <h2>Filtre as categorias</h2>
-        <button id="fecharFilter">✕</button>
-      
+    <h2>
+        <i class="fa-solid fa-filter"></i>
+        Filtros
+    </h2>
+
+    <div class="grupoFiltro">
+
+        <h3>
+            <i class="fa-solid fa-layer-group"></i>
+            Categorias
+        </h3>
+
+        <div id="listaCategorias"></div>
 
     </div>
 
-    <div class="ia-content">
-        <div class="filter-group">
-            <label for="filterCategory">Selecione uma Categoria:</label>
-            <select id="filterCategory" class="filter-select">
-                <option value="todos">Todos os Projetos</option>
-                </select>
-        </div>
+    <div class="grupoFiltro">
+
+        <h3>
+            <i class="fa-solid fa-location-dot"></i>
+            Bairros
+        </h3>
+
+        <div id="listaBairros"></div>
+
     </div>
 
-</aside>
+        </aside>
 
     <!-- Cards da galeria-->
     <main class="galeria" id="galeria">
         <!-- Os cards serão criados pelo JavaScript -->
     </main>
 
-    <script src="script.js"></script>
+    
 
-    <footer>
+<footer>
 
-© 2026 • Observatório Digital de Camaçari
+    <div class="footerContainer">
+
+        <div>
+
+            <h3>
+
+                Observatório Digital de Camaçari
+
+            </h3>
+
+            <p>
+
+                Plataforma desenvolvida para reunir dados,
+                pesquisas e indicadores do município.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>
+
+                Navegação
+
+            </h4>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/">Inicio</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-mapa/mapa-interativohtml">Mapa Interativo</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site/projetos.html">Projetos</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-pesquisa/pesquisa.html">Pesquisa</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-entrevista/page_entrevistas.html">Entrevistas</a>
+        <a href="https://luiscript-ed.github.io/observatorio-camacari/site-dados/dados.html">Infográficos</a>
+
+        </div>
+
+        <div>
+
+            <h4>
+
+                Fontes
+
+            </h4>
+
+            <a href="https://cidades.ibge.gov.br/brasil/ba/camacari/panorama">IBGE</a>
+            <a href="https://www.google.com/maps">MAPS</a>
+
+            <h4>
+
+                Contribua
+
+            </h4>
+
+            <a href="https://www.google.com/maps">FORMS</a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 • Observatório Digital de Camaçari
+
+    </div>
 
 </footer>
 
+<script src="script.js"></script>
 </body>
 
 </html>
