@@ -62,24 +62,7 @@ function aplicarFiltros() {
 
 }
 
-function obterCapaYoutube(url) {
-    if (!url) return "";
-
-    const regExp = /(?:youtube\.com\/(?:.*[?&]v=|embed\/|v\/)|youtu\.be\/)([^"&?\/\s]{11})/;
-    const match = url.match(regExp);
-
-    if (match && match[1]) {
-        const idVideo = match[1];
-        console.log(url);
-        console.log(match);
-        console.log(idVideo);
-        return `https://img.youtube.com/vi/${idVideo}/hqdefault.jpg`;
-    }
-
-    return "";
-}
-
-fetch("../documentos-entrevista/entrevistas.json")
+fetch("../documentos-projeto/politicas-publicas.json")
     .then(response => {
         if (!response.ok) {
             throw new Error("Não foi possível carregar o arquivo JSON.");
@@ -87,7 +70,7 @@ fetch("../documentos-entrevista/entrevistas.json")
         return response.json();
     })
     .then(data => {
-        const projetos = data["entrevistas"];
+        const projetos = data["politicas"];
 
         
 const categorias = [
@@ -136,14 +119,17 @@ document
             const card = document.createElement("article");
             card.classList.add("card-img", "art-card");
             card.dataset.categoria = projeto.categoria[0];
-            const urlCapa = obterCapaYoutube(projeto.imagens);
+
             
             const categoriasStr = projeto.categoria.map(c => c.toLowerCase()).join(" ");
             card.setAttribute("data-categorias", categoriasStr);
 
             card.innerHTML = `
                 <div class="moldura">
-                    <img src="${urlCapa}" alt="${projeto.nome}" class="art-image">
+                    <img
+                        src="${projeto.imagens || "https://via.placeholder.com/500x350?text=Sem+Imagem"}"
+                        alt="${projeto.nome}"
+                        class="art-image">
                 </div>
 
                 <div class="informacoes">

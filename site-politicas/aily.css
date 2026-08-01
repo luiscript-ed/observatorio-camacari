@@ -84,7 +84,7 @@ header{
 
 
 .logo button:hover {
-  background-color: #720303c7; /* Escurece a cor de fundo */
+  background-color: #00ad3dc7; /* Escurece a cor de fundo */
   transform: translateY(-2px); /* Move o botão levemente para cima */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Aumenta a sombra */
 }
@@ -630,7 +630,7 @@ position: relative;
 }
 
 .ia-header-filter button:hover {
-    background-color: #eec925c9;
+    background-color: #30f4eac9;
 }
 
 .mya-welcome h2 {
@@ -736,7 +736,7 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #f7b708;
+    background: #a646ff;
     border-radius: 0px 30px 0px 0px; 
 }
 
@@ -811,6 +811,7 @@ position: relative;
     transition: right .3s ease;
 
     left: -300;
+
 
     width:0px;
 
