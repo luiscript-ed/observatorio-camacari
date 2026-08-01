@@ -107,6 +107,7 @@ nav{
 
     gap:35px;
     z-index: 1000;
+    overflow: hidden;
 }
 
 

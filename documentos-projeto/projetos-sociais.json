@@ -1,0 +1,284 @@
+{
+  "projetos-sociais": [
+    {
+      "id": "1",
+      "nome": "Cidade do Saber",
+      "descricao": "Complexo público de educação, cultura, esporte e inclusão social que oferece formação artística, profissional e cidadã para a população de Camaçari.",
+      "descricaoDetalhada": "A Cidade do Saber é um dos maiores equipamentos públicos de educação, cultura e esporte do município de Camaçari e representa um importante instrumento de inclusão social. Administrada pela Prefeitura, reúne em um único espaço teatro, biblioteca, salas de aula, ginásio poliesportivo, piscina, espaços culturais e ambientes destinados à formação profissional e artística.\n\n Ao longo dos anos, tornou-se referência na oferta de cursos gratuitos, oficinas, apresentações culturais e atividades esportivas voltadas para crianças, jovens, adultos e idosos. Além de ampliar o acesso à educação e à cultura, o complexo fortalece a cidadania, promove a convivência comunitária e incentiva o desenvolvimento de talentos locais. \n\nSua atuação contribui para reduzir desigualdades sociais, democratizar oportunidades e valorizar a produção cultural de Camaçari, consolidando-se como um dos principais centros de formação e transformação social do município.",
+      "categoria": [
+        "educação",
+        "cultura",
+        "inclusão social",
+        "juventude"
+      ],
+      "eixos": [
+        "práticas educativas",
+        "formação cidadã",
+        "desenvolvimento comunitário"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ_gLs2-hvVMq6ABsQCMyas56qdRyKzph25GTCfKSn3mxBxpNjULM3PaU&s=10"
+    },
+    {
+      "id": "2",
+      "nome": "Fundação Ca&Ba",
+      "descricao": "Organização da sociedade civil voltada à arte-educação, cultura, esporte, cidadania e protagonismo juvenil em comunidades vulneráveis.",
+      "descricaoDetalhada": "A Fundação Ca&Ba é uma organização da sociedade civil que atua no desenvolvimento social de comunidades por meio da arte-educação, da cultura, do esporte e da formação cidadã. Seu trabalho prioriza crianças, adolescentes e jovens em situação de vulnerabilidade social, oferecendo atividades capazes de estimular o aprendizado, a criatividade, a autoestima e o protagonismo juvenil. \n\nA instituição acredita que o acesso à cultura e à educação é uma ferramenta essencial para transformar realidades e ampliar oportunidades. Além das ações educativas, promove oficinas, projetos comunitários, eventos culturais e iniciativas que fortalecem a convivência social e o senso de pertencimento. \n\nAo incentivar a participação ativa dos jovens em suas comunidades, a Fundação Ca&Ba contribui para a construção de uma sociedade mais inclusiva, democrática e comprometida com a valorização das pessoas e de seus territórios.",
+      "categoria": [
+        "arte-educação",
+        "cultura",
+        "juventude",
+        "assistência social"
+      ],
+      "eixos": [
+        "educação comunitária",
+        "transformação social",
+        "protagonismo juvenil"
+      ],
+      "imagens": "https://caeba.org.br/wp-content/uploads/2023/11/caeba2023-300x300.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "UPAMC - União Cultural dos Sacerdotes Afro do Município de Camaçari",
+      "descricao": "Entidade representativa das religiões de matriz africana dedicada à valorização da cultura afro-brasileira, preservação das tradições e combate ao racismo religioso.",
+      "descricaoDetalhada": "A União Cultural dos Sacerdotes Afro do Município de Camaçari (UPAMC) é uma entidade que representa terreiros, lideranças religiosas e comunidades tradicionais de matriz africana. Sua atuação busca fortalecer o respeito à liberdade religiosa, preservar os conhecimentos ancestrais e combater o racismo religioso por meio de ações educativas, culturais e institucionais.\n\n A organização participa de eventos, debates, projetos de valorização da cultura afro-brasileira e iniciativas voltadas ao reconhecimento dos terreiros como patrimônios culturais e espaços fundamentais para a preservação da identidade negra.\n\n Também contribui para o diálogo entre o poder público e as comunidades tradicionais, defendendo políticas que promovam igualdade racial, respeito à diversidade e valorização das manifestações culturais de origem africana presentes em Camaçari.",
+      "categoria": [
+        "cultura afro-brasileira",
+        "religião",
+        "direitos humanos"
+      ],
+      "eixos": [
+        "saberes afro-diaspóricos",
+        "patrimônio cultural",
+        "identidade negra"
+      ],
+      "imagens": "https://agenciaamapa.com.br/midias/2025/pequenas/20251126224703-GC00033470-F00112999.webp"
+    },
+    {
+      "id": "4",
+      "nome": "CRAS - Centro de Refência de Atendimento Social",
+      "descricao": "Organização que desenvolve ações voltadas ao fortalecimento comunitário e atendimento de famílias em situação de vulnerabilidade social.",
+      "descricaoDetalhada": "O Centro de Referência de Assistência Social (CRAS) é a principal porta de entrada da Proteção Social Básica do Sistema Único de Assistência Social (SUAS). Em Camaçari, suas unidades desenvolvem ações voltadas ao atendimento de famílias em situação de vulnerabilidade social, promovendo acolhimento, orientação, acompanhamento familiar e encaminhamento para programas e benefícios sociais.\n\n Além dos atendimentos individuais, o CRAS realiza oficinas, palestras, grupos de convivência e atividades comunitárias que fortalecem os vínculos familiares e estimulam a participação social. \n\nSeu trabalho busca prevenir situações de risco, ampliar o acesso aos direitos sociais e contribuir para a autonomia das famílias. Dessa forma, o CRAS exerce um papel essencial na construção de uma rede de proteção social, promovendo cidadania, inclusão e desenvolvimento comunitário em diferentes bairros do município.",
+      "categoria": [
+        "assistência social",
+        "cidadania",
+        "desenvolvimento comunitário"
+      ],
+      "eixos": [
+        "inclusão social",
+        "fortalecimento comunitário"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10"
+    },
+    {
+      "id": "5",
+      "nome": "Projetos Sociais De Olho no Bairro",
+      "descricao": "Iniciativa comunitária voltada para educação, mobilização popular e fortalecimento das redes sociais dos bairros de Camaçari.",
+      "descricaoDetalhada": "O Projeto Social De Olho no Bairro é uma iniciativa comunitária que busca aproximar moradores, lideranças locais e instituições na construção de soluções para os desafios enfrentados pelos bairros de Camaçari. A proposta incentiva a participação popular, o exercício da cidadania e o fortalecimento das redes de apoio comunitário por meio de campanhas educativas, ações solidárias, eventos sociais e atividades de conscientização.\n\n O projeto também promove debates sobre melhorias urbanas, direitos da população, preservação dos espaços públicos e desenvolvimento local, estimulando o protagonismo dos moradores na transformação de seus territórios.\n\n Ao fortalecer o diálogo entre comunidade e poder público, contribui para uma cidade mais participativa, inclusiva e comprometida com o bem-estar coletivo.",
+      "categoria": [
+        "educação",
+        "participação comunitária",
+        "cidadania"
+      ],
+      "eixos": [
+        "desenvolvimento territorial",
+        "participação popular"
+      ],
+      "imagens": "https://aggressive-emerald-4r2dbvko.edgeone.dev/Captura%20de%20tela%202026-07-08%20174612.png"
+    },
+    {
+      "id": "6",
+      "nome": "Centro Comunitário de Desenvolvimento Recanto das Árvores",
+      "descricao": "Espaço comunitário que promove atividades educativas, culturais e de integração social para moradores da região.",
+      "descricaoDetalhada": "O Centro Comunitário de Desenvolvimento Recanto das Árvores é uma associação comunitária sem fins lucrativos localizada em Camaçari que atua na promoção da educação, cultura e desenvolvimento social. A instituição desenvolve atividades voltadas para crianças, adolescentes e famílias, oferecendo ações educativas, culturais e de fortalecimento dos vínculos comunitários.\n\n Entre suas finalidades estão a promoção da cidadania, a defesa dos direitos sociais, o incentivo à formação profissional e a realização de projetos voltados ao desenvolvimento local. O centro também atua como espaço de convivência para a comunidade, incentivando a participação coletiva, a inclusão social e a valorização do território onde está inserido.\n\n Sua atuação contribui para ampliar oportunidades e fortalecer a organização comunitária como instrumento de transformação social.",
+      "categoria": [
+        "educação comunitária",
+        "cultura",
+        "desenvolvimento local"
+      ],
+      "eixos": [
+        "organização comunitária",
+        "territorialidade"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyFmwpX9uZ3vk8WctyVqqzQDt8IMHGoq_0deXfVoGPA&s"
+    },
+    {
+      "id": "7",
+      "nome": "Núcleo de Cultura Étnico-Racial",
+      "descricao": "Iniciativa municipal voltada à valorização das culturas afro-brasileiras, indígenas e tradicionais por meio de ações culturais e formativas.",
+      "descricaoDetalhada": "O Núcleo de Cultura Étnico-Racial foi criado pela Secretaria da Cultura de Camaçari com o objetivo de fortalecer políticas públicas voltadas à valorização das culturas afro-brasileiras, indígenas e das comunidades tradicionais do município. Entre suas atribuições estão promover ações afirmativas, incentivar eventos culturais, apoiar pesquisas, desenvolver oficinas, exposições e atividades educativas, além de fortalecer o diálogo com povos de matriz africana e comunidades indígenas. \n\nO núcleo também atua na preservação da memória coletiva, no incentivo à produção cultural e na articulação entre diferentes órgãos públicos para ampliar políticas de igualdade étnico-racial. Sua criação representa um importante avanço institucional para reconhecer e preservar a diversidade cultural de Camaçari, valorizando saberes ancestrais e promovendo o combate às desigualdades históricas. ",
+      "categoria": [
+        "política pública",
+        "cultura",
+        "educação"
+      ],
+      "eixos": [
+        "saberes afro-diaspóricos",
+        "saberes originários",
+        "memória social"
+      ],
+      "imagens": "https://gestalt.com.br/src/uploads/2022/08/whatsapp-image-2022-08-29-at-12-24-51.jpeg"
+    },
+    {
+      "id": "8",
+      "nome": "Articulação para Preservação da Herança Afro-Brasileira",
+      "descricao": "Parceria entre o município e a Fundação Cultural Palmares para valorização da herança afro-brasileira e apoio às comunidades quilombolas.",
+      "descricaoDetalhada": "A Articulação para Preservação da Herança Afro-Brasileira reúne esforços da Prefeitura de Camaçari, da Fundação Cultural Palmares e de outras instituições públicas para fortalecer políticas voltadas às comunidades quilombolas e aos povos tradicionais do município. \n\nA iniciativa busca preservar a memória, os costumes e as manifestações culturais afro-brasileiras por meio de ações de valorização do patrimônio histórico, incentivo à cultura, apoio institucional e ampliação do acesso a políticas públicas. \n\nEntre seus objetivos estão fortalecer a identidade cultural das comunidades, ampliar sua representatividade e garantir que seus conhecimentos ancestrais sejam reconhecidos como parte fundamental da história de Camaçari. A articulação também incentiva parcerias voltadas ao desenvolvimento cultural, à inclusão social e ao fortalecimento da igualdade racial, contribuindo para a preservação do patrimônio imaterial e para a valorização das tradições afro-brasileiras no município. ",
+      "categoria": [
+        "patrimônio cultural",
+        "quilombolas",
+        "política pública"
+      ],
+      "eixos": [
+        "memória",
+        "identidade",
+        "territórios tradicionais"
+      ],
+      "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndB7JmSPHOmpJCUgLGjbNwvu7eMzsiP0C2kh3AXjFY27zR-95azDH0-E&s=10"
+    },
+  {
+    "id": "9",
+    "nome": "Associação Paulo Tonucci (APITO)",
+    "descricao": "Organização comunitária que promove proteção social, educação complementar e fortalecimento de vínculos familiares por meio de capacitação profissional, cultura e inclusão social.",
+    "descricaoDetalhada": "A Associação Paulo Tonucci (APITO) é uma das organizações comunitárias mais tradicionais de Camaçari, atuando na promoção da proteção social e no fortalecimento de vínculos familiares e comunitários. Desenvolve ações voltadas para crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social, oferecendo oficinas de capacitação profissional, cursos de formação, atividades culturais e artísticas.\n\nSua atuação busca ampliar oportunidades de desenvolvimento pessoal e profissional, fortalecer a cidadania e contribuir para a inclusão social das comunidades atendidas. Ao incentivar a participação comunitária e o acesso à educação complementar, a APITO desempenha um papel importante na redução das desigualdades e no fortalecimento da rede de proteção social do município.",
+    "categoria": [
+      "assistência social",
+      "educação",
+      "cultura",
+      "inclusão social"
+    ],
+    "eixos": [
+      "proteção social",
+      "formação profissional",
+      "fortalecimento comunitário"
+    ],
+    "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvF0jYjNpk0zfpeil5RlG8sOQBCxEt5dWAiizod4nR0A&s=10"
+  },
+  {
+    "id": "10",
+    "nome": "Associação Viva a Vida",
+    "descricao": "Organização que promove o protagonismo juvenil, os direitos humanos, a igualdade de gênero e o combate ao racismo por meio de ações educativas e culturais.",
+    "descricaoDetalhada": "A Associação Viva a Vida atua na Vila de Abrantes desenvolvendo projetos voltados ao empoderamento de adolescentes e jovens. Suas iniciativas priorizam a promoção dos direitos humanos, a equidade de gênero, o enfrentamento ao racismo estrutural e a prevenção de situações de vulnerabilidade social.\n\nA instituição realiza rodas de conversa, oficinas de artes e cultura, atividades educativas e formações para o protagonismo juvenil, fortalecendo a participação social e o desenvolvimento de lideranças comunitárias na Orla de Camaçari.",
+    "categoria": [
+      "juventude",
+      "direitos humanos",
+      "igualdade racial",
+      "cultura"
+    ],
+    "eixos": [
+      "protagonismo juvenil",
+      "educação cidadã",
+      "desenvolvimento comunitário"
+    ],
+    "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgrBELHQyBtdCbUoFHPEqwh9VDdmIwaal4LI8G_3q0sA&s"
+  },
+  {
+    "id": "11",
+    "nome": "Associação de Capoeira Engenho (Projeto Ginga)",
+    "descricao": "Grupo cultural que utiliza a capoeira e as manifestações afro-brasileiras como instrumentos de inclusão social, cidadania e valorização da identidade negra.",
+    "descricaoDetalhada": "A Associação de Capoeira Engenho, por meio do Projeto Ginga, atua há mais de 20 anos em diversos bairros da Sede e da Orla de Camaçari. A organização utiliza a capoeira, as danças afro e a ancestralidade como ferramentas pedagógicas para promover inclusão social, fortalecimento da identidade negra e desenvolvimento humano.\n\nAlém das atividades culturais e esportivas, desenvolve ações de apoio social e fortalecimento de vínculos familiares, incentivando a cidadania, a autoestima e a valorização da cultura afro-brasileira entre crianças, adolescentes e jovens.",
+    "categoria": [
+      "cultura",
+      "esporte",
+      "inclusão social",
+      "igualdade racial"
+    ],
+    "eixos": [
+      "cultura afro-brasileira",
+      "formação cidadã",
+      "desenvolvimento comunitário"
+    ],
+    "imagens": "https://capoeiraengenho.wordpress.com/wp-content/uploads/2011/12/logo1.png"
+  },
+  {
+    "id": "12",
+    "nome": "CEZA (Centro Educacional Zilda Aranha)",
+    "descricao": "Instituição comunitária que promove educação, assistência social e sustentabilidade para crianças e famílias em situação de vulnerabilidade.",
+    "descricaoDetalhada": "O Centro Educacional Zilda Aranha (CEZA) atua na Vila de Abrantes oferecendo atendimento educacional e social para crianças e famílias de baixa renda. Desenvolve reforço escolar, oficinas de música e artes, apoio psicológico, acompanhamento nutricional e iniciativas voltadas à educação ambiental.\n\nTambém incentiva práticas sustentáveis por meio de projetos como horta e viveiro comunitário, fortalecendo o desenvolvimento humano, a segurança alimentar e o compromisso com a preservação ambiental.",
+    "categoria": [
+      "educação",
+      "assistência social",
+      "sustentabilidade",
+      "cultura"
+    ],
+    "eixos": [
+      "práticas educativas",
+      "educação ambiental",
+      "desenvolvimento comunitário"
+    ],
+    "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZoztmmMYmgzDf4fRBbBKovqWwILclo-OTFFcsBxhtTMAqB0kAPzr2Ca0&s=10"
+  },
+  {
+    "id": "13",
+    "nome": "Instituto Comvida",
+    "descricao": "Organização social que fortalece o protagonismo juvenil por meio de projetos de cidadania, igualdade racial, educação ambiental e direitos humanos.",
+    "descricaoDetalhada": "O Instituto Comvida desenvolve projetos voltados para adolescentes e jovens de comunidades em situação de vulnerabilidade social em Catu de Abrantes. Suas ações promovem cidadania, enfrentamento ao racismo, igualdade de gênero, educação ambiental e fortalecimento dos direitos humanos.\n\nA instituição busca ampliar a participação comunitária, incentivar o protagonismo juvenil e contribuir para a formação de jovens comprometidos com a transformação social e o desenvolvimento sustentável de seus territórios.",
+    "categoria": [
+      "juventude",
+      "direitos humanos",
+      "igualdade racial",
+      "meio ambiente"
+    ],
+    "eixos": [
+      "protagonismo juvenil",
+      "educação ambiental",
+      "formação cidadã"
+    ],
+    "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZXo6-oCtS8IuZY_Xxg3Eueld_n4ZGu3GWsvkPZMS2yf7Zxeg_uRYbrSE&s=10"
+  },
+  {
+    "id": "14",
+    "nome": "Instituto Central de Cidadania",
+    "descricao": "Organização que promove inclusão social por meio da educação, qualificação profissional e fortalecimento da cidadania.",
+    "descricaoDetalhada": "O Instituto Central de Cidadania desenvolve projetos voltados para crianças, adolescentes, jovens e famílias em situação de vulnerabilidade social em Camaçari. Suas iniciativas incluem reforço escolar, formação cidadã, qualificação profissional e ações voltadas à geração de oportunidades e emancipação social.\n\nA instituição atua fortalecendo a inclusão social e ampliando o acesso à educação e à capacitação profissional como instrumentos de transformação e melhoria da qualidade de vida.",
+    "categoria": [
+      "educação",
+      "assistência social",
+      "qualificação profissional",
+      "cidadania"
+    ],
+    "eixos": [
+      "práticas educativas",
+      "formação profissional",
+      "inclusão social"
+    ],
+    "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-auIGp_oCwDWHtWFsV3gj9vWL2C6BGoFzf-zlotCYNnQebqVcFoFULsY&s=10"
+  },
+  {
+    "id": "15",
+    "nome": "Fundação Vida",
+    "descricao": "Instituição social que promove assistência, acolhimento e fortalecimento comunitário para pessoas em situação de vulnerabilidade.",
+    "descricaoDetalhada": "A Fundação Vida desenvolve ações sociais voltadas ao acolhimento, assistência e fortalecimento comunitário de pessoas em situação de vulnerabilidade social no bairro Lama Preta, em Camaçari.\n\nPor meio de projetos educativos e sociais, busca promover inclusão social, desenvolvimento humano e melhoria da qualidade de vida, fortalecendo vínculos familiares e comunitários e ampliando o acesso a oportunidades de cidadania.",
+    "categoria": [
+      "assistência social",
+      "inclusão social",
+      "cidadania",
+      "desenvolvimento comunitário"
+    ],
+    "eixos": [
+      "proteção social",
+      "fortalecimento comunitário",
+      "desenvolvimento humano"
+    ],
+    "imagens": "https://fundacaovida.org.br/logo-horizontal.png"
+  },
+  {
+    "id": "16",
+    "nome": "Associação Cultural e Beneficente do Caboclo Sultão das Matas",
+    "descricao": "Associação comunitária que preserva manifestações culturais e religiosas tradicionais, fortalecendo a identidade e a participação social.",
+    "descricaoDetalhada": "A Associação Cultural e Beneficente do Caboclo Sultão das Matas atua em Coqueiro de Arembepe promovendo ações culturais, sociais e educativas voltadas à preservação das tradições religiosas e culturais da comunidade.\n\nA instituição incentiva a valorização da ancestralidade, o fortalecimento da identidade local e a participação comunitária, contribuindo para a preservação do patrimônio cultural e para a promoção da cidadania em Camaçari.",
+    "categoria": [
+      "cultura",
+      "patrimônio cultural",
+      "assistência social",
+      "cidadania"
+    ],
+    "eixos": [
+      "preservação cultural",
+      "valorização da ancestralidade",
+      "desenvolvimento comunitário"
+    ],
+    "imagens": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qCkJTRLlyfRr1zBxr0MLBKK6qr0HGFseyF2wJ2Gz9RzX6IelRIy6Yrk&s=10"
+  }
+    
+  ]
+}
