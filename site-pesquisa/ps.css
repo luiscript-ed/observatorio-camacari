@@ -396,3 +396,47 @@ footer{
     line-height: 1.6;
     white-space: pre-line;
 }
+
+.tagObservatorio{
+
+    display:inline-block;
+
+    background:#ffffff;
+
+    color:#f4b400;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+    letter-spacing:1px;
+
+}
+
+.heroTexto{
+
+    max-width:760px;
+
+}
+
+.heroTexto h1{
+
+    font-size:58px;
+
+    margin-bottom:25px;
+
+    line-height:1.1;
+
+}
+
+.heroTexto p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
