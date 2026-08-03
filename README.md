@@ -28,21 +28,22 @@ O sistema foi desenvolvido utilizando tecnologias da Web e boas práticas de des
 
 - Página inicial do Observatório.
 - Catálogo de Projetos Sociais.
-- Mapa Interativo.
-- Pesquisa de projetos.
+- Mapa Interativo de práticas.
+- Pesquisa de projetos sociais.
+- Pesquisa de politicas públicas.
 - Popups com informações detalhadas.
-- Barra lateral de navegação.
+- Barra suspensa de navegação.
 - Sistema de filtros por categoria.
-- Galeria de imagens.
+- Pesquisa Inicial, contracolonial & Bem-Viver.
+- Infográfico com dados de camaçari.
 - Página de entrevistas.
-- Layout responsivo.
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Leaflet.js
 - OpenStreetMap
@@ -59,22 +60,22 @@ observatorio-camacari/Sub-Páginas
 │
 ├── arquivos-auxiliares/
 │   ├── css/
-│   ├── img/
 │   ├── js/
 │  
 │
 ├── Bancos-de-dados/
-│   └── projetos.json (cada página têm um)
+│   └── projetos.json 
 │
-├── site/
-│   ├── index.html
+├── site-(etc)/
+│   ├── 
 │   ├── projetos.html
 │   ├── mapa.html
 │   ├── entrevistas.html
-│   └── galeria.html
-│
-├── README.md
-└── LICENSE
+│   ├── infografico.html
+│   └── politicas.html
+├── index.html
+├── img´s.png
+└── README.md
 
 ---
 
@@ -88,7 +89,7 @@ Os usuários podem:
 
 - visualizar projetos;
 - pesquisar localidades;
-- aplicar filtros por categoria;
+- aplicar filtros por categoria ou Bairro;
 - acessar informações detalhadas através de popups.
 
 ---
@@ -97,15 +98,15 @@ Os usuários podem:
 
 | Nome | Contribuição |
 |------|---------|
-| Luiz | Desenvolvimento do produto e introdução da pesquisa|
-| Arthur Miller | Desenvolvimento do produto |
-| Davi Passos | Introdução da pesquisa e armazenamento de dados|
-| Yasmin Gouveia | Desenvolvimento da pesquisa |
-| José Guilherme | Desenvolvimento da pesquisa|
-| Mariah | Desenvolvimento da pesquisa |
-| Isabela de Oliveira | Desenvolvimento da pesquisa |
-| Leandro Nascimento | Conclusão da pesquisa |
-| Daniel Oliveira | Conclusão da pesquisa e armazenamento de dados|
+| Luiz Cardoso| Desenvolvimento do produto em total e manutenção do Repositório. |
+| Arthur Miller | Manutenção do banco de dados da página de politicas públicas. |
+| Davi Passos | Manutenção do banco de dados da página de politicas públicas. |
+| Yasmin Gouveia | Desenvolvimento da pesquisa. |
+| José Guilherme | Manutenção do banco de dados da página de infográficos. |
+| Mariah Sales | Desenvolvimento da pesquisa. |
+| Isabela Santana | Manutenção do banco de dados da página de projetos sociais. |
+| Leandro Nascimento | Manutenção do banco de dados da página de infográficos. |
+| Daniel Oliveira | Manutenção do banco de dados da página de projetos sociais. |
 
 
 ---
@@ -116,17 +117,19 @@ O projeto foi desenvolvido utilizando controle de versão com Git.
 
 Cada funcionalidade foi implementada em uma branch específica e posteriormente integrada ao projeto principal por meio de Pull Requests.
 
+Esse fluxo foi importante.
+
 Fluxo utilizado:
 
-```
-feature
+
+branch "tópico"
     ↓
 
-develop
+branch "home"
     ↓
 
-main
-```
+branch "main"
+
 
 ## 📚 Referências
 
@@ -135,7 +138,7 @@ main
 - OpenStreetMap
 - Leaflet.js
 - Ailton Krenak
-- Fontes utilizadas durante a pesquisa
+- Fontes utilizadas durante a pesquisa principal
 
 ---
 
@@ -143,7 +146,7 @@ main
 
 Projeto desenvolvido exclusivamente para fins educacionais.
 
-```markdown
+
 ## 📅 Cronograma de Desenvolvimento
 
 | Etapa | Status |
@@ -155,18 +158,18 @@ Projeto desenvolvido exclusivamente para fins educacionais.
 | Testes | ✅ |
 | Documentação | ✅ |
 | Publicação | ✅ |
-```
 
-```markdown
+
+
 ## 🌿 Organização das Branches
 
 | Branch | Responsabilidade |
 |---------|------------------|
-| `main` | Versão estável do projeto |
-| `develop` | Integração das funcionalidades |
-| `homepage` | Página inicial |
+| `main` | Versão estável do projeto, sujeita á poucas modificações |
+| `politicas pulblicas` | Catálogo das políticas |
+| `homepage` | Página inicial e encontro de arquivos|
 | `projetos-sociais` | Catálogo de projetos |
 | `mapa-interativo` | Desenvolvimento do mapa |
 | `entrevistas` | Página de entrevistas |
-| `galeria` | Galeria de imagens |
-| `documentacao` | README e documentação |
+| `dados-de-camacari` | Galeria de imagens |
+| `pesquisa` | Página da pesquisa inicial |
