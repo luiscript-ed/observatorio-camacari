@@ -803,8 +803,8 @@ position: relative;
 
 .painelFiltros.active{
 
-    right:20px;
-    position: absolute;
+    right:-2000px;
+    position: fixed;
 
 }
 

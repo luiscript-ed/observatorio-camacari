@@ -259,9 +259,31 @@ fetch("../m/localidades.json")
                     <p><strong>Categoria:</strong> ${projeto.categoria}</p>
                     <p><strong>Bairro:</strong> ${projeto.bairro}</p>
                     <p>${projeto.descricao}</p>
-                    <button class="popup-btn">Ver Projeto</button>
+                    <button
+                        class="popup-btn abrirProjeto"
+                        data-link="${projeto.link}">
+                            Ver Projeto
+                    </button>
                 </div>
             `);
+
+            marcador.on("popupopen", () => {
+
+                const botao = document.querySelector(".abrirProjeto");
+
+                if (!botao) return;
+
+                    botao.addEventListener("click", () => {
+
+                if (projeto.link) {
+                    window.open(projeto.link, "_blank");
+                 } else {
+                    alert("Este projeto não possui um link disponível.");
+                }
+
+                });
+
+            });
 
            // Criando fisicamente a div do card antes de usar
             const card = document.createElement("div");
