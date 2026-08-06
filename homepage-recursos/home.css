@@ -51,30 +51,53 @@ header{
     object-fit: contain;
 }
 
-nav{
-
-    display:flex;
-
-    gap:35px;
-
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    z-index: 1000;
+    
+    overflow-x: auto;           
+    white-space: nowrap;       
+    max-width: 65%;             
+    padding: 5px 0 10px 0;      
+    -webkit-overflow-scrolling: touch; 
+    scroll-behavior: smooth;
 }
 
-nav a{
-
-    text-decoration:none;
-
-    color:white;
-
-    font-weight:500;
-
-    transition:.3s;
-
+/* Ocultar a barra de rolagem */
+nav::-webkit-scrollbar {
+    display: none;            
+}
+nav {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;     
 }
 
-nav a:hover{
+nav a {
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+    font-weight: 500;
+    transition: .3s;
+    flex-shrink: 0; 
+}
 
-    opacity:.75;
+nav button {
+    text-decoration: underline;
+    color: rgb(252, 148, 63);
+    font-weight: 700; 
+    transition: .3s;
+    background-color: transparent;
+    border: none; 
+    font-size: 1rem; 
+    cursor: pointer;
+    padding: 0; 
+    flex-shrink: 0; 
+}
 
+nav a:hover,
+nav button:hover {
+    opacity: .75;
 }
 
 .hero{

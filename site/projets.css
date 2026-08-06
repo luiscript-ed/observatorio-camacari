@@ -5,64 +5,44 @@
     box-sizing:border-box;
 }
 
-
 /* CONFIGURAÇÃO GERAL */
-
 body{
-
     font-family:'Poppins', Arial, sans-serif;
-
     background:#f5f7fa;
-
     color:#2b2b2b;
-
 }
-
 
 /* ==========================
    CABEÇALHO / MENU
 ========================== */
-
 header{
-
     position:fixed;
-
     top:0;
-
     left:0;
-
     width:100%;
-
     height:80px;
     background: #fcf9f3;
     
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    padding:0 8%;
-
+    padding:0 4% 0 8%;
     box-shadow:0 4px 15px rgba(0,0,0,.15);
-
     z-index:1000;
-
 }
-
 
 .logo{
     color:rgb(255, 208, 0);
     font-size:26px;
     font-weight:700;
-
+    display: flex;
+    align-items: center;
 }
 
 .logo button{
-
   background-color: #ff7e28;
   color: #ffffff;             
-  padding: 12px 24px;        
+  padding: 10px 18px;        
   font-size: 12px;         
   font-weight: 600;           
   border: none;             
@@ -70,8 +50,8 @@ header{
   cursor: pointer;          
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
   transition: all 0.2s ease; 
-  margin-right: 80px;
-  margin-left: -80px;
+  margin-right: 15px;
+  margin-left: 0;
 }
 
 .logo button img{
@@ -79,158 +59,132 @@ header{
     height: 15px;
 }
 
-
 .logo button:hover {
-  background-color: #00ad3dc7; /* Escurece a cor de fundo */
-  transform: translateY(-2px); /* Move o botão levemente para cima */
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Aumenta a sombra */
+  background-color: #00ad3dc7;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-/* Efeito ao Clicar (Active) */
 .logo button:active {
   transform: translateY(0); 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
-
 
 .logo button:focus-visible {
   outline: 3px solid #a5b4fc; 
   outline-offset: 2px;
 }
 
-nav{
-
-    display:flex;
-
-    gap:35px;
+/* ==========================
+   CONFIGURAÇÃO DO SCROLL NA NAV
+========================== */
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
     z-index: 1000;
+    
+    overflow-x: auto;           
+    white-space: nowrap;       
+    max-width: 65%;             
+    padding: 5px 0 10px 0;      
+    -webkit-overflow-scrolling: touch; 
+    scroll-behavior: smooth;
 }
 
+/* Ocultar a barra de rolagem */
+nav::-webkit-scrollbar {
+    display: none;            
+}
+nav {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;     
+}
 
-nav a{
-
-    text-decoration:none;
-
-    color:rgb(27, 27, 27);
-
-    color:rgb(255, 196, 0);
-
-
-    font-weight:500;
-
-    transition:.3s;
-
+nav a {
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+    font-weight: 500;
+    transition: .3s;
+    flex-shrink: 0; 
 }
 
 nav button {
     text-decoration: underline;
-
-    color: rgb(102, 50, 126);
     color: rgb(252, 148, 63);
-
     font-weight: 700; 
     transition: .3s;
-    
-    
     background-color: transparent;
     border: none; 
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     cursor: pointer;
     padding: 0; 
+    flex-shrink: 0; 
 }
 
-
-
-nav a:hover{
-
-    opacity:.75;
-
-}
-
-nav button:hover{
-
-    opacity:.75;
-
+nav a:hover,
+nav button:hover {
+    opacity: .75;
 }
 
 /* ============================
    HERO
 ============================ */
-
 .hero{
-
     padding:70px 10%;
-
     display:flex;
-
     justify-content:space-between;
-
     width: 100%;
     height: 20%;
     align-items:center;
-
     background:linear-gradient(135deg,#f4b400,#ff7e28);
-
     color:white;
-    margin-top: 5%;
-
+    margin-top: 80px; /* Ajustado para compensar o header fixed */
 }
 
 /* ==========================
    GALERIA DE PROJETOS
 ========================== */
-
-
 .galeria{
-
     width:80%;
-
     max-width:1000px;
-
-    margin:0 auto 60px;
-
+    margin: 80px auto 60px;
     display:grid;
-    margin-top: 80px;
-    grid-template-columns:
-    repeat(auto-fit,minmax(320px,1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
     gap:35px;
     cursor: pointer; 
-
 }
-
-
 
 /* ==========================
    CARD DO PROJETO
 ========================== */
-
-
 .card-img{
-
     background:white;
-
     border-radius:20px;
-
     overflow:hidden;
-
     transition:.35s;
-
-    box-shadow:
-    0 10px 25px rgba(0,0,0,.10);
-
+    box-shadow: 0 10px 25px rgba(0,0,0,.10);
 }
-
 
 .card-img:hover{
-
     transform:translateY(-20px);
-
-    box-shadow:
-    0 15px 40px rgba(255, 168, 53, 0.35);
-
+    box-shadow: 0 15px 40px rgba(255, 168, 53, 0.35);
 }
 
+/* RESPONSIVIDADE DO MENU PARA MOBILE */
+@media (max-width: 768px) {
+    header {
+        padding: 0 4%;
+    }
+    nav {
+        max-width: 55%;
+        gap: 15px;
+    }
+    .logo button {
+        margin-right: 5px;
+        padding: 8px 12px;
+    }
+}
 
 
 /* ==========================
