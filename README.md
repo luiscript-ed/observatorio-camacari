@@ -79,21 +79,6 @@ observatorio-camacari/Sub-Páginas
 
 ---
 
-## 🌍 Mapa Interativo
-
-O mapa foi desenvolvido utilizando a biblioteca Leaflet.js integrada ao OpenStreetMap.
-
-Cada marcador representa um projeto ou local relevante pesquisado pela equipe.
-
-Os usuários podem:
-
-- visualizar projetos;
-- pesquisar localidades;
-- aplicar filtros por categoria ou Bairro;
-- acessar informações detalhadas através de popups.
-
----
-
 ## 👥 Equipe
 
 | Nome | Contribuição |
