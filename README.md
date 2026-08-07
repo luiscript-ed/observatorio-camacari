@@ -150,11 +150,11 @@ Projeto desenvolvido exclusivamente para fins educacionais.
 
 | Branch | Responsabilidade |
 |---------|------------------|
-| `main` | Versão estável do projeto, sujeita á poucas modificações |
+| `main` | Versão final e estável do projeto, sujeita á poucas modificações |
 | `politicas pulblicas` | Catálogo das políticas |
 | `homepage` | Página inicial e encontro de arquivos|
 | `projetos-sociais` | Catálogo de projetos |
 | `mapa-interativo` | Desenvolvimento do mapa |
 | `entrevistas` | Página de entrevistas |
-| `dados-de-camacari` | Galeria de imagens |
+| `dados-de-camacari` | Galeria de dados |
 | `pesquisa` | Página da pesquisa inicial |
